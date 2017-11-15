@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>搜公司</title>
+    <!-- 用最新的IE引擎渲染 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <!-- 页面窗口自适应 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../../common/favorite/ssslogo.ico">
+    <!-- 框架样式 -->
+    <link rel="stylesheet" type="text/css" href="../../../common/css/bootstrap.min.css">
+    <!-- 项目自定义图标 -->
+    <link rel="stylesheet" type="text/css" href="../../../common/icon/iconfont.css">
+    <!--公共样式-->
+    <link rel="stylesheet" type="text/css" href="../../../common/css/public.css">
+    <link rel="stylesheet" type="text/css" href="../../../common/css/public_banner.css">
+    <link rel="stylesheet" type="text/css" href="../../../module/FindSpotgoods/searchCompany/searchCompany.css">
+    <!-- jquery1.12.4版本 -->
+    <script type="text/javascript" src="../../../common/js/jquery.min.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="home-top">
+        <div class="container-fluid">
+            <span class="navbar-brand"><i class="iconfont icon-shouye"></i></span>
+            <p class="navbar-text">您好，欢迎来到上上工业速买网！</p>
+            <!-- 右侧菜单 -->
+            <ul class="home-ul">
+                <li>我的订单 <span class="caret"></span></li>
+                <li>消息中心(0)</li>
+                <li>会员中心</li>
+                <li><i class="iconfont icon-gouwuche shop-card"></i> 购物车</li>
+                <li>在线客服</li>
+                <li class="li-last"><i class="iconfont icon-dianhua"></i>400-7676-208</li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</nav>
+<div class="home-title">
+    <div class="title-top">
+        <div class="title-left">
+            <img src="../../../material/home/logo.png" />
+        </div>
+        <!-- 右侧菜单 -->
+        <div class="title-right">
+            <ul class="title-ul">
+                <li><a href="../../home/">首页</a></li>
+                <li class="active"><a href="../../FindSpotgoods/">找现货</a></li>
+                <li><a href="../../FindCustomMade/">找定制</a></li>
+                <li><a href="../../FindAskbuy/">找求购</a></li>
+                <li><a href="../../searchCompany/">找物流</a></li>
+                <li><a href="../../ssInformation/">资讯</a></li>
+                <li><a href="../../ssResume/">企业招聘</a></li>
+            </ul>
+        </div>
+        <div class="title-login">
+            <ul class="title-ul">
+                <li><span>登陆</span></li>
+                <li><span>会员注册</span></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+<div class="searchCompany container">
+    <ol class="breadcrumb">
+        <li><a href="../">找定制</a></li>
+        <li><a href="../">管材</a></li>
+        <li class="active">更多</li>
+    </ol>
+    <div class="searchCompany-recommend">
+        <div class="clearfixs" >
+            <div class="clearfix">
+                <h4>搜索库存</h4>
+                <div class="searchVM">
+                    <input type="text" class="form-control" placeholder="请输入想要找的企业名称，例如：上上德盛，武进钢管，久立管件">
+                    <button type="button" class="btn btn-info">立即搜索</button>
+                    <i class="iconfont icon-sousuo"></i>
+                </div>
+            </div>
+        </div>
+        <div class="searchCompany-panel">
+            <ul class="searchCompany-panel-ul">
+                <li class="n-first">
+                        <div class="searchCompany_top">
+                            <div class="imgshss"></div>
+                            <div class="searchCompany_topin">
+                                <h4>上海上上不锈钢管有限公司</h4>
+                                <p><span>公司简称：</span>上海上上</p>
+                            </div>
+                        </div>
+                        <ul class="searchCompany-panel-ul-info">
+                            <li>
+                                <i>地址：</i>
+                                <span class="company">上海市嘉定区叶城路1118号，11层(淮海国际广场)</span>
+                            </li>
+                            <li>
+                                <i>联系人：</i>
+                                <span>
+                                小王 15721597897
+                            </span>
+                            </li>
+                            <li>
+                                <i>电话：</i>
+                                <span>021-5386-3021</span>
+                            </li>
+                            <li>
+                                <i>传真：</i>
+                                <span>
+                                057786906255
+                            </span>
+                            </li>
+                        </ul>
+                        <div class="nowSendWrap">
+                            <a class="nowSend">库存详情</a>
+                        </div>
+
+                </li>
+                <li class="f_distance n-secround">
+                    <div class="searchCompany_top">
+                            <div class="imgsyss"></div>
+                            <div class="searchCompany_topin">
+                                <h4>松阳上上不锈钢管有限公司</h4>
+                                <p><span>公司简称：</span>松阳上上</p>
+                            </div>
+                        </div>
+                        <ul class="searchCompany-panel-ul-info">
+                            <li>
+                                <i>地址：</i>
+                                <span class="company">上海市嘉定区叶城路1118号，11层(淮海国际广场)</span>
+                            </li>
+                            <li>
+                                <i>联系人：</i>
+                                <span>小王 15721597897 小李 18221597897</span>
+
+                            </li>
+                            <li>
+                                <i>电话：</i>
+                                <span>021-5386-3021 021-5374-3021</span>
+                            </li>
+                            <li>
+                                <i>传真：</i>
+                                <span>
+                                057786906255
+                            </span>
+                            </li>
+                        </ul>
+                        <div class="nowSendWrap">
+                            <a class="nowSend">库存详情</a>
+                        </div>
+                </li>
+                <li class="n-third">
+                     <div class="searchCompany_top">
+                            <div class="imgzjss"></div>
+                            <div class="searchCompany_topin">
+                                <h4>浙江上上不锈钢管有限公司</h4>
+                                <p><span>公司简称：</span>浙江上上</p>
+                            </div>
+                        </div>
+                        <ul class="searchCompany-panel-ul-info">
+                            <li>
+                                <i>地址：</i>
+                                <span class="company">上海市嘉定区叶城路1118号，11层(淮海国际广场)</span>
+                            </li>
+                            <li>
+                                <i>联系人：</i>
+                                <span>
+                                小王 15721597897
+                            </span>
+                            </li>
+                            <li>
+                                <i>电话：</i>
+                                <span>021-5386-3021</span>
+                            </li>
+                            <li>
+                                <i>传真：</i>
+                                <span>
+                                057786906255
+                            </span>
+                            </li>
+                        </ul>
+                        <div class="nowSendWrap">
+                            <a class="nowSend">库存详情</a>
+                        </div>
+                </li>
+                <li class="n-first">
+                    <div class="searchCompany_top">
+                            <div class="imgjsss"></div>
+                            <div class="searchCompany_topin">
+                                <h4>江苏上上不锈钢管有限公司</h4>
+                                <p><span>公司简称：</span>江苏上上</p>
+                            </div>
+                        </div>
+                        <ul class="searchCompany-panel-ul-info">
+                            <li>
+                                <i>地址：</i>
+                                <span class="company">上海市嘉定区叶城路1118号，11层(淮海国际广场)</span>
+                            </li>
+                            <li>
+                                <i>联系人：</i>
+                                <span>
+                                小王 15721597897
+                            </span>
+                            </li>
+                            <li>
+                                <i>电话：</i>
+                                <span>021-5386-3021</span>
+                            </li>
+                            <li>
+                                <i>传真：</i>
+                                <span>
+                                057786906255
+                            </span>
+                            </li>
+                        </ul>
+                        <div class="nowSendWrap">
+                            <a class="nowSend">库存详情</a>
+                        </div>
+                </li>
+                <li class="f_distance n-secround">
+                    <div class="searchCompany_top">
+                            <div class="imgsyss"></div>
+                            <div class="searchCompany_topin">
+                                <h4>松阳上上不锈钢管有限公司</h4>
+                                <p><span>公司简称：</span>松阳上上</p>
+                            </div>
+                        </div>
+                        <ul class="searchCompany-panel-ul-info">
+                            <li>
+                                <i>地址：</i>
+                                <span class="company">上海市嘉定区叶城路1118号，11层(淮海国际广场)</span>
+                            </li>
+                            <li>
+                                <i>联系人：</i>
+                                <span>
+                                小王 15721597897
+                            </span>
+                            </li>
+                            <li>
+                                <i>电话：</i>
+                                <span>021-5386-3021</span>
+                            </li>
+                            <li>
+                                <i>传真：</i>
+                                <span>
+                                057786906255
+                            </span>
+                            </li>
+                        </ul>
+                        <div class="nowSendWrap">
+                            <a class="nowSend">库存详情</a>
+                        </div>
+                </li>
+                <li class="n-third">
+                     <div class="searchCompany_top">
+
+                            <div>
+                                <h4 align="center">期待与您合作，欢迎加入！</h4>
+                            </div>
+                        </div>
+                        <ul class="searchCompany-panel-ul-info welcomeIn">
+
+                        </ul>
+                        <div class="nowSendWrap">
+                            <a class="nowSend">库存详情</a>
+                        </div>
+                </li>
+                <div class="clearfix">
+
+                </div>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+<div class="home-footer">
+    <div class="containert">
+        <div class=" home-footer-login">
+            <img src="../../../material/home/logo1.png" alt="">
+            <p>客服热线：400-7676-208</p>
+            <p>服务时间：8:00-19:00</p>
+        </div>
+        <div class=" home-footer-list">
+            <ul class="home-footer-list-ul">
+                <li>
+                    <h4>我要买钢管</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">我要买货</a></li>
+                        <li><a href="">采购商管理后台</a></li>
+                        <li><a href="">采购商入驻好处</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>我要卖钢管</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">客户入驻须知</a></li>
+                        <li><a href="">供应商管理后台</a></li>
+                        <li><a href="">为什么加入“速卖网”</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>售后服务</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">售后政策</a></li>
+                        <li><a href="">异议处理流程</a></li>
+                        <li><a href="">售后服务地点</a></li>
+                    </ul>
+                </li>
+                <li class="last-no-wire">
+                    <h4>常见问题</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">无法登录/忘记密码</a></li>
+                        <li><a href="">修改帐户信息</a></li>
+                        <li><a href="">速卖网交易流程</a></li>
+                    </ul>
+                </li>
+                <div class="clearfix"></div>
+
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="home-copyright">
+    <div class="containert">
+        <div class="home-copyright-top">
+            <ul class="home-copyright-ul">
+                <li><span>上上工业速卖网</span></li>
+                <li><span>关于我们</span></li>
+                <li><span>实地认证</span></li>
+                <li><span>手机找现货</span></li>
+                <li><span>隐私声明</span></li>
+                <li class="last-no-wire"><span>联系我们</span></li>
+            </ul>
+        </div>
+        <div class="home-copyright-bottom">© 2001-2017 www.gysmw.com 版权所有 备案号 【沪ICP备05025340-2】许可证号【沪ICP备05025340】</div>
+    </div>
+
+</div>
+</body>
+<script src="../../../common/js/placehoder.js"></script>
+<!-- 公共头部 -->
+<script type="text/javascript" src="../../../common/js/public.js"></script>
+
+
+</html>

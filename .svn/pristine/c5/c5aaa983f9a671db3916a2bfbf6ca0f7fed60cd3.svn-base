@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>找求购</title>
+    <!-- 用最新的IE引擎渲染 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <!-- 页面窗口自适应 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../common/favorite/ssslogo.ico">
+    <!-- 框架样式 -->
+    <link rel="stylesheet" type="text/css" href="../../common/css/bootstrap.min.css">
+    <!-- 项目自定义图标 -->
+    <link rel="stylesheet" type="text/css" href="../../common/icon/iconfont.css">
+    <!--公共样式-->
+    <link rel="stylesheet" type="text/css" href="../../common/css/public.css">
+    <link rel="stylesheet" type="text/css" href="../../common/css/public_banner.css">
+    <link rel="stylesheet" type="text/css" href="../../module/FindAskbuy/FindAskbuy.css">
+    <!-- jquery1.12.4版本 -->
+    <script type="text/javascript" src="../../common/js/jquery.min.js"></script>
+    <!--日期选择-->
+    <script type="text/javascript" src="../../common/js/distpicker.data.js"></script>
+    <script type="text/javascript" src="../../common/js/distpicker.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="home-top">
+        <div class="container-fluid">
+            <span class="navbar-brand"><i class="iconfont icon-shouye"></i></span>
+            <p class="navbar-text">您好，欢迎来到上上工业速买网！</p>
+            <!-- 右侧菜单 -->
+            <ul class="home-ul">
+                <li>我的订单 <span class="caret"></span></li>
+                <li>消息中心(0)</li>
+                <li>会员中心</li>
+                <li><i class="iconfont icon-gouwuche shop-card"></i> 购物车</li>
+                <li>在线客服</li>
+                <li class="li-last"><i class="iconfont icon-dianhua"></i>400-7676-208</li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</nav>
+<div class="home-title">
+    <div class="title-top">
+        <div class="title-left">
+            <img src="../../material/home/logo.png" />
+        </div>
+        <!-- 右侧菜单 -->
+        <div class="title-right">
+            <ul class="title-ul">
+                <li><a href="../home/index.html">首页</a></li>
+                <li><a href="../FindSpotgoods/index.html">找现货</a></li>
+                <li><a href="../FindCustomMade/index.html">找定制</a></li>
+                <li class="active"><a href="../FindAskbuy/">找求购</a></li>
+                <li><a href="../FindLogistics/">找物流</a></li>
+                <li><a href="../ssInformation/">资讯</a></li>
+                <li><a href="../ssResume/">企业招聘</a></li>
+            </ul>
+        </div>
+        <div class="title-login">
+            <ul class="title-ul">
+                <li><span>登陆</span></li>
+                <li><span>会员注册</span></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="home-carousel">
+    <div id="demo02" class="flexslider">
+        <ul class="slides">
+            <li>
+                <div class="img" style="position: relative">
+                    <img src="../../material/home/lunbo2.png" height="450" width="100%" alt="" />
+                    <!--<div class="home-uploadc unselectable">
+                        <img src="../../material/home/button.png" alt="">
+                        &lt;!&ndash;一键上传库存&ndash;&gt;
+                    </div>-->
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="fab-former-wrap">
+        <div class="fab-former-box">
+            <div class="fab-former-box-left">
+                <div class="fab-box-up" id="distpicker1">
+                    <select  class="form-control">
+                    </select>
+                    <select  class="form-control secround-select">
+                    </select>
+                    <select class="form-control secround-select">
+                    </select>
+                    <select class="form-control secround-select">
+                        <option value="" selected disabled>信息状态</option>
+                        <option value="" >信息状态1</option>
+                        <option value="" >信息状态2</option>
+                        <option value="" >信息状态3</option>
+                        <option value="" >信息状态4</option>
+
+                    </select>
+                    <div class="fab-btn-chaxun">
+                        <button type="button" class="btn btn-info">立即查询</button>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="fab-former-box-right">
+                <!-- <i class="iconfont icon-wuliuchaxun">
+                     <br>立即查询物流
+                 </i>-->
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<div class="FindAskbuy">
+    <div class="FindAskbuy-content container">
+        <div class="FindAskbuy-content-left">
+            <div class="FindAskbuy-content-left-top">
+                <i class="iconfont icon-qiugouxinxi"></i>
+                <div class="buy-info-title-text">
+                    <h4>求购信息专区</h4>
+                    <p>Information zone</p>
+                </div>
+                <a>当前共发布&nbsp;<span>500</span>&nbsp;条求购信息</a>
+                <div class="clearfix"></div>
+            </div>
+            <div class="FindAskbuy-content-left-down">
+                <div class="FindAskbuy-content-left-down-list">
+                    <ul class="FindAskbuy-content-left-down-ul">
+                        <li>
+                            <div class="fab-example-wrap">
+                                <h4 title="求购304不绣钢无缝管">求购304不绣钢无缝管</h4>
+                                <p title="交货期：5天内交货至采购商指">交货期：<span>5</span>天内交货至sadasdasd采购商指</p>
+                                <div class="fab-state-wrap">
+                                    <i class="fab-state fab-success">审核通过</i>
+                                </div>
+                            </div>
+                            
+                            <ul class="fab-a-example">
+                                <li>
+                                    <i>发布时间：</i>
+                                    <span>2017-10-19</span>
+                                </li>
+                                <li>
+                                    <i>联系电话：</i>
+                                    <span>18800593456</span>
+                                </li>
+                                <li>
+                                    <i>发布公司：</i>
+                                    <span>上海上上不锈钢管</span>
+                                </li>
+
+                            </ul>
+                            <div class="fab-qiangdan">
+                                <a href="ImmediatelyGrabSingle/index.html">立即抢单</a>
+                            </div>
+                        </li>
+                        <li class="distance">
+                            <div class="fab-example-wrap">
+                                <h4 title="求购304不绣钢无缝管">求购304不绣钢无缝管</h4>
+                                <p title="交货期：5天内交货至采购商指">交货期：<span>5</span>天内交货至sadasdasd采购商指</p>
+                                <div class="fab-state-wrap">
+                                    <i class="fab-state fab-warn">审核中</i>
+                                </div>
+                            </div>
+                            <ul class="fab-a-example">
+                                <li>
+                                    <i>发布时间：</i>
+                                    <span>2017-10-19</span>
+                                </li>
+                                <li>
+                                    <i>联系电话：</i>
+                                    <span>18800593456</span>
+                                </li>
+                                <li>
+                                    <i>发布公司：</i>
+                                    <span>上海上上不锈钢管</span>
+                                </li>
+
+                            </ul>
+                            <div class="fab-qiangdan">
+                                <a>立即抢单</a>
+                            </div>
+                        </li>
+                        <li class="distance rdistance">
+                            <div class="fab-example-wrap">
+                                <h4 title="求购304不绣钢无缝管">求购304不绣钢无缝管</h4>
+                                <p title="交货期：5天内交货至采购商指">交货期：<span>5</span>天内交货至sadasdasd采购商指</p>
+                                <div class="fab-state-wrap">
+                                    <i class="fab-state fab-danger">已过期</i>
+                                </div>
+                            </div>
+                            <ul class="fab-a-example">
+                                <li>
+                                    <i>发布时间：</i>
+                                    <span>2017-10-19</span>
+                                </li>
+                                <li>
+                                    <i>联系电话：</i>
+                                    <span>18800593456</span>
+                                </li>
+                                <li>
+                                    <i>发布公司：</i>
+                                    <span>上海上上不锈钢管</span>
+                                </li>
+
+                            </ul>
+                            <div class="fab-qiangdan">
+                                <a>立即抢单</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="fab-example-wrap">
+                                <h4 title="求购304不绣钢无缝管">求购304不绣钢无缝管</h4>
+                                <p title="交货期：5天内交货至采购商指">交货期：<span>5</span>天内交货至sadasdasd采购商指</p>
+                                <div class="fab-state-wrap">
+                                    <i class="fab-state fab-success">审核通过</i>
+                                </div>
+                            </div>
+                            <ul class="fab-a-example">
+                                <li>
+                                    <i>发布时间：</i>
+                                    <span>2017-10-19</span>
+                                </li>
+                                <li>
+                                    <i>联系电话：</i>
+                                    <span>18800593456</span>
+                                </li>
+                                <li>
+                                    <i>发布公司：</i>
+                                    <span>上海上上不锈钢管</span>
+                                </li>
+
+                            </ul>
+                            <div class="fab-qiangdan">
+                                <a>立即抢单</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="fab-example-wrap">
+                                <h4 title="求购304不绣钢无缝管">求购304不绣钢无缝管</h4>
+                                <p title="交货期：5天内交货至采购商指">交货期：<span>5</span>天内交货至sadasdasd采购商指</p>
+                                <div class="fab-state-wrap">
+                                    <i class="fab-state fab-success">审核通过</i>
+                                </div>
+                            </div>
+                            <ul class="fab-a-example">
+                                <li>
+                                    <i>发布时间：</i>
+                                    <span>2017-10-19</span>
+                                </li>
+                                <li>
+                                    <i>联系电话：</i>
+                                    <span>18800593456</span>
+                                </li>
+                                <li>
+                                    <i>发布公司：</i>
+                                    <span>上海上上不锈钢管</span>
+                                </li>
+
+                            </ul>
+                            <div class="fab-qiangdan">
+                                <a>立即抢单</a>
+                            </div>
+                        </li>
+                        <li class="distance">
+                            <div class="fab-example-wrap">
+                                <h4 title="求购304不绣钢无缝管">求购304不绣钢无缝管</h4>
+                                <p title="交货期：5天内交货至采购商指">交货期：<span>5</span>天内交货至sadasdasd采购商指</p>
+                                <div class="fab-state-wrap">
+                                    <i class="fab-state fab-success">审核通过</i>
+                                </div>
+                            </div>
+                            <ul class="fab-a-example">
+                                <li>
+                                    <i>发布时间：</i>
+                                    <span>2017-10-19</span>
+                                </li>
+                                <li>
+                                    <i>联系电话：</i>
+                                    <span>18800593456</span>
+                                </li>
+                                <li>
+                                    <i>发布公司：</i>
+                                    <span>上海上上不锈钢管</span>
+                                </li>
+
+                            </ul>
+                            <div class="fab-qiangdan">
+                                <a>立即抢单</a>
+                            </div>
+                        </li>
+                        <li class="distance rdistance">
+                            <div class="fab-example-wrap">
+                                <h4 title="求购304不绣钢无缝管">求购304不绣钢无缝管</h4>
+                                <p title="交货期：5天内交货至采购商指">交货期：<span>5</span>天内交货至sadasdasd采购商指</p>
+                                <div class="fab-state-wrap">
+                                    <i class="fab-state fab-success">审核通过</i>
+                                </div>
+                            </div>
+                            <ul class="fab-a-example">
+                                <li>
+                                    <i>发布时间：</i>
+                                    <span>2017-10-19</span>
+                                </li>
+                                <li>
+                                    <i>联系电话：</i>
+                                    <span>18800593456</span>
+                                </li>
+                                <li>
+                                    <i>发布公司：</i>
+                                    <span>上海上上不锈钢管</span>
+                                </li>
+
+                            </ul>
+                            <div class="fab-qiangdan">
+                                <a>立即抢单</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="fab-example-wrap">
+                                <h4 title="求购304不绣钢无缝管">求购304不绣钢无缝管</h4>
+                                <p title="交货期：5天内交货至采购商指">交货期：<span>5</span>天内交货至sadasdasd采购商指</p>
+                                <div class="fab-state-wrap">
+                                    <i class="fab-state fab-success">审核通过</i>
+                                </div>
+                            </div>
+                            <ul class="fab-a-example">
+                                <li>
+                                    <i>发布时间：</i>
+                                    <span>2017-10-19</span>
+                                </li>
+                                <li>
+                                    <i>联系电话：</i>
+                                    <span>18800593456</span>
+                                </li>
+                                <li>
+                                    <i>发布公司：</i>
+                                    <span>上海上上不锈钢管</span>
+                                </li>
+
+                            </ul>
+                            <div class="fab-qiangdan">
+                                <a>立即抢单</a>
+                            </div>
+                        </li>
+                        <li >
+                            <div class="fab-example-wrap">
+                                <h4 title="求购304不绣钢无缝管">求购304不绣钢无缝管</h4>
+                                <p title="交货期：5天内交货至采购商指">交货期：<span>5</span>天内交货至sadasdasd采购商指</p>
+                                <div class="fab-state-wrap">
+                                    <i class="fab-state fab-success">审核通过</i>
+                                </div>
+                            </div>
+                            <ul class="fab-a-example">
+                                <li>
+                                    <i>发布时间：</i>
+                                    <span>2017-10-19</span>
+                                </li>
+                                <li>
+                                    <i>联系电话：</i>
+                                    <span>18800593456</span>
+                                </li>
+                                <li>
+                                    <i>发布公司：</i>
+                                    <span>上海上上不锈钢管</span>
+                                </li>
+
+                            </ul>
+                            <div class="fab-qiangdan">
+                                <a>立即抢单</a>
+                            </div>
+                        </li>
+                        <li class="distance">
+                            <div class="fab-example-wrap">
+                                <h4 title="求购304不绣钢无缝管">求购304不绣钢无缝管</h4>
+                                <p title="交货期：5天内交货至采购商指">交货期：<span>5</span>天内交货至sadasdasd采购商指</p>
+                                <div class="fab-state-wrap">
+                                    <i class="fab-state fab-success">审核通过</i>
+                                </div>
+                            </div>
+                            <ul class="fab-a-example">
+                                <li>
+                                    <i>发布时间：</i>
+                                    <span>2017-10-19</span>
+                                </li>
+                                <li>
+                                    <i>联系电话：</i>
+                                    <span>18800593456</span>
+                                </li>
+                                <li>
+                                    <i>发布公司：</i>
+                                    <span>上海上上不锈钢管</span>
+                                </li>
+
+                            </ul>
+                            <div class="fab-qiangdan">
+                                <a>立即抢单</a>
+                            </div>
+                        </li>
+                        <li class="distance rdistance">
+                            <div class="fab-example-wrap">
+                                <h4 title="求购304不绣钢无缝管">求购304不绣钢无缝管</h4>
+                                <p title="交货期：5天内交货至采购商指">交货期：<span>5</span>天内交货至sadasdasd采购商指</p>
+                                <div class="fab-state-wrap">
+                                    <i class="fab-state fab-success">审核通过</i>
+                                </div>
+                            </div>
+                            <ul class="fab-a-example">
+                                <li>
+                                    <i>发布时间：</i>
+                                    <span>2017-10-19</span>
+                                </li>
+                                <li>
+                                    <i>联系电话：</i>
+                                    <span>18800593456</span>
+                                </li>
+                                <li>
+                                    <i>发布公司：</i>
+                                    <span>上海上上不锈钢管</span>
+                                </li>
+
+                            </ul>
+                            <div class="fab-qiangdan">
+                                <a>立即抢单</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="fab-example-wrap">
+                                <h4 title="求购304不绣钢无缝管">求购304不绣钢无缝管</h4>
+                                <p title="交货期：5天内交货至采购商指">交货期：<span>5</span>天内交货至sadasdasd采购商指</p>
+                                <div class="fab-state-wrap">
+                                    <i class="fab-state fab-success">审核通过</i>
+                                </div>
+                            </div>
+                            <ul class="fab-a-example">
+                                <li>
+                                    <i>发布时间：</i>
+                                    <span>2017-10-19</span>
+                                </li>
+                                <li>
+                                    <i>联系电话：</i>
+                                    <span>18800593456</span>
+                                </li>
+                                <li>
+                                    <i>发布公司：</i>
+                                    <span>上海上上不锈钢管</span>
+                                </li>
+
+                            </ul>
+                            <div class="fab-qiangdan">
+                                <a>立即抢单</a>
+                            </div>
+                        </li>
+                        <div class="clearfix"></div>
+                    </ul>
+                </div>
+                <div class="paging">
+                    <div id="page" class="page_div">
+                        <span class="totalSize">共<span>1000</span>条记录</span>
+                        <span class="totalPages">
+                    <span>1</span>/<span>52</span>页
+                </span>
+                        <a id="prePage">上一页</a>
+                        <a class="current">1</a>
+                        <a>2</a>
+                        <a>3</a>
+                        <a>4</a>
+                        . . .
+                        <a>52</a>
+                        <a id="nextPage">下一页</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="FindAskbuy-content-right">
+            <ul class="FindAskbuy-content-right-wrap">
+                <li>
+                    <div class="top-title">
+                        <h4>最新成交信息</h4>
+                    </div>
+                    <ul class="FindAskbuy-content-right-top-ul">
+                        <li>
+                            <p><a title="上海上上不锈钢管有限">上海上上不锈钢管有限</a><time>1天前</time></p>
+                            <div class="fab-label">
+                                <span>工业无缝管</span>
+                                <span>304</span>
+                                <span>108*5</span>
+                                <span>50吨</span>
+                            </div>
+                        </li>
+                        <li>
+                            <p><a title="上海上上不锈钢管有限">上海上上不锈钢管有限</a><time>1天前</time></p>
+                            <div class="fab-label">
+                                <span>工业无缝管</span>
+                                <span>304</span>
+                                <span>108*5</span>
+                                <span>50吨</span>
+                            </div>
+                        </li>
+                        <li class="last-li">
+                            <p><a title="上海上上不锈钢管有限">上海上上不锈钢管有限</a><time>1天前</time></p>
+                            <div class="fab-label">
+                                <span>工业无缝管</span>
+                                <span>304</span>
+                                <span>108*5</span>
+                                <span>50吨</span>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="top-title">
+                        <h4>本网动态 <a>更多&nbsp;></a></h4>
+                    </div>
+                    <ul class="FindAskbuy-content-right-down-ul">
+                        <li>
+                            <i>•</i>
+                            <a title="需求复苏对不锈钢无缝管市场asasddas">需求复苏对不锈钢无缝管市场asasddas</a>
+                        </li>
+                        <li>
+                            <i>•</i>
+                            <a title="2017年不锈钢现货超市网五一wqeqwdsae">2017年不锈钢现货超市网五一wqeqwdsae</a>
+                        </li>
+                        <li>
+                            <i>•</i>
+                            <a title="需求复苏对不锈钢无缝管市场asdaaasdsds">需求复苏对不锈钢无缝管市场asdaaasdsds</a>
+                        </li>
+                        <li>
+                            <i>•</i>
+                            <a title="2017年不锈钢现货超市网五一wqeasdqwe">2017年不锈钢现货超市网五一wqeasdqwe</a>
+                        </li>
+                        <li>
+                            <i>•</i>
+                            <a title="需求复苏对不锈钢无缝管市场asdaasasdds">需求复苏对不锈钢无缝管市场asdaasasdds</a>
+                        </li>
+                        <li>
+                            <i>•</i>
+                            <a title="需求复苏对不锈钢无缝管市场asasddasdas">需求复苏对不锈钢无缝管市场asasddasdas</a>
+                        </li>
+                        <li>
+                            <i>•</i>
+                            <a title="需求复苏对不锈钢无缝管市场asassdasddda">需求复苏对不锈钢无缝管市场asassdasddda</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+</div>
+<div class="home-footer">
+    <div class="containert">
+        <div class=" home-footer-login">
+            <img src="../../material/home/logo1.png" alt="">
+            <p>客服热线：400-7676-208</p>
+            <p>服务时间：8:00-19:00</p>
+
+        </div>
+        <div class=" home-footer-list">
+            <ul class="home-footer-list-ul">
+                <li>
+                    <h4>我要买钢管</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">我要买货</a></li>
+                        <li><a href="">采购商管理后台</a></li>
+                        <li><a href="">采购商入驻好处</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>我要卖钢管</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">客户入驻须知</a></li>
+                        <li><a href="">供应商管理后台</a></li>
+                        <li><a href="">为什么加入“速卖网”</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>售后服务</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">售后政策</a></li>
+                        <li><a href="">异议处理流程</a></li>
+                        <li><a href="">售后服务地点</a></li>
+                    </ul>
+                </li>
+                <li class="last-no-wire">
+                    <h4>常见问题</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">无法登录/忘记密码</a></li>
+                        <li><a href="">修改帐户信息</a></li>
+                        <li><a href="">速卖网交易流程</a></li>
+                    </ul>
+                </li>
+                <div class="clearfix"></div>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="home-copyright">
+    <div class="containert">
+        <div class="home-copyright-top">
+            <ul class="home-copyright-ul">
+                <li><span>上上工业速卖网</span></li>
+                <li><span>关于我们</span></li>
+                <li><span>实地认证</span></li>
+                <li><span>手机找现货</span></li>
+                <li><span>隐私声明</span></li>
+                <li class="last-no-wire"><span>联系我们</span></li>
+            </ul>
+        </div>
+        <div class="home-copyright-bottom">© 2001-2017 www.gysmw.com 版权所有 备案号 【沪ICP备05025340-2】许可证号【沪ICP备05025340】</div>
+    </div>
+
+</div>
+</body>
+<script src="../../common/js/placehoder.js"></script>
+<script src="../../module/FindAskbuy/FindAskbuy.js"></script>
+<!-- 公共头部 -->
+<script type="text/javascript" src="../../common/js/public.js"></script>
+</html>

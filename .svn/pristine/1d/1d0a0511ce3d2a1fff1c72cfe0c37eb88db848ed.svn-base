@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>现货库存</title>
+    <link rel="stylesheet" type="text/css" href="../../../common/css/bootstrap.min.css">
+    <!-- 项目自定义图标 -->
+    <link rel="stylesheet" type="text/css" href="../../../common/icon/iconfont.css">
+    <!--公共样式-->
+    <link rel="stylesheet" type="text/css" href="../../../common/css/public.css">
+    <!--公司详情店铺首页-->
+    <link rel="stylesheet" type="text/css" href="../../../module/CompanyDetails/spotstocks/spotstocks.css">
+    <!-- jquery1.12.4版本 -->
+    <script type="text/javascript" src="../../../common/js/jquery.min.js"></script>
+</head>
+<body>
+<div class="companydetail-content-right-top">
+    <h4>商品库存信息</h4>
+    <table class="table table-condensed text-center">
+        <tr>
+            <th>品名</th>
+            <th>材质</th>
+            <th>规格</th>
+            <th>支数</th>
+            <th>重量</th>
+            <th>单价</th>
+            <th>下单</th>
+        </tr>
+        <tr >
+            <td>工业无缝钢管</td>
+            <td>Q235</td>
+            <td>480*8</td>
+            <td>3</td>
+            <td>15.000吨</td>
+            <td><a>登录查看</a></td>
+            <td><button type="button" class="btn btn-danger">立即下单</button></td>
+        </tr>
+        <tr class="info">
+            <td>工业无缝钢管</td>
+            <td>Q235</td>
+            <td>480*8</td>
+            <td>3</td>
+            <td>15.000吨</td>
+            <td><a>登录查看</a></td>
+            <td><button type="button" class="btn btn-danger">立即下单</button></td>
+        </tr>
+        <tr >
+            <td>工业无缝钢管</td>
+            <td>Q235</td>
+            <td>480*8</td>
+            <td>3</td>
+            <td>15.000吨</td>
+            <td><a>登录查看</a></td>
+            <td><button type="button" class="btn btn-danger">立即下单</button></td>
+        </tr>
+        <tr >
+            <td>工业无缝钢管</td>
+            <td>Q235</td>
+            <td>480*8</td>
+            <td>3</td>
+            <td>15.000吨</td>
+            <td><a>登录查看</a></td>
+            <td><button type="button" class="btn btn-danger">立即下单</button></td>
+        </tr>
+        <tr >
+            <td>工业无缝钢管</td>
+            <td>Q235</td>
+            <td>480*8</td>
+            <td>3</td>
+            <td>15.000吨</td>
+            <td><a>登录查看</a></td>
+            <td><button type="button" class="btn btn-danger">立即下单</button></td>
+        </tr>
+        <tr >
+            <td>工业无缝钢管</td>
+            <td>Q235</td>
+            <td>480*8</td>
+            <td>3</td>
+            <td>15.000吨</td>
+            <td><a>登录查看</a></td>
+            <td><button type="button" class="btn btn-danger">立即下单</button></td>
+        </tr>
+        <tr >
+            <td>工业无缝钢管</td>
+            <td>Q235</td>
+            <td>480*8</td>
+            <td>3</td>
+            <td>15.000吨</td>
+            <td><a>登录查看</a></td>
+            <td><button type="button" class="btn btn-danger">立即下单</button></td>
+        </tr>
+        <tr >
+            <td>工业无缝钢管</td>
+            <td>Q235</td>
+            <td>480*8</td>
+            <td>3</td>
+            <td>15.000吨</td>
+            <td><a>登录查看</a></td>
+            <td><button type="button" class="btn btn-danger">立即下单</button></td>
+        </tr>
+        <tr >
+            <td>工业无缝钢管</td>
+            <td>Q235</td>
+            <td>480*8</td>
+            <td>3</td>
+            <td>15.000吨</td>
+            <td><a>登录查看</a></td>
+            <td><button type="button" class="btn btn-danger">立即下单</button></td>
+        </tr>
+        <tr >
+            <td>工业无缝钢管</td>
+            <td>Q235</td>
+            <td>480*8</td>
+            <td>3</td>
+            <td>15.000吨</td>
+            <td><a>登录查看</a></td>
+            <td><button type="button" class="btn btn-danger">立即下单</button></td>
+        </tr>
+    </table>
+    <div class="paging">
+        <div id="page" class="page_div">
+            <span class="totalSize">共<span>1000</span>条记录</span>
+            <span class="totalPages">
+                    <span>1</span>/<span>52</span>页
+                </span>
+            <a id="prePage">上一页</a>
+            <a class="current">1</a>
+            <a>2</a>
+            <a>3</a>
+            <a>4</a>
+            . . .
+            <a>52</a>
+            <a id="nextPage">下一页</a>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../../../common/js/placehoder.js"></script>
+<script src="../../../common/js/public.js"></script>
+<script src="../../../module/CompanyDetails/spotstocks/spotstocks.js"></script>
+</html>

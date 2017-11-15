@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>企业风采</title>
+    <link rel="stylesheet" type="text/css" href="../../../common/css/bootstrap.min.css">
+    <!-- 项目自定义图标 -->
+    <link rel="stylesheet" type="text/css" href="../../../common/icon/iconfont.css">
+    <!--公共样式-->
+    <link rel="stylesheet" type="text/css" href="../../../common/css/public.css">
+    <!--公司详情店铺首页-->
+    <link rel="stylesheet" type="text/css" href="../../../module/CompanyDetails/companyfeature/companyfeature.css">
+    <!-- jquery1.12.4版本 -->
+    <script type="text/javascript" src="../../../common/js/jquery.min.js"></script>
+</head>
+<body>
+<div class="companyfeature">
+   <ul class="out-ul-company">
+       <li class="enterprise-profile">
+           <div class="public-title">
+               <h4><i class="iconfont icon-qiye"></i>企业简介</h4>
+           </div>
+           <div class="enterprise-profile-content">
+               <div class="img-left-wrap">
+                   <img src="../../../material/home/guan2.png" alt="">
+               </div>
+               <div class="img-right-wrap">
+                   <div class="text-content-info">
+                       <p>温州谦和不锈钢有限公司是一家专业生产各种材质的不锈钢系列不锈加工企业，是经国家相关部门批准注册的一家集生产.销售.服务为一体的企业，公司物资雄厚，技术一流。生产包括：不锈钢管、法兰、弯头等不锈钢产品主要材质有304、316、321等，规格12mm--133mm,厚度1.5mm-16mm.公司本着“客户第一，诚信至上，质量过硬，服务周到，价格合理”的原则，与多家企业建立了长期的合作关系。热诚欢迎各界朋友前来参观、考察、洽谈业务。</p>
+                   </div>
+                   <div>
+                       <a>...展开全部</a>
+                   </div>
+               </div>
+           </div>
+       </li>
+       <li class="field-certification">
+           <div class="public-title">
+               <h4><i class="iconfont icon-shenhe"></i>实地认证</h4>
+           </div>
+           <div class="field-certification-content">
+               <div class="field-left-text">
+                   <ul>
+                       <li><i>公司简称：</i><span>谦和不锈钢</span></li>
+                       <li><i>生产地址：</i><span>浙江温州龙湾区海滨街道蓝田环卫所旁</span></li>
+                       <li><i>仓库地址：</i><span>浙江温州龙湾区温州龙湾海滨街道蓝田环卫所旁</span></li>
+                       <li><i>主营业务：</i><span>无缝钢管、焊管</span></li>
+                   </ul>
+
+               </div>
+               <div class="field-right-img">
+                   <div id="demo01" class="flexslider">
+                       <ul class="slides">
+                           <li><div class="img"><img src="../../../material/home/guan1.png" height="110" width="100%" alt="" /></div></li>
+                           <li><div class="img"><img src="../../../material/home/guan2.png" height="110" width="100%"  alt="" /></div></li>
+                           <li><div class="img"><img src="../../../material/home/guan3.png" height="110" width="100%"  alt="" /></div></li>
+                           <li><div class="img"><img src="../../../material/home/guan4.png" height="110" width="100%"  alt="" /></div></li>
+                       </ul>
+                   </div>
+
+               </div>
+
+           </div>
+       </li>
+       <li class="Business-Registration">
+           <div class="public-title">
+               <h4><i class="iconfont icon-gongshangzhucehao"></i>工商注册</h4>
+           </div>
+           <div class="business-content">
+               <ul>
+                   <li><i>企业名称</i><span>谦和不锈钢有限公司</span></li>
+                   <li><i>注册号</i><span>331124000000854</span></li>
+                   <li><i>经营场所</i><span>浙江温州龙湾区海滨街道蓝田环卫所旁</span></li>
+                   <li><i>法定代表人</i><span>刘天宇</span></li>
+                   <li><i>注册资本</i><span>1080万元</span></li>
+                   <li><i>企业类型</i><span>有限责任公司</span></li>
+                   <li><i>成立日期</i><span>2005年8月29日</span></li>
+                   <li><i>经营期限</i><span>2025年8月28日</span></li>
+                   <li class="li-lastli"><i>经营范围</i><span>不锈钢材料、不锈钢管、管件、中低压阀门制造、加工、销售，自营进出口业务</span></li>
+
+               </ul>
+           </div>
+       </li>
+       <li class="Enterprise-features">
+           <div class="public-title">
+               <h4><i class="iconfont icon-fengcai"></i>企业风采</h4>
+           </div>
+           <div class="Enterprise-features-content">
+               <ul>
+                   <li><img src="../../../material/home/guan1.png" alt=""></li>
+                   <li><img src="../../../material/home/guan2.png" alt=""></li>
+                   <li><img src="../../../material/home/guan3.png" alt=""></li>
+                   <li><img src="../../../material/home/guan4.png" alt=""></li>
+               </ul>
+           </div>
+       </li>
+   </ul>
+</div>
+
+
+</body>
+<script src="../../../common/js/slider.js"></script>
+<script src="../../../common/js/placehoder.js"></script>
+<script src="../../../common/js/public.js"></script>
+<script src="../../../module/CompanyDetails/companyfeature/companyfeature.js"></script>
+</html>

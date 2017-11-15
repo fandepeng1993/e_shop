@@ -1,0 +1,315 @@
+.ssInforText {
+	width: 63%;
+	margin-left: 18.5%;
+	height: 1000px;
+	min-width: 1210px;
+}
+
+.ssInforText .title {
+	width: 100%;
+	background: #fff;
+	margin-top: 11px;
+	height: 67px;
+}
+
+.ssInforText .title .left i {
+	font-size: 35px;
+	color: #47A8F9;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.ssInforText .title .left .title-right {
+	float: left;
+	margin-top: 13px;
+	font-size: 17px;
+	color: #333;
+	margin-left: 13px;
+}
+
+.ssInforText .title .left .title-right span {
+	display: block;
+	font-size: 13px;
+	color: #333;
+}
+
+.ssInforText .title .right {
+	width: 390px;
+	float: right;
+}
+
+.ssInforText .title .right input {
+	width: 291px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #999;
+	border: 1px solid #F38400;
+	padding-left: 16px;
+	border-radius: 3px;
+	margin-top: 12px;
+	float: left;
+}
+
+.ssInforText .title .right .btn {
+	background: #FFB924;
+	color: #fff;
+	height: 40px;
+	outline: none;
+	float: left;
+	margin-top: 12px;
+	margin-left: 18px;
+}
+
+.ssInforText .content {
+	margin-top: 10px;
+}
+
+.ssInforText .content .left {
+	width: 917px;
+	background: #fff;
+	border: 1px solid #E5E5E5;
+	float: left;
+}
+
+.ssInforText .content .left .left-title {
+	padding: 41px 35px 10px 35px;
+	border-bottom: 1px solid #ccc;
+}
+
+.ssInforText .content .left .left-title .first {
+	font-size: 29px;
+	color: #333;
+	text-align: center;
+}
+
+.ssInforText .content .left .left-title .second {
+	margin-top: 15px;
+	font-size: 16px;
+	color: #666;
+}
+
+.ssInforText .content .left .left-title .third {
+	font-size: 16px;
+	color: #666;
+	margin-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.ssInforText .content .left .left-title .third .share {
+	float: left;
+	margin-top: 5px;
+}
+
+.ssInforText .content .left .left-title .third .share-img .icon-weixin {
+	color: #72bd63;
+	font-size: 26px;
+}
+
+.ssInforText .content .left .left-title .third .share-img .icon-weibo {
+	color: #ffab34;
+	font-size: 25px;
+}
+
+.ssInforText .content .left .left-title .third .share-img .icon-kongjian {
+	color: #47a8f9;
+	font-size: 23px;
+}
+
+.ssInforText .content .left .left-title .third .share-right {
+	float: right;
+	margin-top: 5px;
+}
+
+.ssInforText .content .left .left-title .third .share-right span {
+	margin-left: 5px;
+}
+
+.ssInforText .content .left .left-title .second .line {
+	float: left;
+	display: block;
+	width: 124px;
+	height: 2px;
+	background: #BFBFBF;
+	margin-top: 10px;
+	margin-right: 24px;
+	margin-left: 50px;
+}
+
+.ssInforText .content .left .left-title .second .time {
+	padding-right: 20px;
+}
+
+.ssInforText .content .left .left-title .second .lineRight {
+	float: right;
+	display: block;
+	width: 124px;
+	height: 2px;
+	background: #BFBFBF;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+
+.ssInforText .content .left .left-content {
+	padding: 29px 33px 32px 41px;
+	font-size: 16px;
+	background: #F4FBFF;
+	border-bottom: 1px solid #ccc;
+}
+
+.ssInforText .content .left .left-bottom .left-bottom-top {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.ssInforText .content .left .left-bottom .left-bottom-btn {
+	padding-top: 20px;
+}
+
+.ssInforText .content .left .left-bottom .left-bottom-btn .btn {
+	background: none;
+	float: left;
+	border: 1px solid #B5B5B5;
+	margin-bottom: 20px;
+}
+
+.ssInforText .content .left .left-bottom .left-bottom-btn .two {
+	float: right;
+	margin-right: 15px;
+}
+
+.ssInforText .content .left .left-bottom .left-bottom-btn .btn-left {
+	color: #47A8F9;
+	font-size: 16px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 15px;
+	outline: none;
+}
+
+.ssInforText .content .left .left-bottom .left-bottom-btn .btn-right {
+	float: right;
+	margin-top: 5px;
+	outline: none;
+}
+
+.ssInforText .content .left .left-content .first {
+	text-align: center;
+}
+
+.ssInforText .content .left-bottom {
+	padding: 19px 49px 22px 52px;
+}
+
+.ssInforText .content .right {
+	width: 276px;
+	float: right;
+}
+
+.ssInforText .content .right .first {
+	width: 276px;
+	border: 1px solid #D2D2D2;
+}
+
+.ssInforText .content .right .first .first-title {
+	width: 276px;
+	height: 43px;
+	background: #E8E8E8;
+	line-height: 43px;
+	font-size: 17px;
+	color: #333;
+	padding-left: 21px;
+}
+
+.ssInforText .content .right .first .first-title .btn {
+	float: right;
+	background: none;
+	font-size: 14px;
+	color: #666;
+	margin-top: 5px;
+	outline: none;
+}
+
+.ssInforText .content .right .first .first-content li {
+	padding-left: 18px;
+	font-size: 14px;
+	color: #333;
+	height: 47px;
+	line-height: 47px;
+	border-top: 1px solid #BFBFBF;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding-right: 18px;
+}
+
+.ssInforText .content .right .first .first-content li span {
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: #BEBEBE;
+	float: left;
+	margin-top: 22px;
+	margin-right: 10px;
+}
+
+.ssInforText .content .right .second {
+	margin-top: 15px;
+}
+
+.ssInforText .content .right .second .first-title {
+	width: 276px;
+	height: 43px;
+	background: #47A8F9;
+	line-height: 43px;
+	font-size: 17px;
+	color: #fff;
+	text-align: center;
+	padding-left: 21px;
+}
+
+
+.ssInforText .content .right .second .first-title i{
+	font-size: 25px;
+	padding-right: 10px;
+}
+
+.ssInforText .content .right .second .first-content {
+	height: 63px;
+	line-height: 63px;
+	background: #fff;
+	text-align: center;
+	font-size: 23px;
+	color: #1779CE;
+	border-bottom: 1px solid #BFBFBF;
+}
+
+.ssInforText .content .right .second .first-picture {
+	width: 100%;
+	background: #fff;
+	height: 200px;
+}
+
+.ssInforText .content .right .second .first-picture .picture-left {
+	width: 45%;
+	margin-left: 5%;
+	float: left;
+	text-align: center;
+	margin-top: 28px;
+	line-height: 30px;
+	font-size: 16px;
+	color: #333;
+}
+
+.ssInforText .content .right .second .first-picture .two {
+	margin-left: 0%;
+}
+
+
+/*小屏适配*/
+.smallScreen .ssInforText {
+	width: 90%;
+	margin-left: 5%;
+}

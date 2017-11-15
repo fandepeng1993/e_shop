@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>资讯</title>
+    <!-- 用最新的IE引擎渲染 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <!-- 页面窗口自适应 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../common/favorite/ssslogo.ico">
+    <!-- 框架样式 -->
+    <link rel="stylesheet" type="text/css" href="../../common/css/bootstrap.min.css">
+    <!-- 项目自定义图标 -->
+    <link rel="stylesheet" type="text/css" href="../../common/icon/iconfont.css">
+    <!--公共样式-->
+    <link rel="stylesheet" type="text/css" href="../../common/css/public.css">
+    <link rel="stylesheet" type="text/css" href="../../common/css/public_banner.css">
+    <!-- 资讯样式 -->
+    <link rel="stylesheet" type="text/css" href="../../module/ssInformation/ssInformation.css">
+    <!-- jquery1.12.4版本 -->
+    <script type="text/javascript" src="../../common/js/jquery.min.js"></script>
+    <!-- 公共样式 -->
+    <script type="text/javascript" src="../../module/ssInformation/ssInformation.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="home-top">
+        <div class="container-fluid">
+            <span class="navbar-brand"><i class="iconfont icon-shouye"></i></span>
+            <p class="navbar-text">您好，欢迎来到上上工业速买网！</p>
+            <!-- 右侧菜单 -->
+            <ul class="home-ul">
+                <li>我的订单 <span class="caret"></span></li>
+                <li>消息中心(0)</li>
+                <li>会员中心</li>
+                <li><i class="iconfont icon-gouwuche shop-card"></i> 购物车</li>
+                <li>在线客服</li>
+                <li class="li-last"><i class="iconfont icon-dianhua"></i>400-7676-208</li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</nav>
+<div class="home-title">
+    <div class="title-top">
+        <div class="title-left">
+            <img src="../../material/home/logo.png" />
+        </div>
+        <!-- 右侧菜单 -->
+        <div class="title-right">
+            <ul class="title-ul">
+                <li ><a href="../home/index.html">首页</a></li>
+                <li><a href="../FindSpotgoods/index.html">找现货</a></li>
+                <li><a href="../FindCustomMade/index.html">找定制</a></li>
+                <li ><a href="../FindAskbuy/index.html">找求购</a></li>
+                <li><a href="../FindLogistics/index.html">找物流</a></li>
+                <li class="active"><a href="../ssInformation/index.html">资讯</a></li>
+                <li><a href="../ssResume/index.html">企业招聘</a></li>
+            </ul>
+        </div>
+        <div class="title-login">
+            <ul class="title-ul">
+                <li><a href="../Login/">登陆</a></li>
+                <li><a href="../Register/">会员注册</a></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="home-carousel">
+    <div id="demo02" class="flexslider">
+        <ul class="slides">
+            <li>
+                <div class="img" style="position: relative">
+                    <img src="../../material/home/lunbo4.png" height="450" width="100%" alt="" />
+                   <!-- <div class="home-uploadc unselectable">
+                        <img src="../../material/home/button.png" alt="">
+                        &lt;!&ndash;一键上传库存&ndash;&gt;
+                    </div>-->
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="ssInformation">
+    <div class="title">
+        <div class="left">
+            <i class="iconfont icon-zixun"></i>
+            <span class="title-right">
+                咨询中心<br />
+                <span>Information Center</span>
+            </span>
+        </div>
+        <div class="right">
+            <input type="text" placeholder="请输入关键字进行搜索" />
+            <button class="btn">搜索</button>
+        </div>
+    </div>
+    <div class="content">
+        <div class="left">
+            <div class="left-title">
+                <ul>
+                    <li class="active">新闻中心</li>
+                    <li>技术资料</li>
+                    <li>会议会展</li>
+                    <li>招标信息</li>
+                    <li>管胚圆钢</li>
+                </ul>
+            </div>
+            <div class="left-content">
+                <div class="list">
+                    <a href="#">
+                        <img src="../../material/ssInformation/news.png" alt="">
+                        <div class="list-info">
+                            <h4><strong>需求复苏对不锈钢无缝管市场的重要程度会逐渐代替供给侧收缩的影响需求复苏对不锈钢无缝管市场的重要程度会逐渐代替供给侧收缩的影响</strong></h4>
+                            <p class="first">临近11月，北方将进入季节性停产和现货成交停滞期，不锈钢无缝管价格经过限产和需求的博 弈后，找到了短期的均衡位置需求复苏对不锈钢无缝管市场的重要程度会逐。</p>
+                            <p class="list-time">2017-10-26 08:44</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <a href="#">
+                        <img src="../../material/ssInformation/news.png" alt="">
+                        <div class="list-info">
+                            <h4><strong>需求复苏对不锈钢无缝管市场的重要程度会逐渐代替供给侧收缩的影响需求复苏对不锈钢无缝管市场的重要程度会逐渐代替供给侧收缩的影响</strong></h4>
+                            <p class="first">临近11月，北方将进入季节性停产和现货成交停滞期，不锈钢无缝管价格经过限产和需求的博 弈后，找到了短期的均衡位置需求复苏对不锈钢无缝管市场的重要程度会逐。</p>
+                            <p class="list-time">2017-10-26 08:44</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <a href="#">
+                        <img src="../../material/ssInformation/news.png" alt="">
+                        <div class="list-info">
+                            <h4><strong>需求复苏对不锈钢无缝管市场的重要程度会逐渐代替供给侧收缩的影响需求复苏对不锈钢无缝管市场的重要程度会逐渐代替供给侧收缩的影响</strong></h4>
+                            <p class="first">临近11月，北方将进入季节性停产和现货成交停滞期，不锈钢无缝管价格经过限产和需求的博 弈后，找到了短期的均衡位置需求复苏对不锈钢无缝管市场的重要程度会逐。</p>
+                            <p class="list-time">2017-10-26 08:44</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <a href="#">
+                        <img src="../../material/ssInformation/news.png" alt="">
+                        <div class="list-info">
+                            <h4><strong>需求复苏对不锈钢无缝管市场的重要程度会逐渐代替供给侧收缩的影响需求复苏对不锈钢无缝管市场的重要程度会逐渐代替供给侧收缩的影响</strong></h4>
+                            <p class="first">临近11月，北方将进入季节性停产和现货成交停滞期，不锈钢无缝管价格经过限产和需求的博 弈后，找到了短期的均衡位置需求复苏对不锈钢无缝管市场的重要程度会逐。</p>
+                            <p class="list-time">2017-10-26 08:44</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <a href="#">
+                        <img src="../../material/ssInformation/news.png" alt="">
+                        <div class="list-info">
+                            <h4><strong>需求复苏对不锈钢无缝管市场的重要程度会逐渐代替供给侧收缩的影响需求复苏对不锈钢无缝管市场的重要程度会逐渐代替供给侧收缩的影响</strong></h4>
+                            <p class="first">临近11月，北方将进入季节性停产和现货成交停滞期，不锈钢无缝管价格经过限产和需求的博 弈后，找到了短期的均衡位置需求复苏对不锈钢无缝管市场的重要程度会逐。</p>
+                            <p class="list-time">2017-10-26 08:44</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="first">
+                <div class="first-title">
+                    新闻资讯
+                    <button class="btn">更多 ></button>
+                </div>
+                <div class="first-content">
+                    <ul>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影需求复苏对不锈钢无缝管市场有影</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影需求复苏对不锈钢无缝管市场有影</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影需求复苏对不锈钢无缝管市场有影</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影需求复苏对不锈钢无缝管市场有影</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影需求复苏对不锈钢无缝管市场有影</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影需求复苏对不锈钢无缝管市场有影</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影需求复苏对不锈钢无缝管市场有影</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="first second">
+                <div class="first-title">
+                    本网动态
+                    <button class="btn">更多 ></button>
+                </div>
+                <div class="first-content">
+                    <ul>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="home-footer">
+    <div class="containert">
+        <div class=" home-footer-login">
+            <img src="../../material/home/logo1.png" alt="">
+            <p>客服热线：400-7676-208</p>
+            <p>服务时间：8:00-19:00</p>
+
+        </div>
+        <div class=" home-footer-list">
+            <ul class="home-footer-list-ul">
+                <li>
+                    <h4>我要买钢管</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">我要买货</a></li>
+                        <li><a href="">采购商管理后台</a></li>
+                        <li><a href="">采购商入驻好处</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>我要卖钢管</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">客户入驻须知</a></li>
+                        <li><a href="">供应商管理后台</a></li>
+                        <li><a href="">为什么加入“速卖网”</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>售后服务</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">售后政策</a></li>
+                        <li><a href="">异议处理流程</a></li>
+                        <li><a href="">售后服务地点</a></li>
+                    </ul>
+                </li>
+                <li class="last-no-wire">
+                    <h4>常见问题</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">无法登录/忘记密码</a></li>
+                        <li><a href="">修改帐户信息</a></li>
+                        <li><a href="">速卖网交易流程</a></li>
+                    </ul>
+                </li>
+                <div class="clearfix"></div>
+
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="home-copyright">
+    <div class="containert">
+        <div class="home-copyright-top">
+            <ul class="home-copyright-ul">
+                <li><span>上上工业速卖网</span></li>
+                <li><span>关于我们</span></li>
+                <li><span>实地认证</span></li>
+                <li><span>手机找现货</span></li>
+                <li><span>隐私声明</span></li>
+                <li class="last-no-wire"><span>联系我们</span></li>
+            </ul>
+        </div>
+        <div class="home-copyright-bottom">© 2001-2017 www.gysmw.com 版权所有 备案号 【沪ICP备05025340-2】许可证号【沪ICP备05025340】</div>
+    </div>
+</div>
+</body>
+<script src="../../common/js/placehoder.js"></script>
+<!-- 公共头部 -->
+<script type="text/javascript" src="../../common/js/public.js"></script>
+</html>

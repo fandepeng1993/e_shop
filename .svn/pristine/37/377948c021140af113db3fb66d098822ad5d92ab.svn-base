@@ -1,0 +1,242 @@
+.ssResume {
+	min-width: 1346px;
+}
+.ssResume .content {
+	width: 62.5%;
+	margin: 0 auto;
+}
+.ssResumeInformation {
+	background: #fff;
+	margin-top: 16px;
+	overflow: hidden;
+}
+.informationLeft {
+	float: left;
+	height: 67px;
+	line-height: 67px;
+}
+.informationLeft .icon-weibiaoti--{
+	font-size: 39px;
+	color: #47A8F9;
+	margin-left: 23px;
+}
+.informationBox {
+	display: inline-block;
+	margin-left: 15px;
+}
+.informationBox p {
+	margin: 0;
+}
+.informationBox .informationText {
+	font-size: 17px;
+	line-height: 17px;
+	height: 17px;
+	padding-top: 3px;
+}
+.informationBox .informationWord {
+	font-size: 13px;
+	line-height: 12px;
+	height: 12px;
+	margin-top: 8px;
+}
+.informationRight {
+	float: right;
+	line-height: 67px;
+	margin-right: 22px;
+}
+.informationRight input,.informationRight button {
+	height: 42px;
+	line-height: 42px;
+	position: relative;
+	z-index: 1;
+	behavior: url(../../common/css/ie-css3.htc);
+}
+.informationRight input {
+	width: 291px;
+	border: 1px solid #F38400;
+	border-radius: 2px;
+	padding-left: 16px;
+}
+.informationRight button {
+	width: 92px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #F38400;
+	border: 1px solid #FFB924;
+	border-radius: 4px;
+	margin-left: 18px;
+}
+.information-list {
+	overflow: hidden;
+	margin-top: 10px;
+}
+.information-l-l,.information-l-r {
+	float: left;
+}
+.information-l-l {
+	width: 76.41%;
+}
+.information-l-l table {
+	width: 100%;
+	border-top: 3px solid #47A8F9;
+	border-left: 1px solid #E5E5E5;
+	border-right: 1px solid #E5E5E5;
+}
+.information-l-l table>thead>tr>th,.information-l-l table>tbody>tr>td {
+	text-align: center;
+}
+.information-l-l table>thead>tr>th {
+	height: 65px;
+	font-size: 19px;
+	background-color: #fff;
+}
+.information-l-l table>thead>tr>th>i {
+	font-size: 20px;
+	color: #999;
+	margin-top: 3px;
+}
+.information-l-l table>tbody>tr>td {
+	height: 60px;
+	font-size: 15px;
+	font-weight: 600;
+}
+.information-l-l table>tbody>tr,.information-l-l table>thead>tr {
+	border-bottom: 1px solid #D9D9D9;
+}
+.information-l-l table>tbody>tr:hover {
+	background-color: #FFFFF4;
+	border-left: 3px solid #F38400;
+}
+.information-l-l table>tbody>tr .titleFirst {
+	text-align: left;
+	padding-left: 5%;
+	width: 27%;
+	min-width: 225px;
+}
+.information-l-l table>tbody>tr .titleFirst span,
+.newInformation-list li span{
+	display: inline-block;
+	margin-right: 8px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: #B5B5B5;
+	position: relative;
+	z-index: 1;
+	behavior: url(../../common/css/ie-css3.htc);
+}
+.information-l-l table>tbody>tr .companyName {
+	text-align: left;
+	width: 30%;
+	padding-left: 5%;
+	min-width: 245px;
+}
+.information-l-l table>tbody>tr .updateTime{
+	color: #666666;
+	font-weight: normal;
+}
+.information-l-l table>tbody>tr>td .see {
+	display: inline-block;
+	width: 55%;
+	height: 36px;
+	line-height: 36px;
+	background-color: #fff;
+	border: 1px solid #47A8F9;
+	color: #47A8F9;
+	border-radius: 18px;
+	position: relative;
+	z-index: 1;
+	behavior: url(../../common/css/ie-css3.htc);
+}
+.information-l-l table>tbody>tr>td .look {
+	background-color: #4797F9;
+	color: #fff;
+}
+.information-l-l table>tbody>tr>td .see:hover {
+	text-decoration: none;
+}
+
+.page_div {
+	text-align: center;
+	margin: 24px auto 32px;
+	font-size: 14px;
+	color: #333;
+}
+
+.page_div a {
+	min-width: 31px;
+	height: 28px;
+	border: 1px solid #dce0e0 !important;
+	text-align: center;
+	margin-left: 4px;
+	cursor: pointer;
+	line-height: 28px;
+	color: #666666;
+	font-size: 13px;
+	display: inline-block;
+}
+
+.page_div a:hover {
+	text-decoration: none;
+}
+
+.page_div .current {
+	background-color: #0073A9;
+	border-color: #0073A9;
+	color: #FFFFFF;
+	margin-left: 9px;
+}
+
+#prePage, #nextPage {
+	width: 66px;
+}
+
+#nextPage {
+	margin-left: 9px;
+}
+
+.totalPages {
+	margin: 0 10px;
+}
+
+.information-l-r {
+	width: 23%;
+	margin-left: 0.5%;
+}
+.information-l-r-top,.information-l-r-bottom {
+	background-color: #fff;
+	border: 1px solid #D2D2D2;
+}
+.newInformation {
+	height: 43px;
+	line-height: 43px;
+	overflow: hidden;
+	padding: 0 17px 0 21px;
+	background-color: #E8E8E8;
+	border-bottom: 1px solid #D2D2D2;
+}
+.newInformation h3 {
+	display: inline-block;
+	font-size: 17px;
+	height: 17px;
+	line-height: 17px;
+	margin: 0;
+	font-weight: 600;
+}
+.newInformation a {
+	color: #666;
+	float: right;
+}
+.information-l-r-bottom {
+	margin-top: 15px;
+}
+.newInformation-list {
+	margin: 0;
+}
+.newInformation-list li {
+	padding: 16px 20px 17px 16px;
+	border-bottom: 1px solid #BFBFBF;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}

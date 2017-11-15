@@ -1,0 +1,102 @@
+.LoginPage{
+    width:100%;
+    position: absolute;
+    bottom:0px;
+    min-width: 1366px;
+    height: 450px;
+}
+.LoginPage-wrap{
+    width: 35%;
+    height: 350px;
+    background: #fff;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+.LoginPagefooter.home-footer{
+    margin-top: 0px;
+}
+.LoginPage-wrap_top{
+    overflow: hidden;
+    border-bottom: 1px solid #BFBFBF;
+}
+.LoginPage-wrap_top h4{
+    float: left;
+}
+.LoginPage-wrap_top h4 span{
+    font-size: 12px;
+    color: #1779CE;
+    margin-left: 5px;
+}
+.LoginPage-wrap_top a{
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.LoginPage-wrap_top a i{
+    vertical-align: text-top;
+    margin-right: 5px;
+}
+
+.LoginPage-wrap_bottom{
+    overflow: hidden;
+    padding-top: 50px;
+}
+.LoginPage-wrap_bottom-left{
+    float: left;
+    width: 30%;
+    text-align: center;
+
+}
+.LoginPage-wrap_bottom-right{
+    float: left;
+    width: 70%;
+}
+.LoginPage-wrap_bottom-right li{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.LoginPage-wrap_bottom-right li span{
+    float: left;
+    width: 15%;
+    font-size: 15px;
+    margin-top: 6px;
+    text-align: justify;
+    text-align-last: justify;
+    margin-right: 10px;
+
+}
+.LoginPage-wrap_bottom-right ul{
+    margin-left: 20px;
+}
+.LoginPage-wrap_bottom-right li input.form-control{
+    width: 80%;
+    float: left;
+}
+.LoginPage-wrap_bottom-right li input.form-control.code{
+    width: 33%;
+}
+
+.LoginPage-wrap_bottom-right li .securityCode{
+    width: 25%;
+    height: 34px;
+    float: left;
+    background: cyan;
+    margin-left: 10px;
+}
+.LoginPage-wrap_bottom-right li .changeone{
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 6px;
+    float: left;
+}
+.LoginPage-wrap_bottom-right li label{
+    font-weight: normal;
+}
+.remember{
+    vertical-align: text-top;
+}
+.remember_right{
+    float: right;
+}

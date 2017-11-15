@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>联系我们</title>
+    <link rel="stylesheet" type="text/css" href="../../../common/css/bootstrap.min.css">
+    <!-- 项目自定义图标 -->
+    <link rel="stylesheet" type="text/css" href="../../../common/icon/iconfont.css">
+    <!--公共样式-->
+    <link rel="stylesheet" type="text/css" href="../../../common/css/public.css">
+    <!--公司详情店铺首页-->
+    <link rel="stylesheet" type="text/css" href="../../../module/CompanyDetails/contactus/contactus.css">
+    <!-- jquery1.12.4版本 -->
+    <script type="text/javascript" src="../../../common/js/jquery.min.js"></script>
+</head>
+<body>
+<div class="companyfeature">
+    <ul class="out-ul-company">
+        <li class="enterprise-profile">
+            <div class="public-title">
+                <h4><i class="iconfont icon-lianxifangshi1"></i>联系方式</h4>
+            </div>
+            <div class="enterprise-profile-content">
+               <ul class="ul-border-right">
+                   <li>
+                       <h4>企业信息</h4>
+                       <p>公司简称：<span>松阳上上不锈钢管</span></p>
+                       <p>仓库地址：<span>松阳县瑞阳大道225号</span></p>
+                       <p>营业执照：<span>有</span></p>
+                       <p>仓库区：<span>浙江</span></p>
+                       <p>主营业务：<span>不锈钢管材</span></p>
+                   </li>
+               </ul>
+               <ul>
+                    <li>
+                        <h4>联系电话</h4>
+                        <p><span>400-7676-208</span></p>
+                    </li>
+                    <li>
+                        <h4>传真号码</h4>
+                        <p><span>0577-86888066</span></p>
+                    </li>
+                    <li>
+                        <h4>联系人</h4>
+                        <p><span>15721597897</span></p>
+                    </li>
+               </ul>
+                <div class="clearfix"></div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+
+</body>
+<script src="../../../common/js/slider.js"></script>
+<script src="../../../common/js/placehoder.js"></script>
+<script src="../../../common/js/public.js"></script>
+<script src="../../../module/CompanyDetails/contactus/contactus.js"></script>
+</html>

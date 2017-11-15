@@ -1,0 +1,209 @@
+.ssInformation {
+	width: 63%;
+	margin-left: 18.5%;
+	height: 1000px;
+	min-width: 1210px;
+}
+
+.ssInformation .title {
+	width: 100%;
+	background: #fff;
+	margin-top: 11px;
+	height: 67px;
+}
+
+.ssInformation .title .left i {
+	font-size: 35px;
+	color: #47A8F9;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.ssInformation .title .left .title-right {
+	float: left;
+	margin-top: 13px;
+	font-size: 17px;
+	color: #333;
+	margin-left: 13px;
+}
+
+.ssInformation .title .left .title-right span {
+	display: block;
+	font-size: 13px;
+	color: #333;
+}
+
+.ssInformation .title .right {
+	width: 390px;
+	float: right;
+}
+
+.ssInformation .title .right input {
+	width: 291px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #999;
+	border: 1px solid #F38400;
+	padding-left: 16px;
+	border-radius: 3px;
+	margin-top: 12px;
+	float: left;
+}
+
+.ssInformation .title .right .btn {
+	background: #FFB924;
+	color: #fff;
+	height: 40px;
+	outline: none;
+	float: left;
+	margin-top: 12px;
+	margin-left: 18px;
+}
+
+.ssInformation .content {
+	margin-top: 10px;
+}
+
+.ssInformation .content .left {
+	width: 917px;
+	background: #fff;
+	border: 1px solid #E5E5E5;
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.ssInformation .content .left-title ul li {
+	width: 167px;
+	height: 51px;
+	font-size: 19px;
+	color: #333;
+	display: inline-block;
+	background: #fff;
+	text-align: center;
+	line-height: 51px;
+	margin-top: 16px;
+}
+
+.ssInformation .content .left-title ul {
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.ssInformation .content .left-title ul li.active {
+	color: #fff;
+	background: #2F81F1;
+	border-radius: 4px 4px 0px 0px;
+}
+
+.ssInformation .content .left-content {
+	width: 100%;
+	margin-top: 15px;
+}
+
+.ssInformation .content .left-content .list {
+	width: 100%;
+	height: 150px;
+	border-bottom: 1px solid #D9D9D9;
+}
+
+.ssInformation .content .left-content .list a{
+	text-decoration: none;
+}
+
+.ssInformation .content .left-content .list .list-info {
+	padding-left: 250px;
+	position: relative;
+}
+
+.ssInformation .content .left-content .list .list-info h4 {
+	font-size: 17px;
+	color: #333;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.ssInformation .content .left-content .list .list-info p.first {
+	font-size: 13px;
+	color: #333;
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+	color: #999;
+}
+
+.ssInformation .content .left-content .list .list-info p.list-time {
+	position: absolute;
+	width: 100%;
+	display: block;
+	text-align: right;
+	right: 0px;
+	color: #999;
+	top: 118px;
+}
+
+.ssInformation .content .left-content .list img {
+	float: left;
+}
+
+.ssInformation .content .right {
+	width: 276px;
+	float: right;
+}
+
+.ssInformation .content .right .first {
+	width: 276px;
+	border: 1px solid #D2D2D2;
+}
+
+.ssInformation .content .right .first .first-title {
+	width: 276px;
+	height: 43px;
+	background: #E8E8E8;
+	line-height: 43px;
+	font-size: 17px;
+	color: #333;
+	padding-left: 21px;
+}
+
+.ssInformation .content .right .first .first-title .btn {
+	float: right;
+	background: none;
+	font-size: 14px;
+	color: #666;
+	margin-top: 5px;
+	outline: none;
+}
+
+.ssInformation .content .right .first .first-content li {
+	padding-left: 18px;
+	font-size: 14px;
+	color: #333;
+	height: 47px;
+	line-height: 47px;
+	border-top: 1px solid #BFBFBF;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding-right: 18px;
+}
+
+.ssInformation .content .right .first .first-content li span {
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: #BEBEBE;
+	float: left;
+	margin-top: 22px;
+	margin-right: 10px;
+}
+
+.ssInformation .content .right .second {
+	margin-top: 15px;
+}
+

@@ -1,0 +1,308 @@
+/*public.css*/
+
+/*兼容性*/
+
+/*behavior: url(../../common/css/ie-css3.htc);*/
+body {
+    font-family: "微软雅黑";
+}
+
+::-webkit-scrollbar {width: 6px;height: 6px}/* 滚动槽 */
+/*::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);border-radius: 10px;}!* 滚动条滑块 *!*/
+::-webkit-scrollbar-thumb {border-radius: 3px;background: #c3c3c3;}
+::-webkit-scrollbar-thumb:window-inactive {background-color: #c3c3c3;}
+.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;    
+    /*
+        Introduced in IE 10.
+        See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+    */
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.home-top {
+    min-width: 1000px;
+    width: 62%;
+    margin-left: 19%;
+}
+
+.home-top .container-fluid {
+    padding-left: 0px;
+}
+
+.home-top .container-fluid .navbar-text {
+    width: 30%;
+    float: left;
+}
+
+.home-top .container-fluid .navbar-brand {
+    padding-left: 0px;
+}
+
+.home-top .navbar-text {
+    margin-left: -12px;
+    color: #666;
+}
+.container {
+    min-width: 1170px;
+}
+
+.home-top .navbar-brand i {
+    font-size: 25px;
+    color: #4F9EF6;
+}
+
+.home-ul {
+    list-style: none;
+    float: right;
+    height: 50px;
+    margin-bottom: 0px;
+}
+
+.home-ul>li {
+    padding: 0px 10px;
+    text-align: center;
+    display: inline-block;
+    height: 18px;
+    font-size: 14px;
+    margin-top: 16px;
+    color: #666;
+    line-height: 18px;
+    border-right: 1px solid #A8A8A8;
+    cursor: pointer;
+}
+
+.myOrder {
+    position: relative;
+}
+
+.myOrder ul {
+    position: absolute;
+    width: 100%;    /* padding: 0 10px; */
+
+    /* left: -10px; */
+    left: 0;
+    top: 18px;    /* background: #fff; */
+    display: none;
+}
+
+.myOrder:hover ul {
+    display: block;
+}
+
+.myOrder:hover .caret {
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+}
+
+.home-ul li .shop-card {
+    color: #B9B9B9;
+    font-size: 18px;
+    padding-right: 2px;
+}
+
+.home-ul li.li-last {
+    font-family: "HelveticaNeue";
+    font-weight: bold;
+    border-right: 0px;
+}
+
+.home-ul li.li-last i {
+    color: #B9B9B9;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.home-title {
+    margin-top: 50px;
+    background: #fff;
+    border: 0px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.home-title .title-top {
+    width: 81%;
+    height: 100px;
+    margin-left: 19%;
+    overflow: hidden;
+}
+
+.home-title .title-left {
+    width: 299px;
+    height: 100px;
+    float: left;
+}
+
+.home-title .title-right {
+    float: left;
+    margin-left: 14%;
+}
+
+.home-title .title-left img {
+    width: 299px;
+    height: 52px;
+}
+
+.title-ul {
+    list-style: none;
+    height: 100px;
+    line-height: 100px;
+}
+
+.title-ul li {
+    height: 100px;
+    line-height: 100px;
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+.title-ul li {
+    height: 100px;
+    line-height: 100px;
+    display: inline-block;
+}
+
+.title-login {
+    float: left;
+}
+
+.title-right .title-ul li a {
+    padding: 6px 12px;
+    color: #333;
+}
+
+.title-right .title-ul li a:hover {
+    text-decoration: none;
+}
+
+.title-right .title-ul li.active a {
+    background: #2B8EE3;
+    color: white;
+    border-radius: 4px;
+}
+
+.title-login .title-ul li span {
+    padding: 5px 14px;
+    border: 1px solid #B5B5B5;
+    border-radius: 14px;
+    color: #23B0BA;
+}
+
+.title-login .title-ul li span:hover {
+    cursor: pointer;
+    color: #2B8EE3;
+    border-color: #2B8EE3;
+}
+
+.home-footer {
+    margin-top: 40px;
+    background: #fff;
+    border-top: 1px solid #D9D9D9;
+}
+
+.home-footer .container {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.home-footer-login {
+    float: left;
+    width: 30%;
+    margin-left: 6%;
+}
+
+.home-footer-login img {
+    margin-bottom: 30px;
+}
+
+.home-footer-list {
+    float: left;
+    width: 60%;
+}
+
+.home-footer-list-ul>li {
+    float: left;
+    width: 24%;
+    min-width: 24%;
+   /* min-width: 164px;*/
+    padding: 0 0 0 5%;
+    border-right: 1px solid #BFBFBF;
+}
+
+.home-footer-list-ul>li.last-no-wire {
+    border: none;
+}
+
+.home-footer-listIn-ul li {
+    margin: 18px 0;
+    font-size: 10px;
+    color: #666;
+}
+
+.home-copyright-ul {
+    text-align: center;
+}
+
+.home-copyright-ul li {
+    display: inline-block;
+    border-right: 1px solid #fff;
+    padding: 0 1% 0 1%;
+}
+
+.home-copyright {
+    background: #1779CE;
+    padding-top: 30px;
+    min-width: 1170px;
+}
+
+.home-copyright-ul li span {
+    color: white;
+}
+
+.home-copyright-ul li span:hover {
+    cursor: pointer;
+}
+
+.home-copyright-ul li.last-no-wire {
+    border: none;
+}
+
+.home-copyright-bottom {
+    text-align: center;
+    color: #fff;
+    margin: 30px 0;
+}
+
+/*小屏*/
+.smallScreen .home-top{
+    min-width: 1000px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.smallScreen .title-top{
+    min-width: 1000px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.smallScreen .home-title .title-right{
+    margin-left: 6%;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>企业招聘</title>
+    <link rel="stylesheet" type="text/css" href="../../../common/css/bootstrap.min.css">
+    <!-- 项目自定义图标 -->
+    <link rel="stylesheet" type="text/css" href="../../../common/icon/iconfont.css">
+    <!--公共样式-->
+    <link rel="stylesheet" type="text/css" href="../../../common/css/public.css">
+    <!--公司详情店铺首页-->
+    <link rel="stylesheet" type="text/css" href="../../../module/CompanyDetails/spotstocks/spotstocks.css">
+    <!-- jquery1.12.4版本 -->
+    <script type="text/javascript" src="../../../common/js/jquery.min.js"></script>
+</head>
+<body>
+<div class="companydetail-content-right-top">
+    <table class="table table-condensed text-center">
+        <tr>
+            <th>标题</th>
+            <th>公司名称</th>
+            <th>更新时间 <i class="iconfont icon-rectangle52rectangle52-copy"></i></th>
+            <th>查看详情</th>
+        </tr>
+        <tr >
+            <td><li><span class="sscolor">诚聘不锈钢销售人员</span></li></td>
+            <td class="sscolor">温州谦和不锈钢有限公司</td>
+            <td>2017-10-30</td>
+            <td><button type="button" class="btn btn-danger">查看</button></td>
+        </tr>
+        <tr >
+            <td><li><span class="sscolor">诚聘不锈钢销售人员</span></li></td>
+            <td class="sscolor">温州谦和不锈钢有限公司</td>
+            <td>2017-10-30</td>
+            <td><button type="button" class="btn btn-danger">查看</button></td>
+        </tr>
+        <tr >
+            <td><li><span class="sscolor">诚聘不锈钢销售人员</span></li></td>
+            <td class="sscolor">温州谦和不锈钢有限公司</td>
+            <td>2017-10-30</td>
+            <td><button type="button" class="btn btn-danger">查看</button></td>
+        </tr>
+        <tr >
+            <td><li><span class="sscolor">诚聘不锈钢销售人员</span></li></td>
+            <td class="sscolor">温州谦和不锈钢有限公司</td>
+            <td>2017-10-30</td>
+            <td><button type="button" class="btn btn-danger">查看</button></td>
+        </tr>
+        <tr >
+            <td><li><span class="sscolor">诚聘不锈钢销售人员</span></li></td>
+            <td class="sscolor">温州谦和不锈钢有限公司</td>
+            <td>2017-10-30</td>
+            <td><button type="button" class="btn btn-danger">查看</button></td>
+        </tr>
+        <tr >
+            <td><li><span class="sscolor">诚聘不锈钢销售人员</span></li></td>
+            <td class="sscolor">温州谦和不锈钢有限公司</td>
+            <td>2017-10-30</td>
+            <td><button type="button" class="btn btn-danger">查看</button></td>
+        </tr>
+        <tr >
+            <td><li><span class="sscolor">诚聘不锈钢销售人员</span></li></td>
+            <td class="sscolor">温州谦和不锈钢有限公司</td>
+            <td>2017-10-30</td>
+            <td><button type="button" class="btn btn-danger">查看</button></td>
+        </tr>
+        <tr >
+        <td><li><span class="sscolor">诚聘不锈钢销售人员</span></li></td>
+        <td class="sscolor">温州谦和不锈钢有限公司</td>
+        <td>2017-10-30</td>
+        <td><button type="button" class="btn btn-danger">查看</button></td>
+    </tr>
+        <tr >
+            <td><li><span class="sscolor">诚聘不锈钢销售人员</span></li></td>
+            <td class="sscolor">温州谦和不锈钢有限公司</td>
+            <td>2017-10-30</td>
+            <td><button type="button" class="btn btn-danger">查看</button></td>
+        </tr>
+        <tr >
+            <td><li><span class="sscolor">诚聘不锈钢销售人员</span></li></td>
+            <td class="sscolor">温州谦和不锈钢有限公司</td>
+            <td>2017-10-30</td>
+            <td><button type="button" class="btn btn-danger">查看</button></td>
+        </tr>
+
+
+    </table>
+    <div class="paging">
+        <div id="page" class="page_div">
+            <span class="totalSize">共<span>1000</span>条记录</span>
+            <span class="totalPages">
+                    <span>1</span>/<span>52</span>页
+                </span>
+            <a id="prePage">上一页</a>
+            <a class="current">1</a>
+            <a>2</a>
+            <a>3</a>
+            <a>4</a>
+            . . .
+            <a>52</a>
+            <a id="nextPage">下一页</a>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../../../common/js/placehoder.js"></script>
+<script src="../../../common/js/public.js"></script>
+<script src="../../../module/CompanyDetails/spotstocks/spotstocks.js"></script>
+</html>

@@ -1,0 +1,15 @@
+(function ($) {
+    $(function(){
+       var tapLi=$('.companydetailnav ul li a');
+       tapLi.click(function () {
+           $(this).parent().addClass('active').siblings().removeClass('active')
+       });
+        //轮播图
+        $('#demo01').flexslider({
+            animation: "slide",
+            direction:"vertical",
+            easing:"swing"
+        });
+    })
+
+})(jQuery)

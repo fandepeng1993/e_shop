@@ -1,0 +1,276 @@
+.ssResumeText {
+	min-width: 1346px;
+}
+.ssResumeText .content {
+	width: 62.5%;
+	margin: 0 auto;
+}
+.information-list {
+	overflow: hidden;
+	margin-top: 15px;
+
+}
+.information-l-l,.information-l-r {
+	float: left;
+}
+.information-l-l {
+	width: 76.41%;
+	margin-bottom: 60px;
+}
+.topNav {
+	font-size: 16px;
+}
+.topNav .icon-weizhi{
+	font-size: 18px;
+	color: #47A8F9;
+}
+.topNav a {
+	color: #666;
+	text-decoration: underline;
+}
+.postDetails {
+	margin-top: 20px;
+	border-top: 2px solid #47A8F9;
+	border-left: 1px solid #E5E5E5;
+	border-right: 1px solid #E5E5E5;
+}
+.postDetails-title,.postDetails-information,
+.contact-information,.companyDetails {
+	border-bottom: 1px solid #D9D9D9;
+}
+.postDetails-title,.contact-information,.companyDetails {
+	background-color: #fff;
+}
+.postDetails-title {
+	width: 100%;
+	text-align: center;
+	height: 119px;
+	padding-top: 30px;
+}
+.postDetails-title p {
+	margin: 0;
+}
+.postDetails-title .lookingFor {
+	font-size: 29px;
+	height: 29px;
+	line-height: 29px;
+}
+.postDetails-title .lookingFor-time {
+	font-size: 16px;
+	height: 16px;
+	line-height: 16px;
+	margin-top: 16px;
+	color: #666;
+}
+.lookingFor-time .leftLine {
+	margin-right: 24px;
+}
+.lookingFor-time .rightLine {
+	margin-left: 26px;
+}
+.postDetails-information {
+	height: 130px;
+	padding-top: 41px;
+	background-color: #F4FBFF;
+}
+.postDetails-information p {
+	width: 88.2%;
+	margin: 0 auto;
+	font-size: 15px;
+}
+
+.contact-information {
+	height: 79px;
+	line-height: 79px;
+}
+.contact-information i {
+	font-size: 33px;
+	color: #47A8F9;
+	margin-left: 5%;
+	position: relative;
+	top: -7px;
+}
+.contact-text {
+	display: inline-block;
+	margin: 20px 0 0 13px;
+}
+.contact-chinaese {
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+}
+.contact-english {
+	height: 10px;
+	line-height: 10px;
+	font-size: 12px;
+	margin: 8px 0 0 0;
+}
+.companyDetails ul {
+	padding: 37px 0 0 6%;
+	margin: 0;
+}
+.companyDetails ul li {
+	display: inline-block;
+	width: 49%;
+	min-width: 321px;
+	margin-bottom: 38px;
+	font-size: 16px;
+}
+.companyDetails ul li i {
+	font-size: 19px;
+	color: #999;
+}
+.companyDetails ul li .company-name {
+	font-weight: 600;
+	margin-left: 2%;
+	display: inline-block;
+	width: 17%;
+	min-width: 70px;
+	text-align-last:justify;
+}
+.companyDetails ul li .company-text {
+	color: #666;
+	margin-left: 2%;
+}
+.moreInformation {
+	margin-top: 20px;
+	border-top: 1px solid #47A8F9;
+	border-right: 1px solid #D9D9D9;
+	border-left: 1px solid #D9D9D9;
+	border-bottom: 1px solid #D9D9D9;
+	background-color: #fff;
+}
+.moreLogo {
+	height: 77px;
+	line-height: 77px;
+	overflow: hidden;
+	border-bottom: 1px solid #D9D9D9;
+}
+.moreLeft {
+	float: left;
+	width: 60%;
+}
+.moreRight {
+	float: right;
+}
+.moreLeft i {
+	font-size: 33px;
+	color: #47A8F9;
+	position: relative;
+	top: -5px;
+	margin-left: 8%;
+}
+.moreLeft .moreText {
+	display: inline-block;
+	margin: 20px 0 0 12px;
+}
+
+.moreText .more-china {
+	margin: 0 0 8px 0;
+	font-size: 16px;
+	height: 16px;
+	line-height: 16px;
+}
+.moreText .more-english {
+	margin: 0;
+	font-size: 12px;
+	height: 10px;
+	line-height: 10px;
+}
+.moreRight {
+	margin-right: 7%;
+}
+.moreRight i {
+	font-size: 27px;
+	margin-left: 10px;
+}
+.moreRight .icon-zuojiantou {
+	color: #DCDCDC;
+}
+.moreRight .icon-youjiantou {
+	color: #FAB600;
+}
+.recruitList {
+	overflow: hidden;
+}
+.recruitList ul {
+	float: left;
+	width: 43%;
+	margin: 18px 0 11px 5.5%;
+}
+.recruit-left {
+	border-right: 1px solid #EEEEEE;
+}
+.recruitList ul li {
+	padding: 13px 4% 13px 0;
+}
+.recruitList ul li .radius {
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	background-color: #F38400;
+	border-radius: 50%;
+	position: relative;
+	z-index: 1;
+	behavior: url(../../common/css/ie-css3.htc);
+}
+.recruitList ul li .recruitPost {
+	font-weight: 600;
+	width: 66%;
+	display: inline-block;
+	margin-left: 1.8%;
+	position: relative;
+	top: 6px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.recruitList ul li .recruitTime {
+	font-size: 12px;
+	color: #666;
+	width: 26%;
+	display: inline-block;
+}
+
+.information-l-r {
+	width: 23%;
+	margin-left: 0.5%;
+}
+.information-l-r-top,.information-l-r-bottom {
+	background-color: #fff;
+	border: 1px solid #D2D2D2;
+}
+.newInformation {
+	height: 43px;
+	line-height: 43px;
+	overflow: hidden;
+	padding: 0 17px 0 21px;
+	background-color: #E8E8E8;
+	border-bottom: 1px solid #D2D2D2;
+}
+.newInformation h3 {
+	display: inline-block;
+	font-size: 17px;
+	height: 17px;
+	line-height: 17px;
+	margin: 0;
+	font-weight: 600;
+}
+.newInformation a {
+	color: #666;
+	float: right;
+}
+.information-l-r-bottom {
+	margin-top: 15px;
+}
+.newInformation-list {
+	margin: 0;
+}
+.newInformation-list li {
+	padding: 16px 20px 17px 16px;
+	border-bottom: 1px solid #BFBFBF;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+

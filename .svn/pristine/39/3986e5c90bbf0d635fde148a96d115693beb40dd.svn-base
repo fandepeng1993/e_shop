@@ -1,0 +1,5 @@
+(function ($) {
+	$(function(){
+		$("table tbody tr:even").css("backgroundColor","#F4FBFF")
+	})
+})(jQuery)

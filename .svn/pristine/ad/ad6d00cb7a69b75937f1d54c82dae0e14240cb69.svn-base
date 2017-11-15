@@ -1,0 +1,17 @@
+$(function(){
+	$("#zlCalculator").click(function(){
+		$(".calculator-hide-show").show();
+	})
+
+	$(".chs-top-close").click(function(){
+		$(".calculator-hide-show").css("display","none");
+	})
+
+	$(".calculator-bottom").click(function(){
+		$(".yl-calculator").show();
+	})
+	
+	$(".chs-top-close").click(function(){
+		$(".yl-calculator").css("display","none");
+	})
+})

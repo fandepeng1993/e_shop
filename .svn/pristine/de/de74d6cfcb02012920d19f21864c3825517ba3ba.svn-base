@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>找现货—商品详情</title>
+    <!-- 用最新的IE引擎渲染 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <!-- 页面窗口自适应 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../common/favorite/ssslogo.ico">
+    <!-- 框架样式 -->
+    <link rel="stylesheet" type="text/css" href="../../common/css/bootstrap.min.css">
+    <!-- 项目自定义图标 -->
+    <link rel="stylesheet" type="text/css" href="../../common/icon/iconfont.css">
+    <!--公共样式-->
+    <link rel="stylesheet" type="text/css" href="../../common/css/public.css">
+    <!-- 商品详情样式 -->
+    <link rel="stylesheet" href="../../module/ProductDetails/ProductDetails.css">
+    <!-- jquery1.12.4版本 -->
+    <script type="text/javascript" src="../../common/js/jquery.min.js"></script>
+    <!-- 商品详情js -->
+    <script type="text/javascript" src="../../module/ProductDetails/ProductDetails.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="home-top">
+        <div class="container-fluid">
+            <span class="navbar-brand"><i class="iconfont icon-shouye"></i></span>
+            <p class="navbar-text">您好，欢迎来到上上工业速买网！</p>
+
+            <!-- 右侧菜单 -->
+            <ul class="home-ul">
+                <li>我的订单 <span class="caret"></span></li>
+                <li>消息中心(0)</li>
+                <li>会员中心</li>
+                <li><i class="iconfont icon-gouwuche shop-card"></i> 购物车</li>
+                <li>在线客服</li>
+                <li class="li-last"><i class="iconfont icon-dianhua"></i>400-7676-208</li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</nav>
+<div class="home-title">
+    <div class="title-top">
+        <div class="title-left">
+            <img src="../../material/home/logo.png" />
+        </div>
+        <!-- 右侧菜单 -->
+        <div class="title-right">
+            <ul class="title-ul">
+                <li><a href="../home/index.html">首页</a></li>
+                <li class="active"><a href="../FindSpotgoods/index.html">找现货</a></li>
+                <li><a href="../FindCustomMade/index.html">找定制</a></li>
+                <li ><a href="../FindAskbuy/index.html">找求购</a></li>
+                <li><a href="../FindLogistics/index.html">找物流</a></li>
+                <li><a href="../ssInformation/index.html">资讯</a></li>
+                <li><a href="../ssResume/index.html">企业招聘</a></li>
+            </ul>
+        </div>
+        <div class="title-shoppingCart">
+            <img src="../../material/ProductDetails/gouwuche.png" alt=""><span class="shoppingCart">购物车</span><span class="shoppingNum">0</span>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+<div class="ProductDetails">
+    <div class="content">
+        <div class="content-location">
+            <img src="../../material/ProductDetails/weizhi.png" alt="">
+            <span class="need-margin">当前位置：</span>
+            <a class="needColor">工业速卖网</a><span class="color-2E">></span> 
+            <a class="needColor">找现货</a><span class="color-2E">></span>
+            <a class="buy-order">下单</a>
+        </div>
+        <div class="product-details">
+            <div class="pdl">
+                <div class="pdl-left">
+                    <img class="largeTmg" src="../../material/ProductDetails/datu.png" alt="">
+                    <div class="smartImg">
+                        <span class="left-jian"><</span>
+                        <img src="../../material/ProductDetails/tupian1.png" alt="">
+                        <img class="smartImg-m" src="../../material/ProductDetails/tupian2.png" alt="">
+                        <img class="smartImg-m smartImg-t" src="../../material/ProductDetails/tupian3.png" alt="">
+                        <img class="smartImg-m" src="../../material/ProductDetails/tupian4.png" alt="">
+                        <img src="../../material/ProductDetails/tupian5.png" alt="">
+                        <span>></span>
+                    </div>
+                </div>
+                <div class="pdl-right">
+                    <p class="no-seamless">无缝钢管&nbsp;Q235</p>
+                    <div class="pdList">
+                        <span class="pdList-f">月销量：<span class="needColor">8000吨</span></span>
+                        <span class="pdList-s">访问次数：<span class="needColor">2560次</span></span>
+                        <span class="needColor needBorder">
+                            <img src="../../material/ProductDetails/shoucang.png" alt="">
+                            收藏商品
+                        </span>
+                    </div>
+                    <div class="goodsPrice">
+                        <span class="priceText">价格</span>
+                        <span class="priceSymbol">￥<h2 class="priceNum">18800</h2>元/吨</span>
+                    </div>
+                    <div class="goodsDetails">
+                        <ul class="needListStyle">
+                            <li>规格：480*8</li>
+                            <li>计重方式：过磅</li>
+                            <li>交货地：浙江丽水</li>
+                            <li>材质：Q235</li>
+                            <li>库存吨数：14.260吨</li>
+                            <li>厂家：松阳上上</li>
+                            <li>标准：GB/T8163-2008</li>
+                            <li>生产工艺：热扩</li>
+                            <li>等 级：合格品</li>
+                        </ul>
+                    </div>
+                    <div class="toBuy">
+                        <p>购买吨数：</p>
+                        <div class="count">
+                            <span class="reduce">-</span>
+                            <input class="count-input" type="text" value="1.000">
+                            <span class="add">+</span>
+                        </div>
+                        <p>共14.260吨可售</p>
+                    </div>
+                    <div class="buyButton">
+                        <button class="buyNow">立即购买</button>
+                        <button class="addCart">加入购物车</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pdr">
+                <p class="supplier-text">供应商信息</p>
+                <div class="supplier-logo">
+                    <img src="../../material/ProductDetails/logo.png" alt="">
+                    <p>温州谦和不锈钢有限公司</p>
+                </div>
+                <div class="supplier-message">
+                    <ul class="supplier-message-list">
+                        <li class="allSame">
+                            <img src="../../material/ProductDetails/renzheng.png" alt="">
+                            企业省份验证
+                        </li>
+                        <li class="allSame">
+                            交易勋章：
+                            <img src="../../material/ProductDetails/cheng.png" alt="">
+                            <img src="../../material/ProductDetails/chang.png" alt="">
+                        </li>
+                        <li class="allSame">
+                            所在省份：浙江省
+                        </li>
+                        <li class="allSame">所在城市：丽水市</li>
+                        <li class="allSame">所在县：松阳县</li>
+                        <li>所在地：松阳县工商行 政管理局</li>
+                        <li class="allSame">成交单数：100单</li>
+                        <li class="allSame">
+                            满意度：
+                            <img src="../../material/ProductDetails/xing.png" alt="">
+                            <img src="../../material/ProductDetails/xing.png" alt="">
+                            <img src="../../material/ProductDetails/xing.png" alt="">
+                            <img src="../../material/ProductDetails/xing.png" alt="">
+                            <img src="../../material/ProductDetails/xing.png" alt="">
+                        </li>
+                    </ul>
+                    <div class="shopBtn">
+                        <a href="">进入店铺</a>
+                        <a class="collectionShop" href="">收藏店铺</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="productComment">
+            <div class="lookProduct">
+                <div class="lookP-top">
+                    <ul class="lookProduct-top">
+                        <li class="product-color"><a href="">商家在售其他商品</a></li>
+                        <li><a href="../CommodityReview/index.html">商品评论(20)</a></li>
+                        <li class="lastLi">
+                            <a href="">
+                                <img src="../../material/ProductDetails/liuyan.png" alt="">
+                                与我交谈
+                            </a>
+                            
+                        </li>
+                    </ul>
+                    <span class="outFloat">共<span class="inColor">20</span>条记录</span>
+                </div>
+                <div class="pc-list">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>品名</th>
+                                <th>材质</th>
+                                <th>规格</th>
+                                <th>发货地</th>
+                                <th>库存</th>
+                                <th>单价</th>
+                                <th>联系客服</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>工业无缝钢管</td>
+                                <td>Q235</td>
+                                <td>480*8</td>
+                                <td>浙江丽水松阳</td>
+                                <td>15.000吨</td>
+                                <td>15000元/吨</td>
+                                <td>
+                                    <a class="giveMeMsg">
+                                        <i class="iconfont icon-geiwoliuyan"></i>
+                                        给我留言
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>工业无缝钢管</td>
+                                <td>Q235</td>
+                                <td>480*8</td>
+                                <td>浙江丽水松阳</td>
+                                <td>15.000吨</td>
+                                <td>15000元/吨</td>
+                                <td>
+                                    <a class="giveMeMsg">
+                                        <i class="iconfont icon-geiwoliuyan"></i>
+                                        给我留言
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>工业无缝钢管</td>
+                                <td>Q235</td>
+                                <td>480*8</td>
+                                <td>浙江丽水松阳</td>
+                                <td>15.000吨</td>
+                                <td>15000元/吨</td>
+                                <td>
+                                    <a class="giveMeMsg">
+                                        <i class="iconfont icon-geiwoliuyan"></i>
+                                        给我留言
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>工业无缝钢管</td>
+                                <td>Q235</td>
+                                <td>480*8</td>
+                                <td>浙江丽水松阳</td>
+                                <td>15.000吨</td>
+                                <td>15000元/吨</td>
+                                <td>
+                                    <a class="giveMeMsg">
+                                        <i class="iconfont icon-geiwoliuyan"></i>
+                                        给我留言
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>工业无缝钢管</td>
+                                <td>Q235</td>
+                                <td>480*8</td>
+                                <td>浙江丽水松阳</td>
+                                <td>15.000吨</td>
+                                <td>15000元/吨</td>
+                                <td>
+                                    <a class="giveMeMsg">
+                                        <i class="iconfont icon-geiwoliuyan"></i>
+                                        给我留言
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>工业无缝钢管</td>
+                                <td>Q235</td>
+                                <td>480*8</td>
+                                <td>浙江丽水松阳</td>
+                                <td>15.000吨</td>
+                                <td>15000元/吨</td>
+                                <td>
+                                    <a class="giveMeMsg">
+                                        <i class="iconfont icon-geiwoliuyan"></i>
+                                        给我留言
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>工业无缝钢管</td>
+                                <td>Q235</td>
+                                <td>480*8</td>
+                                <td>浙江丽水松阳</td>
+                                <td>15.000吨</td>
+                                <td>15000元/吨</td>
+                                <td>
+                                    <a class="giveMeMsg">
+                                        <i class="iconfont icon-geiwoliuyan"></i>
+                                        给我留言
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>工业无缝钢管</td>
+                                <td>Q235</td>
+                                <td>480*8</td>
+                                <td>浙江丽水松阳</td>
+                                <td>15.000吨</td>
+                                <td>15000元/吨</td>
+                                <td>
+                                    <a class="giveMeMsg">
+                                        <i class="iconfont icon-geiwoliuyan"></i>
+                                        给我留言
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>工业无缝钢管</td>
+                                <td>Q235</td>
+                                <td>480*8</td>
+                                <td>浙江丽水松阳</td>
+                                <td>15.000吨</td>
+                                <td>15000元/吨</td>
+                                <td>
+                                    <a class="giveMeMsg">
+                                        <i class="iconfont icon-geiwoliuyan"></i>
+                                        给我留言
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>工业无缝钢管</td>
+                                <td>Q235</td>
+                                <td>480*8</td>
+                                <td>浙江丽水松阳</td>
+                                <td>15.000吨</td>
+                                <td>15000元/吨</td>
+                                <td>
+                                    <a class="giveMeMsg">
+                                        <i class="iconfont icon-geiwoliuyan"></i>
+                                        给我留言
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="lookProduct-right">
+                <p class="recommend">推荐商品</p>
+                <div class="recommendbox">
+                    <img src="../../material/ProductDetails/tuijian1.png" alt="">
+                    <p>【不锈钢无缝管】</p>
+                </div>
+                <div class="recommendbox">
+                    <img src="../../material/ProductDetails/tuijian2.png" alt="">
+                    <p>【不锈钢焊接管】</p>
+                </div>
+                <div class="recommendbox">
+                    <img src="../../material/ProductDetails/tuijian3.png" alt="">
+                    <p>【不锈钢管件】</p>
+                </div>
+            </div>
+        </div>
+        <div class="paging">
+            <div id="page" class="page_div">
+                <span class="totalSize">共<span>20</span>条记录</span>
+                <span class="totalPages">
+                    <span>1</span>/<span>2</span>页 
+                </span>
+                <a id="prePage">上一页</a>
+                <a class="current">1</a>
+                <a>2</a>
+                <a id="nextPage">下一页</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="home-footer">
+    <div class="container">
+        <div class=" home-footer-login">
+            <img src="../../material/home/logo1.png" alt="">
+            <p>客服热线：400-7676-208</p>
+            <p>服务时间：8:00-19:00</p>
+
+        </div>
+        <div class=" home-footer-list">
+            <ul class="home-footer-list-ul">
+                <li>
+                    <h4>我要买钢管</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">我要买货</a></li>
+                        <li><a href="">采购商管理后台</a></li>
+                        <li><a href="">采购商入驻好处</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>我要卖钢管</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">客户入驻须知</a></li>
+                        <li><a href="">供应商管理后台</a></li>
+                        <li><a href="">为什么加入“速卖网”</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>售后服务</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">售后政策</a></li>
+                        <li><a href="">异议处理流程</a></li>
+                        <li><a href="">售后服务地点</a></li>
+                    </ul>
+                </li>
+                <li class="last-no-wire">
+                    <h4>常见问题</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">无法登录/忘记密码</a></li>
+                        <li><a href="">修改帐户信息</a></li>
+                        <li><a href="">速卖网交易流程</a></li>
+                    </ul>
+                </li>
+                <div class="clearfix"></div>
+
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="home-copyright">
+    <div class="container">
+        <div class="home-copyright-top">
+            <ul class="home-copyright-ul">
+                <li><span>上上工业速卖网</span></li>
+                <li><span>关于我们</span></li>
+                <li><span>实地认证</span></li>
+                <li><span>手机找现货</span></li>
+                <li><span>隐私声明</span></li>
+                <li class="last-no-wire"><span>联系我们</span></li>
+            </ul>
+        </div>
+        <div class="home-copyright-bottom">© 2001-2017 www.gysmw.com 版权所有 备案号 【沪ICP备05025340-2】许可证号【沪ICP备05025340】</div>
+    </div>
+
+</div>
+</body>
+</html>

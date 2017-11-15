@@ -1,0 +1,62 @@
+.companyfeature ul.out-ul-company>li{
+
+}
+.public-title{
+    background: #FFFDEF;
+    padding: 15px 0;
+    border-bottom: 1px solid #D9D9D9;
+}
+.public-title h4{
+    margin: 0;
+    text-align: center;
+    font-size: 17px;
+    position: relative;
+}
+.public-title h4:after{
+    content: '';
+    width: 50px;
+    height: 1px;
+    background: #DCDCDC;
+    position: absolute;
+    top: 14px;
+    left: 310px;
+}
+.public-title h4:before{
+    content: '';
+    width: 50px;
+    height: 1px;
+    background: #DCDCDC;
+    position: absolute;
+    top: 14px;
+    right: 310px;
+}
+.public-title h4 i{
+    color: #47A8F9;
+    margin-right: 10px;
+    font-size: 27px;
+    vertical-align: middle;
+}
+.enterprise-profile-content{
+    background: #fff;
+    padding: 20px 30px;
+    overflow: hidden;
+    height: 747px;
+}
+.enterprise-profile-content ul li p{
+   color: #333333;
+}
+.enterprise-profile-content ul li h4{
+    color:#2C84E7;
+}
+.enterprise-profile-content ul{
+    list-style: disc;
+    list-style-position: outside;
+    float: left;
+    width: 50%;
+    padding: 5% 10%;
+    color: #A0A0A0;
+
+}
+.enterprise-profile-content .ul-border-right{
+    border-right: 1px solid #DDDDDD;
+}

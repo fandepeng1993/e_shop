@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>找物流</title>
+    <!-- 用最新的IE引擎渲染 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <!-- 页面窗口自适应 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../common/favorite/ssslogo.ico">
+    <!-- 框架样式 -->
+    <link rel="stylesheet" type="text/css" href="../../common/css/bootstrap.min.css">
+    <!-- 项目自定义图标 -->
+    <link rel="stylesheet" type="text/css" href="../../common/icon/iconfont.css">
+    <!--公共样式-->
+    <link rel="stylesheet" type="text/css" href="../../common/css/public.css">
+    <link rel="stylesheet" type="text/css" href="../../common/css/public_banner.css">
+    <link rel="stylesheet" type="text/css" href="../../module/FindLogistics/FindLogistics.css">
+    <!-- jquery1.12.4版本 -->
+    <script type="text/javascript" src="../../common/js/jquery.min.js"></script>
+
+</head>
+<body style="background: #F5F5F5;">
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="home-top">
+        <div class="container-fluid">
+            <span class="navbar-brand"><i class="iconfont icon-shouye"></i></span>
+            <p class="navbar-text">您好，欢迎来到上上工业速买网！</p>
+
+            <!-- 右侧菜单 -->
+            <ul class="home-ul">
+                <li>我的订单 <span class="caret"></span></li>
+                <li>消息中心(0)</li>
+                <li>会员中心</li>
+                <li><i class="iconfont icon-gouwuche shop-card"></i> 购物车</li>
+                <li>在线客服</li>
+                <li class="li-last"><i class="iconfont icon-dianhua"></i>400-7676-208</li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</nav>
+<div class="home-title">
+    <div class="title-top">
+        <div class="title-left">
+            <img src="../../material/home/logo.png" />
+        </div>
+        <!-- 右侧菜单 -->
+        <div class="title-right">
+            <ul class="title-ul">
+                <li><a href="../home/">首页</a></li>
+                <li><a href="../FindSpotgoods/">找现货</a></li>
+                <li><a href="../FindCustomMade/">找定制</a></li>
+                <li><a href="../FindAskbuy/">找求购</a></li>
+                <li class="active"><a href="../FindLogistics/">找物流</a></li>
+                <li><a href="../ssInformation/">资讯</a></li>
+                <li><a href="../ssResume/">企业招聘</a></li>
+            </ul>
+        </div>
+        <div class="title-login">
+            <ul class="title-ul">
+                <li><span>登陆</span></li>
+                <li><span>会员注册</span></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="home-carousel">
+    <div id="demo02" class="flexslider">
+        <ul class="slides">
+            <li>
+                <div class="img" style="position: relative">
+                    <img src="../../material/home/lunbo1.png" height="450" width="100%" alt="" />
+                    <div class="fl-uploadc-uploadc unselectable">
+                        <a href=""><img src="../../material/FindLogistics/button2.png" alt=""></a>
+                        <!--一键上传库存-->
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+    <div class="fl-former-wrap">
+        <div class="fl-former-box">
+            <div class="fl-former-box-left">
+                <div class="fl-box-up">
+                    <select name="" id="" class="form-control">
+                        <option value="">请选择分类</option>
+                        <option value="">请选择分类1</option>
+                        <option value="">请选择分类2</option>
+                    </select>
+                    <select name="" id="" class="form-control secround-select">
+                        <option value="">请选择品名</option>
+                        <option value="">请选择品名1</option>
+                        <option value="">请选择品名2</option>
+                    </select>
+                    <input type="number" placeholder="请输入重量" class="form-control">
+                    <div class="clearfix"></div>
+                </div>
+                <div class="fl-box-down">
+                    <select name="" id="" class="form-control">
+                        <option value="">选择出发地点</option>
+                        <option value="">出发地点1</option>
+                        <option value="">出发地点2</option>
+                    </select>
+                    <select name="" id="" class="form-control secround-select">
+                        <option value="">选择到达地点</option>
+                        <option value="">到达地点1</option>
+                        <option value="">到达地点2</option>
+                    </select>
+                    <input type="text" placeholder="请输入卸货地点" class="form-control">
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="fl-former-box-right">
+               <!-- <i class="iconfont icon-wuliuchaxun">
+                    <br>立即查询物流
+                </i>-->
+
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+
+</div>
+<div class="FindLogistics container">
+    <div class="FindLogistics-recommend">
+        <div class="clearfixs" >
+            <i class="iconfont icon-xingqingcelve"></i>
+            <div class="FindLogistics-recommend-title-text">
+                <h5>推荐的物流信息</h5>
+                <p>Recommended logistics information</p>
+            </div>
+
+            <a>查看更多&nbsp;></a>
+            <a>换一批</a>
+            <div class="clearfix"></div>
+        </div>
+        <div class="FindLogistics-panel">
+            <ul class="FindLogistics-panel-ul">
+                <li class="n-first">
+                    <div>
+                        <h3>温州 <i class="iconfont icon-rectangle52rectangle52-copy"></i> 上海</h3>
+                        <ul class="FindLogistics-panel-ul-info">
+                            <li>
+                                <i>公司：</i>
+                                <span class="company">温州市骏杰物流有限公司</span>
+                            </li>
+                            <li>
+                                <i>联系人：</i>
+                                <span>
+                                小王 15721597897
+                                小胡 15721597897
+                            </span>
+                            </li>
+                            <li>
+                                <i>地 址：</i>
+                                <span>温州市龙湾区瓯海大道新联村龙江路下湾公交站头</span>
+                            </li>
+                            <li>
+                                <i>手 机：</i>
+                                <span>
+                                0577-86852518 86852519
+                            </span>
+                            </li>
+                        </ul>
+                        <div class="nowSendWrap">
+                            <a class="nowSend">立即发货</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="f_distance n-secround">
+                    <div>
+                        <h3>温州 <i class="iconfont icon-rectangle52rectangle52-copy"></i> 上海</h3>
+                        <ul class="FindLogistics-panel-ul-info">
+                            <li>
+                                <i>公司：</i>
+                                <span class="company">温州市骏杰物流有限公司</span>
+                            </li>
+                            <li>
+                                <i>联系人：</i>
+                                <span>
+                                小王 15721597897
+                                小胡 15721597897
+                            </span>
+                            </li>
+                            <li>
+                                <i>地 址：</i>
+                                <span>温州市龙湾区瓯海大道新联村龙江路下湾公交站头</span>
+                            </li>
+                            <li>
+                                <i>手 机：</i>
+                                <span>
+                                0577-86852518 86852519
+                            </span>
+                            </li>
+                        </ul>
+                        <div class="nowSendWrap">
+                            <a class="nowSend">立即发货</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="n-third">
+                    <div>
+                        <h3>温州 <i class="iconfont icon-rectangle52rectangle52-copy"></i> 上海</h3>
+                        <ul class="FindLogistics-panel-ul-info">
+                            <li>
+                                <i>公司：</i>
+                                <span class="company">温州市骏杰物流有限公司</span>
+                            </li>
+                            <li>
+                                <i>联系人：</i>
+                                <span>
+                                小王 15721597897
+                                小胡 15721597897
+                            </span>
+                            </li>
+                            <li>
+                                <i>地 址：</i>
+                                <span>温州市龙湾区瓯海大道新联村龙江路下湾公交站头</span>
+                            </li>
+                            <li>
+                                <i>手 机：</i>
+                                <span>
+                                0577-86852518 86852519
+                            </span>
+                            </li>
+                        </ul>
+                        <div class="nowSendWrap">
+                            <a class="nowSend">立即发货</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="n-first">
+                    <div>
+                        <h3>温州 <i class="iconfont icon-rectangle52rectangle52-copy"></i> 上海</h3>
+                        <ul class="FindLogistics-panel-ul-info">
+                            <li>
+                                <i>公司：</i>
+                                <span class="company">温州市骏杰物流有限公司</span>
+                            </li>
+                            <li>
+                                <i>联系人：</i>
+                                <span>
+                                小王 15721597897
+                                小胡 15721597897
+                            </span>
+                            </li>
+                            <li>
+                                <i>地 址：</i>
+                                <span>温州市龙湾区瓯海大道新联村龙江路下湾公交站头</span>
+                            </li>
+                            <li>
+                                <i>手 机：</i>
+                                <span>
+                                0577-86852518 86852519
+                            </span>
+                            </li>
+                        </ul>
+                        <div class="nowSendWrap">
+                            <a class="nowSend">立即发货</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="f_distance n-secround">
+                    <div>
+                        <h3>温州 <i class="iconfont icon-rectangle52rectangle52-copy"></i> 上海</h3>
+                        <ul class="FindLogistics-panel-ul-info">
+                            <li>
+                                <i>公司：</i>
+                                <span class="company">温州市骏杰物流有限公司</span>
+                            </li>
+                            <li>
+                                <i>联系人：</i>
+                                <span>
+                                小王 15721597897
+                                小胡 15721597897
+                            </span>
+                            </li>
+                            <li>
+                                <i>地 址：</i>
+                                <span>温州市龙湾区瓯海大道新联村龙江路下湾公交站头</span>
+                            </li>
+                            <li>
+                                <i>手 机：</i>
+                                <span>
+                                0577-86852518 86852519
+                            </span>
+                            </li>
+                        </ul>
+                        <div class="nowSendWrap">
+                            <a class="nowSend">立即发货</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="n-third">
+                    <div>
+                        <h3>温州 <i class="iconfont icon-rectangle52rectangle52-copy"></i> 上海</h3>
+                        <ul class="FindLogistics-panel-ul-info">
+                            <li>
+                                <i>公司：</i>
+                                <span class="company">温州市骏杰物流有限公司</span>
+                            </li>
+                            <li>
+                                <i>联系人：</i>
+                                <span>
+                                小王 15721597897
+                                小胡 15721597897
+                            </span>
+                            </li>
+                            <li>
+                                <i>地 址：</i>
+                                <span>温州市龙湾区瓯海大道新联村龙江路下湾公交站头</span>
+                            </li>
+                            <li>
+                                <i>手 机：</i>
+                                <span>
+                                0577-86852518 86852519
+                            </span>
+                            </li>
+                        </ul>
+                        <div class="nowSendWrap">
+                            <a class="nowSend">立即发货</a>
+                        </div>
+                    </div>
+                </li>
+                <div class="clearfix">
+
+                </div>
+            </ul>
+        </div>
+
+    </div>
+    <div class="FindLogistics-advantage">
+        <div>
+            <hr class="line">
+            <div class="icon-text">
+                <i class="iconfont icon-youshi"></i>
+                <div class="FindLogistics-advantage-title-text">
+                    <h4>我们的优势</h4>
+                    <p>Our advantage</p>
+                </div>
+                <div class="clearfix"></div>
+            </div >
+            <hr class="line">
+            <div class="clearfix"></div>
+        </div>
+        <ul class="our-advantage-ul">
+            <li>
+                <i class="iconfont icon-ziyuan"></i>
+                <div class="our-advantage-title-text">
+                    <h4>海量资源</h4>
+                    <p>我们只与签约的物流商合作，保证安全可靠</p>
+                </div>
+                <div class="clearfix"></div>
+            </li>
+            <li class="oa_distance">
+                <i class="iconfont icon-baozhang"></i>
+                <div class="our-advantage-title-text">
+                    <h4>安全保障</h4>
+                    <p>我们只与签约的物流商合作，保证安全可靠</p>
+                </div>
+                <div class="clearfix"></div>
+            </li>
+            <li class="oa_distance oa_important">
+                <i class="iconfont icon-quo"></i>
+                <div class="our-advantage-title-text">
+                    <h4>快速报价</h4>
+                    <p>我们只与签约的物流商合作，保证安全可靠</p>
+                </div>
+                <div class="clearfix"></div></li>
+            <li>
+                <i class="iconfont icon-dianshangmianfeifuwu"></i>
+                <div class="our-advantage-title-text">
+                    <h4>免费服务</h4>
+                    <p>我们只与签约的物流商合作，保证安全可靠</p>
+                </div>
+                <div class="clearfix"></div>
+            </li>
+            <div class="clearfix"></div>
+        </ul>
+    </div>
+</div>
+<div class="home-footer">
+    <div class="container">
+        <div class=" home-footer-login">
+            <img src="../../material/home/logo1.png" alt="">
+            <p>客服热线：400-7676-208</p>
+            <p>服务时间：8:00-19:00</p>
+
+        </div>
+        <div class=" home-footer-list">
+            <ul class="home-footer-list-ul">
+                <li>
+                    <h4>我要买钢管</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">我要买货</a></li>
+                        <li><a href="">采购商管理后台</a></li>
+                        <li><a href="">采购商入驻好处</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>我要卖钢管</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">客户入驻须知</a></li>
+                        <li><a href="">供应商管理后台</a></li>
+                        <li><a href="">为什么加入“速卖网”</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>售后服务</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">售后政策</a></li>
+                        <li><a href="">异议处理流程</a></li>
+                        <li><a href="">售后服务地点</a></li>
+                    </ul>
+                </li>
+                <li class="last-no-wire">
+                    <h4>常见问题</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">无法登录/忘记密码</a></li>
+                        <li><a href="">修改帐户信息</a></li>
+                        <li><a href="">速卖网交易流程</a></li>
+                    </ul>
+                </li>
+                <div class="clearfix"></div>
+
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="home-copyright">
+    <div class="container">
+        <div class="home-copyright-top">
+            <ul class="home-copyright-ul">
+                <li><span>上上工业速卖网</span></li>
+                <li><span>关于我们</span></li>
+                <li><span>实地认证</span></li>
+                <li><span>手机找现货</span></li>
+                <li><span>隐私声明</span></li>
+                <li class="last-no-wire"><span>联系我们</span></li>
+            </ul>
+        </div>
+        <div class="home-copyright-bottom">© 2001-2017 www.gysmw.com 版权所有 备案号 【沪ICP备05025340-2】许可证号【沪ICP备05025340】</div>
+    </div>
+
+</div>
+</body>
+<script src="../../common/js/placehoder.js"></script>
+
+
+</html>

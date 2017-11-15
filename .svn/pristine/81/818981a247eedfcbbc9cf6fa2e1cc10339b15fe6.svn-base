@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>找特价</title>
+    <!-- 用最新的IE引擎渲染 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <!-- 页面窗口自适应 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../../common/favorite/ssslogo.ico">
+    <!-- 框架样式 -->
+    <link rel="stylesheet" type="text/css" href="../../../common/css/bootstrap.min.css">
+    <!-- 项目自定义图标 -->
+    <link rel="stylesheet" type="text/css" href="../../../common/icon/iconfont.css">
+    <!--公共样式-->
+    <link rel="stylesheet" type="text/css" href="../../../common/css/public.css">
+    <link rel="stylesheet" type="text/css" href="../../../common/css/public_banner.css">
+    <!-- 找特价css -->
+    <link rel="stylesheet" type="text/css" href="../../../module/home/FindSpecialOffer/FindSpecialOffer.css">
+    <!-- jquery1.12.4版本 -->
+    <script type="text/javascript" src="../../../common/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../../common/js/public.js"></script>
+    <!-- 找特价js -->
+    <script type="text/javascript" src="../../../module/home/FindSpecialOffer/FindSpecialOffer.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="home-top">
+        <div class="container-fluid">
+            <span class="navbar-brand"><i class="iconfont icon-shouye"></i></span>
+            <p class="navbar-text">您好，欢迎来到上上工业速买网！</p>
+            <!-- 右侧菜单 -->
+            <ul class="home-ul">
+                <li>我的订单 <span class="caret"></span></li>
+                <li>消息中心(0)</li>
+                <li>会员中心</li>
+                <li><i class="iconfont icon-gouwuche shop-card"></i> 购物车</li>
+                <li>在线客服</li>
+                <li class="li-last"><i class="iconfont icon-dianhua"></i>400-7676-208</li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</nav>
+<div class="home-title">
+    <div class="title-top">
+        <div class="title-left">
+            <img src="../../../material/home/logo.png" />
+        </div>
+        <!-- 右侧菜单 -->
+        <div class="title-right">
+            <ul class="title-ul">
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="../../FindSpotgoods">找现货</a></li>
+                <li><a href="../../FindCustomMade">找定制</a></li>
+                <li><a href="../../FindAskbuy">找求购</a></li>
+                <li><a href="../../FindLogistics">找物流</a></li>
+                <li><a href="../../ssInformation">资讯</a></li>
+                <li><a href="../../ssResume">企业招聘</a></li>
+            </ul>
+        </div>
+        <div class="title-login">
+            <ul class="title-ul">
+                <li><span>登陆</span></li>
+                <li><span>会员注册</span></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="home-carousel">
+    <div id="demo02" class="flexslider">
+        <ul class="slides">
+            <li>
+                <div class="img" style="position: relative">
+                    <img src="../../../material/home/lunbo2.png" height="450" width="100%" alt="" />
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</div>
+<div class="FindSpecialOffer">
+    <div class="top">
+        <i class="iconfont icon-dizhi left"></i> 当前位置： 工业速卖网 > 找特价 > 特价列表
+    </div>
+    <div class="title">
+        <div class="title-top">
+            <div class="left">
+                <i class="iconfont icon-tejia1"></i>
+                <span class="first">特价商品信息<br /><span class="small">Special commodity information</span></span>
+            </div>
+            <div class="right">共为您找到<span class="yellow">15</span>条相关信息</div>
+        </div>
+        <div class="title-content">
+            <div class="left">分类</div>
+            <div class="right">
+                <ul class="right-ul" id="title">
+                    <li class="active" title="无缝管">无缝管</li>
+                    <li title="焊接管">焊接管</li>
+                    <li title="管件系列">管件系列</li>
+                    <li title="法兰">法兰</li>
+                    <li title="棒材">棒材</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="card">
+            <div class="card-top">
+                <div class="left">
+                    <img src="../../../material/home/FindSpecialOffer/guan1.png" alt="">
+                </div>
+                <div class="right">
+                    <p class="one">上上不锈钢管有限公司</p>
+                    <p class="two">联系方式：400-7676-208 15721597897</p>
+                    <p class="three">品种：工业无缝管<span class="three-right">材质：TP316L</span></p>
+                    <p class="four">规格：219*6<span class="four-right">重量/数量：15000kg</span></p>
+                    <p class="five">¥<span class="big">15000</span>元/吨<span class="price">市场价：18000元/吨</span></p>
+                </div>
+            </div>
+            <div class="bottom">
+                <button class="btn">立即抢购</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-top">
+                <div class="left">
+                    <img src="../../../material/home/FindSpecialOffer/guan2.png" alt="">
+                </div>
+                <div class="right">
+                    <p class="one">上上不锈钢管有限公司</p>
+                    <p class="two">联系方式：400-7676-208 15721597897</p>
+                    <p class="three">品种：工业无缝管<span class="three-right">材质：TP316L</span></p>
+                    <p class="four">规格：219*6<span class="four-right">重量/数量：15000kg</span></p>
+                    <p class="five">¥<span class="big">15000</span>元/吨<span class="price">市场价：18000元/吨</span></p>
+                </div>
+            </div>
+            <div class="bottom">
+                <button class="btn">立即抢购</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-top">
+                <div class="left">
+                    <img src="../../../material/home/FindSpecialOffer/guan3.png" alt="">
+                </div>
+                <div class="right">
+                    <p class="one">上上不锈钢管有限公司</p>
+                    <p class="two">联系方式：400-7676-208 15721597897</p>
+                    <p class="three">品种：工业无缝管<span class="three-right">材质：TP316L</span></p>
+                    <p class="four">规格：219*6<span class="four-right">重量/数量：15000kg</span></p>
+                    <p class="five">¥<span class="big">15000</span>元/吨<span class="price">市场价：18000元/吨</span></p>
+                </div>
+            </div>
+            <div class="bottom">
+                <button class="btn">立即抢购</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-top">
+                <div class="left">
+                    <img src="../../../material/home/FindSpecialOffer/guan4.png" alt="">
+                </div>
+                <div class="right">
+                    <p class="one">上上不锈钢管有限公司</p>
+                    <p class="two">联系方式：400-7676-208 15721597897</p>
+                    <p class="three">品种：工业无缝管<span class="three-right">材质：TP316L</span></p>
+                    <p class="four">规格：219*6<span class="four-right">重量/数量：15000kg</span></p>
+                    <p class="five">¥<span class="big">15000</span>元/吨<span class="price">市场价：18000元/吨</span></p>
+                </div>
+            </div>
+            <div class="bottom">
+                <button class="btn">立即抢购</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-top">
+                <div class="left">
+                    <img src="../../../material/home/FindSpecialOffer/guan5.png" alt="">
+                </div>
+                <div class="right">
+                    <p class="one">上上不锈钢管有限公司</p>
+                    <p class="two">联系方式：400-7676-208 15721597897</p>
+                    <p class="three">品种：工业无缝管<span class="three-right">材质：TP316L</span></p>
+                    <p class="four">规格：219*6<span class="four-right">重量/数量：15000kg</span></p>
+                    <p class="five">¥<span class="big">15000</span>元/吨<span class="price">市场价：18000元/吨</span></p>
+                </div>
+            </div>
+            <div class="bottom">
+                <button class="btn">立即抢购</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-top">
+                <div class="left">
+                    <img src="../../../material/home/FindSpecialOffer/guan6.png" alt="">
+                </div>
+                <div class="right">
+                    <p class="one">上上不锈钢管有限公司</p>
+                    <p class="two">联系方式：400-7676-208 15721597897</p>
+                    <p class="three">品种：工业无缝管<span class="three-right">材质：TP316L</span></p>
+                    <p class="four">规格：219*6<span class="four-right">重量/数量：15000kg</span></p>
+                    <p class="five">¥<span class="big">15000</span>元/吨<span class="price">市场价：18000元/吨</span></p>
+                </div>
+            </div>
+            <div class="bottom">
+                <button class="btn">立即抢购</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="home-footer">
+    <div class="containert">
+        <div class=" home-footer-login">
+            <img src="../../../material/home/logo1.png" alt="">
+            <p>客服热线：400-7676-208</p>
+            <p>服务时间：8:00-19:00</p>
+
+        </div>
+        <div class=" home-footer-list">
+            <ul class="home-footer-list-ul">
+                <li>
+                    <h4>我要买钢管</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">我要买货</a></li>
+                        <li><a href="">采购商管理后台</a></li>
+                        <li><a href="">采购商入驻好处</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>我要卖钢管</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">客户入驻须知</a></li>
+                        <li><a href="">供应商管理后台</a></li>
+                        <li><a href="">为什么加入“速卖网”</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>售后服务</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">售后政策</a></li>
+                        <li><a href="">异议处理流程</a></li>
+                        <li><a href="">售后服务地点</a></li>
+                    </ul>
+                </li>
+                <li class="last-no-wire">
+                    <h4>常见问题</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">无法登录/忘记密码</a></li>
+                        <li><a href="">修改帐户信息</a></li>
+                        <li><a href="">速卖网交易流程</a></li>
+                    </ul>
+                </li>
+                <div class="clearfix"></div>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="home-copyright">
+    <div class="containert">
+        <div class="home-copyright-top">
+            <ul class="home-copyright-ul">
+                <li><span>上上工业速卖网</span></li>
+                <li><span>关于我们</span></li>
+                <li><span>实地认证</span></li>
+                <li><span>手机找现货</span></li>
+                <li><span>隐私声明</span></li>
+                <li class="last-no-wire"><span>联系我们</span></li>
+            </ul>
+        </div>
+        <div class="home-copyright-bottom">© 2001-2017 www.gysmw.com 版权所有 备案号 【沪ICP备05025340-2】许可证号【沪ICP备05025340】</div>
+    </div>
+</div>
+</body>
+<script src="../../../common/js/placehoder.js"></script>
+<!-- 公共头部 -->
+<script type="text/javascript" src="../../../common/js/public.js"></script>
+
+
+</html>

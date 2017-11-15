@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>找现货</title>
+    <!-- 用最新的IE引擎渲染 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <!-- 页面窗口自适应 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../common/favorite/ssslogo.ico">
+    <!-- 框架样式 -->
+    <link rel="stylesheet" type="text/css" href="../../common/css/bootstrap.min.css">
+    <!-- 项目自定义图标 -->
+    <link rel="stylesheet" type="text/css" href="../../common/icon/iconfont.css">
+    <!--公共样式-->
+    <link rel="stylesheet" type="text/css" href="../../common/css/public.css">
+    <!-- 找现货样式 -->
+    <link rel="stylesheet" href="../../module/FindSpotgoods/FindSpotgoods.css">
+    <!-- jquery1.12.4版本 -->
+    <script type="text/javascript" src="../../common/js/jquery.min.js"></script>
+    <!-- 找现货js -->
+    <script type="text/javascript" src="../../module/FindSpotgoods/FindSpotgoods.js"></script>
+</head>
+<body style="background: #F5F5F5;">
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="home-top">
+        <div class="container-fluid">
+            <span class="navbar-brand"><i class="iconfont icon-shouye"></i></span>
+            <p class="navbar-text">您好，欢迎来到上上工业速买网！</p>
+            <!-- 右侧菜单 -->
+            <ul class="home-ul">
+                <li>我的订单 <span class="caret"></span></li>
+                <li>消息中心(0)</li>
+                <li>会员中心</li>
+                <li><i class="iconfont icon-gouwuche shop-card"></i> 购物车</li>
+                <li>在线客服</li>
+                <li class="li-last"><i class="iconfont icon-dianhua"></i>400-7676-208</li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</nav>
+<div class="home-title">
+    <div class="title-top">
+        <div class="title-left">
+            <img src="../../material/home/logo.png" />
+        </div>
+        <!-- 右侧菜单 -->
+        <div class="title-right">
+            <ul class="title-ul">
+                <li><a href="../home/index.html">首页</a></li>
+                <li class="active"><a href="../FindSpotgoods/index.html">找现货</a></li>
+                <li><a href="../FindCustomMade/index.html">找定制</a></li>
+                <li ><a href="../FindAskbuy/index.html">找求购</a></li>
+                <li><a href="../FindLogistics/index.html">找物流</a></li>
+                <li><a href="../ssInformation/index.html">资讯</a></li>
+                <li><a href="../ssResume/index.html">企业招聘</a></li>
+            </ul>
+        </div>
+        <div class="title-login">
+            <ul class="title-ul">
+                <li><span>登陆</span></li>
+                <li><span>会员注册</span></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="FindSpotgoods">
+    <div class="content">
+        <div class="content-advertisement">
+            <div class="content-advertisement-left">
+                <p>广告招租&nbsp;/&nbsp;<span>Advertisement let</span></p>
+            </div>
+            <div class="content-advertisement-right">
+                <a href=""><</a>
+                <a href="">></a>
+            </div>
+        </div>
+        <div class="content-img">
+            <img class="img-first" src="../../material/FindSpotgoods/guanggao1.png" alt="">
+            <img src="../../material/FindSpotgoods/guanggao2.png" alt="">
+            <img src="../../material/FindSpotgoods/guanggao3.png" alt="">
+            <img src="../../material/FindSpotgoods/guanggao4.png" alt="">
+            <img src="../../material/FindSpotgoods/guanggao5.png" alt="">
+            <img class="img-six" src="../../material/FindSpotgoods/guanggao6.png" alt="">
+            <img class="img-seven" src="../../material/FindSpotgoods/guanggao7.png" alt="">
+            <img class="img-eight" src="../../material/FindSpotgoods/guanggao8.png" alt="">
+            <img class="img-nine" src="../../material/FindSpotgoods/guanggao9.png" alt="">
+            <img class="img-ten" src="../../material/FindSpotgoods/guanggao10.png" alt="">
+        </div>
+        <div class="content-goodsList">
+            <p>
+                <span>找现货</span>
+                <span>></span>
+                <span>产品列表</span>
+            </p>
+        </div>
+        <div class="content-table">
+            <ul>
+                <li class="active"><a href="">无缝管</a></li>
+                <li class="tabActive"><a href="">焊接管</a></li>
+                <li class="tabActive"><a href="">管件</a></li>
+                <li class="tabActive"><a href="">法兰</a></li>
+                <li class="tabActive"><a href="">棒材</a></li>
+            </ul>
+        </div>
+        <div class="content-tableBox">
+            <div class="content-tableBox-top">
+                <div class="tableBox-top-left">
+                    <div class="select-border-right">
+                        <select class="select">
+                            <option value="">品名</option>
+                            <option value="">品名</option>
+                        </select>
+                    </div>
+                    <div class="select-border-right">
+                        <select class="select">
+                            <option value="">材质</option>
+                            <option value="">材质</option>
+                        </select>
+                    </div>
+                    <div class="select-border-none">
+                        <input class="select placeholder" type="text" placeholder="请输入规格">
+                    </div>   
+                </div>
+                <div class="tableBox-top-right">
+                    <button class="searchNow"><span>立即搜索</span></button>
+                    <button class="searchCompany"><span>搜公司</span></button>
+                </div>
+            </div>
+            <div class="content-tableBox-bottom">
+                <img src="../../material/FindSpotgoods/money.png" alt="">
+                <span>诚信是金——欢迎广大用户监督、举报虚假信息，举报电话：<span class="iphoneNum">400-7676-208</span></span> 
+            </div>
+        </div>
+        <div class="content-operation">
+            <div class="content-operation-left">
+                <ul>
+                    <li>
+                        重量排序
+                        <img src="../../material/FindSpotgoods/paixu.png" alt="">
+                    </li>
+                    <li class="left-two">
+                        价格排序
+                        <img src="../../material/FindSpotgoods/paixu.png" alt="">
+                    </li>
+                    <li class="left-three">
+                        恢复默认
+                    </li>
+                </ul>
+            </div>
+            <div class="content-operation-right">
+                <span>所在区域</span>
+                <p>全国</p>
+            </div>
+        </div>
+        <div class="content-table-large">
+            <table>
+                <thead>
+                    <tr>
+                        <th>品名</th>
+                        <th>材质</th>
+                        <th>规格(mm)</th>
+                        <th>支数</th>
+                        <th>重量(kg)</th>
+                        <th>供应商</th>
+                        <th>仓库区</th>
+                        <th>价格(含税)</th>
+                        <th>更新时间</th>
+                        <th class="table-operation">操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>工业无缝管</td>
+                        <td>Q345B</td>
+                        <td>215*12</td>
+                        <td>21支</td>
+                        <td>300kg</td>
+                        <td>松阳上上</td>
+                        <td>丽水松阳</td>
+                        <td class="table-price">98.0元/kg</td>
+                        <td>1分钟前</td>
+                        <td><a class="table-order" href="../CommodityReview/index.html">下单</a></td>
+                    </tr>
+                    <tr>
+                        <td>工业无缝管</td>
+                        <td>Q345B</td>
+                        <td>215*12</td>
+                        <td>21支</td>
+                        <td>300kg</td>
+                        <td>松阳上上</td>
+                        <td>丽水松阳</td>
+                        <td class="table-price">98.0元/kg</td>
+                        <td>1分钟前</td>
+                        <td><a class="table-order" href="../CommodityReview/index.html">下单</a></td>
+                    </tr>
+                    <tr>
+                        <td>工业无缝管</td>
+                        <td>Q345B</td>
+                        <td>215*12</td>
+                        <td>21支</td>
+                        <td>300kg</td>
+                        <td>松阳上上</td>
+                        <td>丽水松阳</td>
+                        <td class="table-price">98.0元/kg</td>
+                        <td>1分钟前</td>
+                        <td><a class="table-order" href="../CommodityReview/index.html">下单</a></td>
+                    </tr>
+                    <tr>
+                        <td>工业无缝管</td>
+                        <td>Q345B</td>
+                        <td>215*12</td>
+                        <td>21支</td>
+                        <td>300kg</td>
+                        <td>松阳上上</td>
+                        <td>丽水松阳</td>
+                        <td class="table-price">98.0元/kg</td>
+                        <td>1分钟前</td>
+                        <td><a class="table-order" href="../CommodityReview/index.html">下单</a></td>
+                    </tr>
+                    <tr>
+                        <td>工业无缝管</td>
+                        <td>Q345B</td>
+                        <td>215*12</td>
+                        <td>21支</td>
+                        <td>300kg</td>
+                        <td>松阳上上</td>
+                        <td>丽水松阳</td>
+                        <td class="table-price">98.0元/kg</td>
+                        <td>1分钟前</td>
+                        <td><a class="table-order" href="../CommodityReview/index.html">下单</a></td>
+                    </tr>
+                    <tr>
+                       <td>工业无缝管</td>
+                        <td>Q345B</td>
+                        <td>215*12</td>
+                        <td>21支</td>
+                        <td>300kg</td>
+                        <td>松阳上上</td>
+                        <td>丽水松阳</td>
+                        <td class="table-price">98.0元/kg</td>
+                        <td>1分钟前</td>
+                        <td><a class="table-order" href="../CommodityReview/index.html">下单</a></td>
+                    </tr>
+                    <tr>
+                        <td>工业无缝管</td>
+                        <td>Q345B</td>
+                        <td>215*12</td>
+                        <td>21支</td>
+                        <td>300kg</td>
+                        <td>松阳上上</td>
+                        <td>丽水松阳</td>
+                        <td class="table-price">98.0元/kg</td>
+                        <td>1分钟前</td>
+                        <td><a class="table-order" href="../CommodityReview/index.html">下单</a></td>
+                    </tr>
+                    <tr>
+                        <td>工业无缝管</td>
+                        <td>Q345B</td>
+                        <td>215*12</td>
+                        <td>21支</td>
+                        <td>300kg</td>
+                        <td>松阳上上</td>
+                        <td>丽水松阳</td>
+                        <td class="table-price">98.0元/kg</td>
+                        <td>1分钟前</td>
+                        <td><a class="table-order" href="../CommodityReview/index.html">下单</a></td>
+                    </tr>
+                    <tr>
+                        <td>工业无缝管</td>
+                        <td>Q345B</td>
+                        <td>215*12</td>
+                        <td>21支</td>
+                        <td>300kg</td>
+                        <td>松阳上上</td>
+                        <td>丽水松阳</td>
+                        <td class="table-price">98.0元/kg</td>
+                        <td>1分钟前</td>
+                        <td><a class="table-order" href="../CommodityReview/index.html">下单</a></td>
+                    </tr>
+                    <tr>
+                        <td>工业无缝管</td>
+                        <td>Q345B</td>
+                        <td>215*12</td>
+                        <td>21支</td>
+                        <td>300kg</td>
+                        <td>松阳上上</td>
+                        <td>丽水松阳</td>
+                        <td class="table-price">98.0元/kg</td>
+                        <td>1分钟前</td>
+                        <td><a class="table-order" href="../CommodityReview/index.html">下单</a></td>
+                    </tr>
+                    <tr>
+                        <td>工业无缝管</td>
+                        <td>Q345B</td>
+                        <td>215*12</td>
+                        <td>21支</td>
+                        <td>300kg</td>
+                        <td>松阳上上</td>
+                        <td>丽水松阳</td>
+                        <td class="table-price">98.0元/kg</td>
+                        <td>1分钟前</td>
+                        <td><a class="table-order" href="../CommodityReview/index.html">下单</a></td>
+                    </tr>
+                    <tr>
+                        <td>工业无缝管</td>
+                        <td>Q345B</td>
+                        <td>215*12</td>
+                        <td>21支</td>
+                        <td>300kg</td>
+                        <td>松阳上上</td>
+                        <td>丽水松阳</td>
+                        <td class="table-price">98.0元/kg</td>
+                        <td>1分钟前</td>
+                        <td><a class="table-order" href="../CommodityReview/index.html">下单</a></td>
+                    </tr>
+                    <tr>
+                        <td>工业无缝管</td>
+                        <td>Q345B</td>
+                        <td>215*12</td>
+                        <td>21支</td>
+                        <td>300kg</td>
+                        <td>松阳上上</td>
+                        <td>丽水松阳</td>
+                        <td class="table-price">98.0元/kg</td>
+                        <td>1分钟前</td>
+                        <td><a class="table-order" href="../CommodityReview/index.html">下单</a></td>
+                    </tr>
+                    <tr>
+                        <td>工业无缝管</td>
+                        <td>Q345B</td>
+                        <td>215*12</td>
+                        <td>21支</td>
+                        <td>300kg</td>
+                        <td>松阳上上</td>
+                        <td>丽水松阳</td>
+                        <td class="table-price">98.0元/kg</td>
+                        <td>1分钟前</td>
+                        <td><a class="table-order" href="../CommodityReview/index.html">下单</a></td>
+                    </tr>
+                    <tr>
+                        <td>工业无缝管</td>
+                        <td>Q345B</td>
+                        <td>215*12</td>
+                        <td>21支</td>
+                        <td>300kg</td>
+                        <td>松阳上上</td>
+                        <td>丽水松阳</td>
+                        <td class="table-price">98.0元/kg</td>
+                        <td>1分钟前</td>
+                        <td><a class="table-order" href="../CommodityReview/index.html">下单</a></td>
+                    </tr>
+                    <tr>
+                        <td>工业无缝管</td>
+                        <td>Q345B</td>
+                        <td>215*12</td>
+                        <td>21支</td>
+                        <td>300kg</td>
+                        <td>松阳上上</td>
+                        <td>丽水松阳</td>
+                        <td class="table-price">98.0元/kg</td>
+                        <td>1分钟前</td>
+                        <td><a class="table-order" href="../CommodityReview/index.html">下单</a></td>
+                    </tr>
+                    <tr>
+                        <td>工业无缝管</td>
+                        <td>Q345B</td>
+                        <td>215*12</td>
+                        <td>21支</td>
+                        <td>300kg</td>
+                        <td>松阳上上</td>
+                        <td>丽水松阳</td>
+                        <td class="table-price">98.0元/kg</td>
+                        <td>1分钟前</td>
+                        <td><a class="table-order" href="../CommodityReview/index.html">下单</a></td>
+                    </tr>
+                    <tr>
+                        <td>工业无缝管</td>
+                        <td>Q345B</td>
+                        <td>215*12</td>
+                        <td>21支</td>
+                        <td>300kg</td>
+                        <td>松阳上上</td>
+                        <td>丽水松阳</td>
+                        <td class="table-price">98.0元/kg</td>
+                        <td>1分钟前</td>
+                        <td><a class="table-order" href="../CommodityReview/index.html">下单</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="paging">
+            <div id="page" class="page_div">
+                <span class="totalSize">共<span>1000</span>条记录</span>
+                <span class="totalPages">
+                    <span>1</span>/<span>52</span>页 
+                </span>
+                <a id="prePage">上一页</a>
+                <a class="current">1</a>
+                <a>2</a>
+                <a>3</a>
+                <a>4</a>
+                . . .
+                <a>52</a>
+                <a id="nextPage">下一页</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="calculator">
+    <img id="zlCalculator" src="../../material/FindSpotgoods/zl.png" alt="">
+    <img class="calculator-bottom" src="../../material/FindSpotgoods/yl.png" alt="">
+</div>
+
+<div class="calculator-hide-show"></div>
+<div class="calculator-hide-show calculator-top-show">
+    <div class="chs-top">
+        <div class="chs-top-img">
+            <img src="../../material/FindSpotgoods/zl2.png" alt="">
+        </div>
+        <div class="chs-top-text">
+            <p class="top-text-first">重量计算器</p>
+            <p class="top-text-second">Weight calculator</p>
+        </div>
+        <div class="chs-top-close">
+            X
+        </div>
+    </div>
+    <div class="chs-bottom">
+        <form class="chs-b-f" action="">
+            <div>
+                <label for="out-size">外径(mm):</label>
+                <input id="out-size" class="placeholder" type="text" placeholder="输入外径">
+            </div>
+            <div>
+                <label for="wall-hou">壁厚(mm):</label>
+                <input id="wall-hou" class="placeholder" type="text" placeholder="输入壁厚">
+            </div>
+            <div>
+                <label for="wall-length">长度(M):</label>
+                <input id="wall-length" class="placeholder" type="text" placeholder="输入长度">
+            </div>
+            <div class="padding-left">
+                <p class="kg-rice"><span></span>公斤/米</p>
+                <p class="padding-left-kg"><span class="kgNumber"></span>公斤</p>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="yl-calculator"></div>
+<div class="yl-calculator yl-calculator-bgc calculator-top-show">
+    <div class="chs-top">
+        <div class="chs-top-img">
+            <img src="../../material/FindSpotgoods/yl2.png" alt="">
+        </div>
+        <div class="chs-top-text">
+            <p class="top-text-first">压力计算器</p>
+            <p class="top-text-second">Pressure calculator</p>
+        </div>
+        <div class="chs-top-close">
+            X
+        </div>
+    </div>
+    <div class="chs-bottom">
+        <div class="chs-b-t">
+            <div class="chs-b-t-l">
+                <input type="radio" name="pressure" checked> 算压力
+                <input type="radio" name="pressure" class="pressure"> 算壁厚
+            </div>
+            <div class="chs-b-t-r">
+                <select name="" id="">
+                    <option value="">材质</option>
+                    <option value="">材质</option>
+                    <option value="">材质</option>
+                </select>
+            </div>
+        </div>
+        <form class="chs-b-f chs-b-f-b" action="">
+            <div>
+                <label class="wall-length-mpa" for="out-size-mm">外径(mm):</label>
+                <input id="out-size-mm" class="placeholder" type="text" placeholder="输入外径">
+            </div>
+            <div>
+                <label class="wall-length-mpa" for="wall-mm">壁厚(mm):</label>
+                <input id="wall-mm"" class="placeholder" type="text" placeholder="输入壁厚">
+            </div>
+            <div>
+                <label class="wall-length-mpa" for="mpa">压力(Mpa):</label>
+                <input id="mpa" class="placeholder" type="text" placeholder="输入长度">
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<div class="home-footer">
+    <div class="container">
+        <div class=" home-footer-login">
+            <img src="../../material/home/logo1.png" alt="">
+            <p>客服热线：400-7676-208</p>
+            <p>服务时间：8:00-19:00</p>
+
+        </div>
+        <div class=" home-footer-list">
+            <ul class="home-footer-list-ul">
+                <li>
+                    <h4>我要买钢管</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">我要买货</a></li>
+                        <li><a href="">采购商管理后台</a></li>
+                        <li><a href="">采购商入驻好处</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>我要卖钢管</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">客户入驻须知</a></li>
+                        <li><a href="">供应商管理后台</a></li>
+                        <li><a href="">为什么加入“速卖网”</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>售后服务</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">售后政策</a></li>
+                        <li><a href="">异议处理流程</a></li>
+                        <li><a href="">售后服务地点</a></li>
+                    </ul>
+                </li>
+                <li class="last-no-wire">
+                    <h4>常见问题</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">无法登录/忘记密码</a></li>
+                        <li><a href="">修改帐户信息</a></li>
+                        <li><a href="">速卖网交易流程</a></li>
+                    </ul>
+                </li>
+                <div class="clearfix"></div>
+
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="home-copyright">
+    <div class="container">
+        <div class="home-copyright-top">
+            <ul class="home-copyright-ul">
+                <li><span>上上工业速卖网</span></li>
+                <li><span>关于我们</span></li>
+                <li><span>实地认证</span></li>
+                <li><span>手机找现货</span></li>
+                <li><span>隐私声明</span></li>
+                <li class="last-no-wire"><span>联系我们</span></li>
+            </ul>
+        </div>
+        <div class="home-copyright-bottom">© 2001-2017 www.gysmw.com 版权所有 备案号 【沪ICP备05025340-2】许可证号【沪ICP备05025340】</div>
+    </div>
+
+</div>
+
+<script src="../../common/js/placehoder.js"></script>
+</body>
+</html>

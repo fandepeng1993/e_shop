@@ -1,0 +1,138 @@
+.OfferImmediately {
+	width: 63%;
+	margin-left: 18.5%;
+}
+
+.OfferImmediately .top {
+	width: 100%;
+	line-height: 50px;
+	min-width: 1200px;
+	height: 50px;
+}
+
+.OfferImmediately .top .left {
+	color: #47A8F9;
+	float: left;
+}
+
+.OfferImmediately .topContent {
+	width: 100%;
+	min-width: 1100px;
+}
+
+.OfferImmediately .topContent .topContent-title {
+	width: 100%；
+	height:50px;
+	background: #2B8EE3;
+	padding-left: 18px;
+}
+
+.OfferImmediately .topContent .topContent-title i {
+	color: #FFF;
+	font-size: 35px;
+	float: left;
+	margin-right: 5px;
+}
+
+.OfferImmediately .topContent .topContent-title .left {
+	color: #FFF;
+	font-size: 17px;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.OfferImmediately .topContent .topContent-title .left .small{
+	color: #FFF;
+	font-size: 13px;
+	display: block;
+	margin-top: -3px;	
+}
+
+.OfferImmediately .topContent .topContent-content {
+	border: 1px solid #D2D2D2;
+}
+
+.OfferImmediately .topContent .topContent-content .table {
+	margin-bottom: 0px;
+	font-size: 16px;
+}
+
+.OfferImmediately .topContent .topContent-content .table td {
+	height: 40px;
+	line-height: 40px;
+	background: #fff;
+}
+
+.OfferImmediately .topContent .topContent-content .table td .btn{
+	color: #fff;
+	background: #FD7322;
+	outline: none;
+}
+
+.OfferImmediately .searchText{
+	width: 100%;
+}
+
+.OfferImmediately .searchText td{
+	height: 50px!important;
+	line-height: 50px!important;
+	font-size: 16px;
+	color: #333;
+}
+
+.OfferImmediately .searchText td .point{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background: #E60012;
+	display: block;
+	float: left;
+	margin-top: 22px;
+	margin-right: 5px;
+}
+
+.OfferImmediately .searchText input{
+	width: 100px;
+	height: 30px;
+	float: right;
+	margin-top: 8px;
+	margin-right: 30px;
+}
+
+.OfferImmediately .summary{
+	width: 100%;
+	background: #fff;
+}
+
+.OfferImmediately .summary p{
+	font-size: 16px;
+	color: #333;
+	padding-left: 15px;
+	margin-bottom: 15px;
+}
+
+.OfferImmediately .summary textarea{
+	margin-left: 1%;
+	resize: none;
+	width: 98%;
+	border-color: #D2D2D2;
+	outline: none;
+	padding: 10px;
+}
+
+.OfferImmediately .summary .btn{
+	background: #FD7322;
+	color: #fff;
+	margin-left: 49%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	outline: none;
+	font-size: 18px;
+}
+
+/*适配笔记本*/
+.smallScreen .OfferImmediately{
+	width: 80%;
+	margin-left: 10%;
+}

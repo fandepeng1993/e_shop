@@ -1,0 +1,268 @@
+.fl-uploadc-uploadc {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+    /*font-size: 2.5rem;
+      padding: 0.8rem 3rem ;
+      border-radius: 2.3rem;*/
+
+    /*background:-moz-linear-gradient(left,#ace,#f96);!*Mozilla*!
+        background:-webkit-gradient(linear,0 50%,100% 50%,from(#ace),to(#f96));!*Old gradient for webkit*!
+        background:-webkit-linear-gradient(left,#ace,#f96);!*new gradient for Webkit*!
+        background:-o-linear-gradient(left,#ace,#f96); !*Opera11*!
+        filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ace, endColorstr=#f96)";!*IE<9>*!
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#ace, endColorstr=#f96)";!*IE8+*!
+        color: white;*/
+}
+.searchCompany{
+    margin-top: 30px;
+}
+
+.searchCompany-recommend{
+}
+
+.clearfixs{
+    padding-left: 20px;
+
+    background: #fff;
+}
+.searchCompany-recommend .clearfixs i.iconfont{
+    position: absolute;
+    left: 10px;
+    font-size: 20px;
+    top: 3px;
+    border-right: 1px solid #A2A2A2;
+    padding-right: 10px;
+}
+
+.searchCompany-recommend-title-text{
+    float: left;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.searchCompany-recommend-title-text h5{
+    margin: 5px 0;
+}
+.searchCompany-recommend-title-text p{
+    margin: 0;
+}
+
+.clearfixs a{
+    color: #7D7D7D;
+    float: right;
+    margin-right: 20px;
+    line-height: 65px;
+    cursor: pointer;
+
+}
+.searchCompany-panel{
+    margin-top: 20px;
+}
+.searchCompany-panel-ul>li{
+    float: left;
+    background: #fff;
+    width: 32%;
+    margin-bottom: 20px;
+}
+.searchCompany_top .imgshss{
+    background: url("../../../material/home/yuan1.png");
+    background-size: cover;
+    width: 56px;
+    height: 56px;
+    float: left;
+}
+.searchCompany_top .imgsyss{
+    background: url("../../../material/home/yuan2.png");
+    background-size: cover;
+    width: 56px;
+    height: 56px;
+    float: left;
+}
+.searchCompany_top .imgzjss{
+    background: url("../../../material/home/yuan3.png");
+    background-size: cover;
+    width: 56px;
+    height: 56px;
+    float: left;
+}
+.searchCompany_top .imgjsss{
+    background: url("../../../material/home/yuan4.png");
+    background-size: cover;
+    width: 56px;
+    height: 56px;
+    float: left;
+}
+.searchCompany_top h4{
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 8px;
+}
+.searchCompany_top p span{
+   color: #999999;
+}
+.searchCompany_top{
+    overflow: hidden;
+    padding: 18px 18px 0px 18px;
+    height: 83px;
+}
+.searchCompany_topin{
+    float: left;
+    margin-left: 20px;
+}
+.n-first{
+    border-top: 2px solid #FF8383;
+}
+.n-secround{
+    border-top: 2px solid #B6D138;
+}
+.n-third{
+    border-top: 2px solid #83C3FF;
+}
+.searchCompany-panel-ul>li.f_distance{
+    margin-left:2%;
+    margin-right:2%;
+}
+.searchCompany-panel-ul h3 i{
+    font-size: 30px;
+}
+.searchCompany-panel-ul h3{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.searchCompany-panel-ul-info{
+    padding: 4%;
+    /*border-top: 1px solid #D9D9D9;*/
+    height: 180px;
+}
+.searchCompany-panel-ul-info.welcomeIn{
+    background:url("../../../material/FindSpotgoods/searchCompany/cooperation.png") no-repeat;
+    background-position: center center;
+}
+.searchCompany-panel-ul-info li{
+    margin: 10px 0;
+}
+.searchCompany-panel-ul-info li span{
+    display: inline-block;
+    width: 80%;
+}
+
+
+
+/*
+.searchCompany-panel-ul-info li span.company{position: relative; line-height: 20px; max-height: 40px;overflow: hidden;}
+.searchCompany-panel-ul-info li span.company:after{content: "..."; position: absolute; bottom: 0; right: 0; padding-left: 40px;
+    background: -webkit-linear-gradient(left, transparent, #fff 55%);
+    background: -o-linear-gradient(right, transparent, #fff 55%);
+    background: -moz-linear-gradient(right, transparent, #fff 55%);
+    background: linear-gradient(to right, transparent, #fff 55%);
+}
+*/
+
+
+
+
+
+.searchCompany-panel-ul-info li i{
+    font-style: normal;
+    display: inline-block;
+    width: 18%;
+    text-align:justify;
+    text-align-last:justify;
+    vertical-align: top;
+    color: #999999;
+}
+.nowSend{
+    padding:5px 15px;
+    border:1px solid #2B8EE3;
+    color:#2B8EE3;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.nowSend:hover{
+    text-decoration: none;
+    color: #fff;
+    background:#2B8EE3;
+    cursor: pointer;
+
+}
+.nowSendWrap{
+    margin: 0 auto;
+    width: 40%;
+
+}
+.searchCompany-advantage .line{float: left;width: 40%;border-color:#BFBFBF;}
+.searchCompany-advantage .icon-text{
+    float: left;
+    width: 20%;
+    /* padding: 0 10px; */
+    /* margin: 0 auto; */
+    padding-left: 4%;
+    margin-top: -10px;
+}
+.searchCompany-advantage .icon-text i.iconfont{
+    font-size: 46px;
+    float: left;
+    color: #3d9ae9;
+}
+.searchCompany-advantage-title-text{float: left}
+.searchCompany-advantage-title-text h4{
+    margin-bottom: 5px;
+}
+.searchCompany-advantage-title-text p{
+    margin: 0;
+}
+.our-advantage-ul li{
+    background: #fff;
+    width: 23%;
+    height: 100px;
+    float: left;
+}
+.oa_distance{
+    margin: 0 2.6%;
+}
+.our-advantage-ul{
+    margin-top: 20px;
+}
+.our-advantage-ul li.oa_important{
+    margin-left: 0%;
+}
+.our-advantage-ul i.iconfont{
+    font-size: 50px;
+    float: left;
+    width: 30%;
+    padding: 5%;
+}
+.our-advantage-title-text{
+    float: left;
+    width: 70%;
+}
+.our-advantage-title-text p{
+    color: #666666;
+}
+.clearfixs h4{
+    color: #2B75E3;
+    margin-top: 0;
+}
+.clearfixs{
+    padding: 30px;
+}
+.clearfixs .clearfix{
+    width: 70%;
+    margin: 0 auto;
+}
+.searchVM{
+    overflow: hidden;
+    position: relative;
+}
+.searchVM input{
+    width: 80%;
+    float: left;
+    padding-left: 50px;
+}
+.searchVM button{
+    float: left;
+    margin-left: 2%;
+}

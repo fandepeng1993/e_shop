@@ -1,0 +1,324 @@
+
+.FindSpotgoods {
+	min-width: 1366px;
+	background-color: #F5F5F5;
+}
+.FindSpotgoods .content {
+	width: 76%;
+	margin: 0 auto;
+
+}
+.content-advertisement {
+	overflow: hidden;
+}
+.content-advertisement-left {
+	float: left;
+	width: 20%;
+}
+.content-advertisement-left p {
+	color: #333333;
+	font-size: 14px;
+	height: 14px;
+	line-height: 14px;
+	margin: 30px 0 20px;
+}
+.content-advertisement-left p span {
+	color: #FF4200;
+}
+.content-advertisement-right {
+	float: right;
+	margin: 21px 0 15px 0;
+}
+.content-advertisement-right a {
+	display: inline-block;
+	width: 29px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	background-color: #C6C6C6;
+	color: #FFFFFF;
+}
+.content-advertisement-right a:hover {
+	text-decoration: none;
+}
+.content .content-img {
+	height: 157px;
+}
+.content .content-img img {
+	margin-left: 0.6%;
+	width: 19.2%;
+	height: 72.68px;
+}
+.content .content-img .img-first,.content .content-img .img-six {
+	margin-left: 0;
+}
+.img-six,.img-seven,.img-eight,.img-nine,.img-ten {
+	margin-top: 10px;
+}
+.content-goodsList {
+	margin: 26px 0 15px;
+}
+.content-goodsList p {
+	margin: 0;
+	color: #333333;
+}
+.content-goodsList p span {
+	display: inline-block;
+	font-size: 14px;
+	height: 14px;
+	line-height: 14px;
+}
+.content-table ul li,.content-table ul li a {
+	display: inline-block;
+}
+.content-table ul {
+	margin: 0;
+}
+.content-table ul li {
+	width: 113px;
+	height: 41px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 41px;
+}
+.content-table .active {
+	background-color: #2B8EE3;
+}
+.content-table .tabActive {
+	background-color: #fff;
+	margin-left: 5px;
+}
+.content-table .active a {
+	color: #fff;
+}
+.content-table ul li a {
+	color: #333;
+	height: 17px;
+	line-height: 17px;
+}
+.content-table ul li a:hover {
+	text-decoration: none;
+}
+.content-tableBox {
+	background-color: #fff;
+	height: 170px;
+	padding: 41px 0 0 65px;
+}
+.content-tableBox .content-tableBox-top {
+	overflow: hidden;
+}
+.tableBox-top-left {
+	float: left;
+	width: 63%;
+	height: 56px;
+	border: 1px solid #125CC2;
+	border-radius: 5px;
+	/*behavior: url(../../common/css/ie-css3.htc);*/
+}
+.tableBox-top-left div {
+	width: 33%;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	margin: 13px 0px;
+	padding: 0 25px;
+}
+.tableBox-top-left div select {
+	width: 100%;
+	border: none;
+}
+.tableBox-top-left .select-border-right {
+	border-right: 1px solid #ccc;
+}
+.tableBox-top-left .select-border-none input{
+	border: none;
+}
+.select {
+	outline: none;
+}
+.tableBox-top-right {
+	float: left;
+	margin-left: 18px;
+}
+.tableBox-top-right button {
+	width: 137px;
+	height: 56px;
+	border: 1px solid #2B8EE3;
+	border-radius: 5px;
+	font-size: 18px;
+	/*behavior: url(../../common/css/ie-css3.htc);*/
+}
+.tableBox-top-right button span {
+	width: 72px;
+	height: 17px;
+	display: inline-block;
+	line-height: 17px;
+}
+.tableBox-top-right .searchNow {
+	background-color: #2B8EE3;
+	color: #fff;
+}
+.tableBox-top-right .searchCompany {
+	background-color: #fff;
+	color: #2B8EE3;
+	margin-left: 19px;
+}
+.content-tableBox-bottom {
+	margin-top: 13px;
+	margin-bottom: 0;
+	vertical-align: bottom;
+}
+.content-tableBox-bottom img {
+	vertical-align: bottom;
+}
+.content-tableBox-bottom span {
+	font-size: 14px;
+	display: inline-block;
+	height: 15px;
+	color: #666;
+	line-height: 15px;
+	margin-left: 9px;
+}
+.content-tableBox-bottom span .iphoneNum{
+	color: #333;
+}
+.content-operation {
+	margin-top: 25px;
+	overflow: hidden;
+}
+.content-operation-left {
+	float: left;
+	height: 36px;
+}
+.content-operation .content-operation-left ul li {
+	display: inline-block;
+	width: 114px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	border: 1px solid #CACACA;
+}
+.content-operation .content-operation-left ul li img {
+	margin-top: -4px;
+}
+.left-two,.left-three {
+	margin-left: 9px;
+}
+.left-three {
+	width: 91px !important;
+}
+.content-operation-right {
+	float: right;
+}
+.content-operation-right span {
+	display: inline-block;
+	width: 65px;
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+}
+.content-operation-right p {
+	display: inline-block;
+	width: 146px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+	text-align: center;
+	margin: 0 0 0 15px;
+	border: 1px solid #CACACA;
+}
+.content-table-large {
+	margin-top: 14px;
+}
+.content-table-large table {
+	width: 100%;
+}
+.content-table-large table>thead {
+	background-color: #E7E7E7;
+}
+.content-table-large table>thead>tr>th {
+	text-align: center;
+	font-size: 16px;
+	height: 60px;
+}
+.content-table-large table>thead>tr>.table-operation,
+.content-table-large table>tbody>tr>.table-order {
+	display: inline-block;
+	width: 75px;
+	height: 33px;
+	line-height: 33px;
+	margin: 15px -20px 0 0px;
+}
+.content-table-large table>tbody {
+	background-color: #fff;
+}
+.content-table-large table>tbody>tr {
+	border-bottom: 1px solid #E7E7E7;
+}
+.content-table-large table>tbody>tr>td {
+	text-align: center;
+	font-size: 16px;
+	height: 60px;
+}
+.content-table-large table>tbody>tr>.table-price {
+	color: #FF6600;
+}
+.content-table-large table>tbody>tr>.table-order {
+	color: #FF6600;
+	border: 1px solid #FF6600;
+	border-radius: 17px;
+	/*behavior: url(../../common/css/ie-css3.htc);*/
+}
+.page_div {
+	width: 55%;
+    margin: 24px auto 32px;
+    font-size: 14px;
+    color: #333;
+}
+.page_div a {
+    min-width: 31px;
+    height: 28px;
+    border: 1px solid #dce0e0!important;
+    text-align: center;
+    margin-left: 4px;
+    cursor: pointer;
+    line-height: 28px;
+    color: #666666;
+    font-size: 13px;
+    display: inline-block;
+}
+.page_div a:hover {
+	text-decoration: none;
+}
+.page_div .current {
+    background-color: #0073A9;
+    border-color: #0073A9;
+    color: #FFFFFF;
+    margin-left: 9px;
+}
+#prePage, #nextPage {
+    width: 66px;
+}
+#nextPage {
+	margin-left: 9px;
+}
+.totalPages {
+    margin: 0 10px;
+}
+.totalPages span, .totalSize span {
+    color: #0073A9;
+    margin: 0 5px;
+}
+.calculator {
+	position: absolute;
+	top: 105%;
+	left: 4%;
+}
+
+.calculator img {
+	display: block;
+	
+}
+.calculator .calculator-bottom {
+	margin-top: 8px;
+}

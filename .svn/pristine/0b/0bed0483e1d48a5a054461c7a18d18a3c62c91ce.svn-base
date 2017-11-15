@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>店铺首页</title>
+    <link rel="stylesheet" type="text/css" href="../../../common/css/bootstrap.min.css">
+    <!-- 项目自定义图标 -->
+    <link rel="stylesheet" type="text/css" href="../../../common/icon/iconfont.css">
+    <!--公共样式-->
+    <link rel="stylesheet" type="text/css" href="../../../common/css/public.css">
+    <!--公司详情店铺首页-->
+    <link rel="stylesheet" type="text/css" href="../../../module/CompanyDetails/shophome/shophome.css">
+    <!-- jquery1.12.4版本 -->
+    <script type="text/javascript" src="../../../common/js/jquery.min.js"></script>
+</head>
+<body>
+    店铺首页
+</body>
+<script src="../../../common/js/placehoder.js"></script>
+<script src="../../../common/js/public.js"></script>
+<script src="../../../module/CompanyDetails/shophome/shophome.js"></script>
+</html>

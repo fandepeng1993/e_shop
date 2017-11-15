@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>资讯-正文</title>
+    <!-- 用最新的IE引擎渲染 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <!-- 页面窗口自适应 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../../common/favorite/ssslogo.ico">
+    <!-- 框架样式 -->
+    <link rel="stylesheet" type="text/css" href="../../../common/css/bootstrap.min.css">
+    <!-- 项目自定义图标 -->
+    <link rel="stylesheet" type="text/css" href="../../../common/icon/iconfont.css">
+    <!--公共样式-->
+    <link rel="stylesheet" type="text/css" href="../../../common/css/public.css">
+    <link rel="stylesheet" type="text/css" href="../../../common/css/public_banner.css">
+    <!-- 资讯样式 -->
+    <link rel="stylesheet" type="text/css" href="../../../module/ssInformation/ssInforText/ssInforText.css">
+    <!-- jquery1.12.4版本 -->
+    <script type="text/javascript" src="../../../common/js/jquery.min.js"></script>
+    <!-- 公共样式 -->
+    <script type="text/javascript" src="../../../module/ssInformation/ssInforText/ssInforText.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="home-top">
+        <div class="container-fluid">
+            <span class="navbar-brand"><i class="iconfont icon-shouye"></i></span>
+            <p class="navbar-text">您好，欢迎来到上上工业速买网！</p>
+            <!-- 右侧菜单 -->
+            <ul class="home-ul">
+                <li>我的订单 <span class="caret"></span></li>
+                <li>消息中心(0)</li>
+                <li>会员中心</li>
+                <li><i class="iconfont icon-gouwuche shop-card"></i> 购物车</li>
+                <li>在线客服</li>
+                <li class="li-last"><i class="iconfont icon-dianhua"></i>400-7676-208</li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</nav>
+<div class="home-title">
+    <div class="title-top">
+        <div class="title-left">
+            <img src="../../../material/home/logo.png" />
+        </div>
+        <!-- 右侧菜单 -->
+        <div class="title-right">
+            <ul class="title-ul">
+                <li ><a href="../home/index.html">首页</a></li>
+                <li><a href="../FindSpotgoods/index.html">找现货</a></li>
+                <li><a href="../FindCustomMade/index.html">找定制</a></li>
+                <li ><a href="../FindAskbuy/index.html">找求购</a></li>
+                <li><a href="../FindLogistics/index.html">找物流</a></li>
+                <li class="active"><a href="../ssInformation/index.html">资讯</a></li>
+                <li><a href="../ssResume/index.html">企业招聘</a></li>
+            </ul>
+        </div>
+        <div class="title-login">
+            <ul class="title-ul">
+                <li><a href="../Login/">登陆</a></li>
+                <li><a href="../Register/">会员注册</a></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="home-carousel">
+    <div id="demo02" class="flexslider">
+        <ul class="slides">
+            <li>
+                <div class="img" style="position: relative">
+                    <img src="../../../material/home/lunbo4.png" height="450" width="100%" alt="" />
+                   <!-- <div class="home-uploadc unselectable">
+                        <img src="../../material/home/button.png" alt="">
+                        &lt;!&ndash;一键上传库存&ndash;&gt;
+                    </div>-->
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="ssInforText">
+	<div class="top">
+        <i class="iconfont icon-dizhi left"></i> 当前位置： 工业速卖网 > 咨询中心 > 正文
+    </div>
+    <div class="content">
+        <div class="left">
+            <div class="left-title">
+                <p class="first">不锈钢管供需两弱格局很难打破 终端备货积极性一再下降</p>
+                <p class="text-center second">
+                	<span class="line"></span>
+                	<span class="time">时间：2017-11-03</span>
+                	<span class="author">作者：上上工业速卖网</span>
+                	<span class="lineRight"></span>
+                </p>
+                <p class="third">
+                	<span class="share">分享到：</span>
+                	<span class="share-img">
+						<i class="iconfont icon-weixin"></i>
+						<i class="iconfont icon-weibo"></i>
+						<i class="iconfont icon-kongjian"></i>
+                	</span>
+                	<span class="share-right">
+						来源：工业速卖网 <span>访问量：84</span>
+                	</span>
+                </p>
+            </div>
+            <div class="left-content">
+                <p class="first">金九银十不及预期，那么经过了两个月的调整，不锈钢管是否能在今年冬天趁限产之际再次发力呢？</p>
+                <p>原材料方面</p>
+                <p>具体来看，钢坯方面：上旬钢坯价格一直处于低位震荡，钢厂挺价意愿较强，但由于商家多观望，整体上涨幅度不大；中旬开始，受采暖季限产影响，部分钢厂烧结矿不足导致高炉停产，钢坯外卖量整体减少明显，钢坯价格继续走高，但由于终端需求偏弱，月底钢坯价格再次陷入盘整局面；焦炭方面：虽然进入10月份“2+26”城市焦企纷纷限产，但因焦化厂盈利空间尚可，故而减产力度有限，且随着主流不锈钢管企业库存水平的不断回升，对焦炭的降价节奏亦是越来越快，幅度也不断加大；焦煤方面：此期间焦煤价格相对稳定，主要是因为焦化厂开工维持高位，限产力度不大，焦煤需求相对稳定。焦炭价格持续快节奏下跌，焦化厂利润萎缩明显，打压焦煤价格是必然，现焦化厂已经大幅减少甚至停止采购焦煤，煤企出货困难，库存增加明显。我们可以看出，原材料方面由于供需两弱的格局延续并不能为不锈钢管的上涨提供支撑。</p>
+                <p>库存方面</p>
+                <p>截至2017年10月27日，本月主要城市各品种社会库存有增有降。经过十一假期之后，终端备货的积极性一再下降，导致不锈钢管社会库存一再的上升，短期内由于工地的停工钢厂的限产，供需两弱格局将很难打破。</p>
+                <p>期货方面</p>
+                <p>本月期货以说是波澜不惊的一个月，十月一改九月连续下跌的行情，相比不锈钢管的震荡企稳，原材料本月却相对较弱，呈现跌势。从十一期间的钢坯大幅上涨，到9号开盘冲高回落，再到本月一直延续宽幅震荡，我们可以看出多空博弈非常激烈，大幅增仓的态势可以看出大量资金在抄底进场。从日线级别来看，短期将延续在60日线下方震荡为主，均线开始粘合，震荡区间开始缩小，我们认为短期期货将延续震荡为主。从周线级别来看，目前来看，20周均线短期支撑起了行情，长期大方向依然偏多为主。</p>
+                <p>综上所述，11月不锈钢管将延续一个震荡的态势，但目前日线已经呈现收敛三角形的态势，预计不锈钢管行情将在11月底或12月为明年年初的上行开始打基础。</p>
+            </div>
+            <div class="left-bottom">
+                <div class="left-bottom-top">
+					注：以上文章转载自互联网，不代表本网观点且不对其真实性负责；如稿件版权单位或个人不愿在本网发布，请来电 或来函与本网联系。
+                </div>
+                <div class="left-bottom-btn">
+					<button class="btn">上一篇</button><span class="btn-left">城市钢铁业取暖季错峰生产 如何确保效果</span>
+					<span class="btn-right">钢铁行业：盈利再创新高 四季度有望持续</span><button class="btn two">下一篇</button>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="first">
+                <div class="first-title">
+                    新闻资讯
+                    <button class="btn">更多 ></button>
+                </div>
+                <div class="first-content">
+                    <ul>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影需求复苏对不锈钢无缝管市场有影</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影需求复苏对不锈钢无缝管市场有影</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影需求复苏对不锈钢无缝管市场有影</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影需求复苏对不锈钢无缝管市场有影</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影需求复苏对不锈钢无缝管市场有影</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影需求复苏对不锈钢无缝管市场有影</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影需求复苏对不锈钢无缝管市场有影</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="first second">
+                <div class="first-title">
+                    本网动态
+                    <button class="btn">更多 ></button>
+                </div>
+                <div class="first-content">
+                    <ul>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="home-footer">
+    <div class="containert">
+        <div class=" home-footer-login">
+            <img src="../../../material/home/logo1.png" alt="">
+            <p>客服热线：400-7676-208</p>
+            <p>服务时间：8:00-19:00</p>
+
+        </div>
+        <div class=" home-footer-list">
+            <ul class="home-footer-list-ul">
+                <li>
+                    <h4>我要买钢管</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">我要买货</a></li>
+                        <li><a href="">采购商管理后台</a></li>
+                        <li><a href="">采购商入驻好处</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>我要卖钢管</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">客户入驻须知</a></li>
+                        <li><a href="">供应商管理后台</a></li>
+                        <li><a href="">为什么加入“速卖网”</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>售后服务</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">售后政策</a></li>
+                        <li><a href="">异议处理流程</a></li>
+                        <li><a href="">售后服务地点</a></li>
+                    </ul>
+                </li>
+                <li class="last-no-wire">
+                    <h4>常见问题</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">无法登录/忘记密码</a></li>
+                        <li><a href="">修改帐户信息</a></li>
+                        <li><a href="">速卖网交易流程</a></li>
+                    </ul>
+                </li>
+                <div class="clearfix"></div>
+
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="home-copyright">
+    <div class="containert">
+        <div class="home-copyright-top">
+            <ul class="home-copyright-ul">
+                <li><span>上上工业速卖网</span></li>
+                <li><span>关于我们</span></li>
+                <li><span>实地认证</span></li>
+                <li><span>手机找现货</span></li>
+                <li><span>隐私声明</span></li>
+                <li class="last-no-wire"><span>联系我们</span></li>
+            </ul>
+        </div>
+        <div class="home-copyright-bottom">© 2001-2017 www.gysmw.com 版权所有 备案号 【沪ICP备05025340-2】许可证号【沪ICP备05025340】</div>
+    </div>
+</div>
+</body>
+<script src="../../../common/js/placehoder.js"></script>
+<!-- 公共头部 -->
+<script type="text/javascript" src="../../../common/js/public.js"></script>
+</html>

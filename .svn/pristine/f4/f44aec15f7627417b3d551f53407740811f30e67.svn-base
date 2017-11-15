@@ -1,0 +1,86 @@
+.companydetail-content-right-top h4{
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 0px;
+    /*border-bottom: 1px solid #DCDCDC;*/
+    font-size: 16px;
+    margin-top: 0px;
+}
+.companydetail-content-right-top {
+    background: #fff;
+    height: 100%;
+    border-left: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+
+.companydetail-content-right-top .btn-danger{
+    color: #FF6600;
+    border: 1px solid #FF6600;
+    background: #fff;
+    border-radius: 15px;
+}
+.companydetail-content-right-top .btn-danger:hover{
+    background: #FF6600;
+    color: #fff;
+}
+.companydetail-content-right-top .table>tbody>tr>td{
+    vertical-align: inherit;
+    padding: 12px 5px;
+}
+.companydetail-content-right-top td a{
+    color: #333;
+    text-decoration: none;
+}
+.text-center th{
+    text-align: center;
+    padding: 16px 5px !important;
+    background: #FFFDEF;
+}
+.text-center{
+    border-bottom: 1px solid #dddddd;
+}
+.text-center .info{
+    border-left: 1px solid #3D91F0;
+    color: #3D91F0;
+}
+.companydetail-content-right-top .text-center .info a{
+    color:#3D91F0 ;
+}
+.page_div {
+    width: 75%;
+    margin: 48px auto 0px;
+    font-size: 14px;
+    color: #333;
+    padding-bottom: 32px;
+}
+.totalPages {
+    margin: 0 10px;
+}
+.totalPages span, .totalSize span {
+    color: #0073A9;
+    margin: 0 5px;
+}
+#prePage, #nextPage {
+    width: 66px;
+}
+.page_div a {
+    min-width: 31px;
+    height: 28px;
+    border: 1px solid #dce0e0!important;
+    text-align: center;
+    margin-left: 4px;
+    cursor: pointer;
+    line-height: 28px;
+    color: #666666;
+    font-size: 13px;
+    display: inline-block;
+}
+.page_div .current {
+    background-color: #0073A9;
+    border-color: #0073A9;
+    color: #FFFFFF;
+    margin-left: 9px;
+}

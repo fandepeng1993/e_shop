@@ -1,0 +1,29 @@
+.home-carousel {
+	position: relative;
+}
+
+.home-carousel .flexslider .slides {
+	list-style: none;
+	padding: 0;
+}
+
+.flexslider {
+	margin: 0px auto;
+	position: relative;
+	width: 100%;
+	height: 450px;
+
+	zoom: 1;
+	min-width: 1366px;
+}
+
+.flex-viewport {
+	max-height: 2000px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.flexslider .slides {
+	zoom: 1;
+}

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>企业招聘</title>
+    <!-- 用最新的IE引擎渲染 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <!-- 页面窗口自适应 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../common/favorite/ssslogo.ico">
+    <!-- 框架样式 -->
+    <link rel="stylesheet" type="text/css" href="../../common/css/bootstrap.min.css">
+    <!-- 项目自定义图标 -->
+    <link rel="stylesheet" type="text/css" href="../../common/icon/iconfont.css">
+    <!--公共样式-->
+    <link rel="stylesheet" type="text/css" href="../../common/css/public.css">
+    <link rel="stylesheet" type="text/css" href="../../common/css/public_banner.css">
+    <!-- 企业招聘样式 -->
+    <link rel="stylesheet" type="text/css" href="../../module/ssResume/ssResume.css">
+    <!-- jquery1.12.4版本 -->
+    <script type="text/javascript" src="../../common/js/jquery.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="home-top">
+        <div class="container-fluid">
+            <span class="navbar-brand"><i class="iconfont icon-shouye"></i></span>
+            <p class="navbar-text">您好，欢迎来到上上工业速买网！</p>
+
+            <!-- 右侧菜单 -->
+            <ul class="home-ul">
+                <li>我的订单 <span class="caret"></span></li>
+                <li>消息中心(0)</li>
+                <li>会员中心</li>
+                <li><i class="iconfont icon-gouwuche shop-card"></i> 购物车</li>
+                <li>在线客服</li>
+                <li class="li-last"><i class="iconfont icon-dianhua"></i>400-7676-208</li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</nav>
+<div class="home-title">
+    <div class="title-top">
+        <div class="title-left">
+            <img src="../../material/home/logo.png" />
+        </div>
+        <!-- 右侧菜单 -->
+        <div class="title-right">
+            <ul class="title-ul">
+                <li><a href="../home/index.html">首页</a></li>
+                <li><a href="../FindSpotgoods/index.html">找现货</a></li>
+                <li><a href="../FindCustomMade/index.html">找定制</a></li>
+                <li ><a href="../FindAskbuy/index.html">找求购</a></li>
+                <li><a href="../FindLogistics/index.html">找物流</a></li>
+                <li><a href="../ssInformation/index.html">资讯</a></li>
+                <li class="active"><a href="../ssResume/index.html">企业招聘</a></li>
+            </ul>
+        </div>
+        <div class="title-login">
+            <ul class="title-ul">
+                <li><span>登陆</span></li>
+                <li><span>会员注册</span></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="home-carousel">
+    <div id="demo02" class="flexslider">
+        <ul class="slides">
+            <li>
+                <div class="img" style="position: relative">
+                    <img src="../../material/ssResume/lunbo4.png" height="450" width="100%" alt="" />
+                    <!--<div class="home-uploadc unselectable">
+                        <img src="../../material/home/button.png" alt="">
+                        &lt;!&ndash;一键上传库存&ndash;&gt;
+                    </div>-->
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</div>
+<div class="ssResume">
+    <div class="content">
+        <div class="ssResumeInformation">
+            <div class="informationLeft">
+                <i class="iconfont icon-weibiaoti--"></i>
+                <div class="informationBox">
+                    <p class="informationText">招聘信息</p>
+                    <p class="informationWord">Recruitment Information</p>
+                </div>
+            </div> 
+            <div class="informationRight">
+                <input type="text" class="placeholder" placeholder="请输入公司名称或日期进行搜索">
+                <button>搜索</button>
+            </div>
+        </div>
+        <div class="information-list">
+            <div class="information-l-l">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>标题</th>
+                            <th>公司名称</th>
+                            <th>更新时间<i class="iconfont icon-rectangle52rectangle52-copy"></i></th>
+                            <th>查看详情</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="titleFirst"><span></span>诚聘不锈钢销售人员</td>
+                            <td class="companyName">上海上上不锈钢管有限公司</td>
+                            <td class="updateTime">2017-10-30</td>
+                            <td>
+                                <a class="see look" href="">查看</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="titleFirst"><span></span>内勤同事一名</td>
+                            <td class="companyName">温州市金强钢管有限公司</td>
+                            <td class="updateTime">2017-10-29</td>
+                            <td>
+                                <a class="see" href="">查看</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="titleFirst"><span></span>诚聘业务助理</td>
+                            <td class="companyName">温州市超凡不锈钢机械有限公司</td>
+                            <td class="updateTime">2017-10-29</td>
+                            <td>
+                                <a class="see" href="">查看</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="titleFirst"><span></span>诚聘不锈钢销售人员</td>
+                            <td class="companyName">上海上上不锈钢管有限公司</td>
+                            <td class="updateTime">2017-10-29</td>
+                            <td>
+                                <a class="see" href="">查看</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="titleFirst"><span></span>招 不锈钢焊管自动焊 焊工</td>
+                            <td class="companyName">浙江大大不锈钢有限公司</td>
+                            <td class="updateTime">2017-10-29</td>
+                            <td>
+                                <a class="see" href="">查看</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="titleFirst"><span></span>招 不锈钢焊管自动焊 焊工</td>
+                            <td class="companyName">上海上上不锈钢管有限公司</td>
+                            <td class="updateTime">2017-10-29</td>
+                            <td>
+                                <a class="see" href="">查看</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="titleFirst"><span></span>诚聘不锈钢销售人员</td>
+                            <td class="companyName">上海上上不锈钢管有限公司</td>
+                            <td class="updateTime">2017-10-29</td>
+                            <td>
+                                <a class="see" href="">查看</a>
+                            </td>
+                        </tr>
+                        <tr>
+                           <td class="titleFirst"><span></span>诚聘不锈钢销售人员</td>
+                            <td class="companyName">上海上上不锈钢管有限公司</td>
+                            <td class="updateTime">2017-10-29</td>
+                            <td>
+                                <a class="see" href="">查看</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="titleFirst"><span></span>诚聘不锈钢销售人员</td>
+                            <td class="companyName">上海上上不锈钢管有限公司</td>
+                            <td class="updateTime">2017-10-29</td>
+                            <td>
+                                <a class="see" href="">查看</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="titleFirst"><span></span>诚聘不锈钢销售人员</td>
+                            <td class="companyName">上海上上不锈钢管有限公司</td>
+                            <td class="updateTime">2017-10-29</td>
+                            <td>
+                                <a class="see" href="">查看</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="titleFirst"><span></span>诚聘不锈钢销售人员</td>
+                            <td class="companyName">上海上上不锈钢管有限公司</td>
+                            <td class="updateTime">2017-10-29</td>
+                            <td>
+                                <a class="see" href="">查看</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="titleFirst"><span></span>诚聘不锈钢销售人员</td>
+                            <td class="companyName">上海上上不锈钢管有限公司</td>
+                            <td class="updateTime">2017-10-29</td>
+                            <td>
+                                <a class="see" href="">查看</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="titleFirst"><span></span>诚聘不锈钢销售人员</td>
+                            <td class="companyName">上海上上不锈钢管有限公司</td>
+                            <td class="updateTime">2017-10-29</td>
+                            <td>
+                                <a class="see" href="">查看</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="titleFirst"><span></span>诚聘不锈钢销售人员</td>
+                            <td class="companyName">上海上上不锈钢管有限公司</td>
+                            <td class="updateTime">2017-10-29</td>
+                            <td>
+                                <a class="see" href="">查看</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="titleFirst"><span></span>诚聘不锈钢销售人员</td>
+                            <td class="companyName">上海上上不锈钢管有限公司</td>
+                            <td class="updateTime">2017-10-29</td>
+                            <td>
+                                <a class="see" href="">查看</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="titleFirst"><span></span>诚聘不锈钢销售人员</td>
+                            <td class="companyName">上海上上不锈钢管有限公司</td>
+                            <td class="updateTime">2017-10-29</td>
+                            <td>
+                                <a class="see" href="">查看</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="paging">
+                    <div id="page" class="page_div">
+                        <span class="totalSize">共<span>50</span>页</span>
+                        <span class="totalPages">
+                            <span>1</span>/<span>50</span>页 
+                        </span>
+                        <a id="prePage">上一页</a>
+                        <a class="current">1</a>
+                        <a>2</a>
+                        <a>3</a>
+                        <a>4</a>
+                        . . .
+                        <a>50</a>
+                        <a id="nextPage">下一页</a>
+                    </div>
+                </div>
+            </div>
+            <div class="information-l-r">
+                <div class="information-l-r-top">
+                    <div class="newInformation">
+                        <h3>新闻资讯</h3>
+                        <a href="">更多 ></a>
+                    </div>
+                    <ul class="newInformation-list">
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                        <li><span></span>2017年不锈钢现货超市网五一劳动...</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                        <li><span></span>2017年不锈钢现货超市网五一劳动...</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                        <li><span></span>2017年不锈钢现货超市网五一劳动...</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                    </ul>
+                </div>
+                <div class="information-l-r-bottom">
+                    <div class="newInformation">
+                        <h3>本网动态</h3>
+                        <a href="">更多 ></a>
+                    </div>
+                    <ul class="newInformation-list">
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                        <li><span></span>2017年不锈钢现货超市网五一劳动...</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                        <li><span></span>2017年不锈钢现货超市网五一劳动...</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                        <li><span></span>2017年不锈钢现货超市网五一劳动...</li>
+                        <li><span></span>需求复苏对不锈钢无缝管市场有影...</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="home-footer">
+    <div class="container">
+        <div class=" home-footer-login">
+            <img src="../../material/home/logo1.png" alt="">
+            <p>客服热线：400-7676-208</p>
+            <p>服务时间：8:00-19:00</p>
+
+        </div>
+        <div class=" home-footer-list">
+            <ul class="home-footer-list-ul">
+                <li>
+                    <h4>我要买钢管</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">我要买货</a></li>
+                        <li><a href="">采购商管理后台</a></li>
+                        <li><a href="">采购商入驻好处</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>我要卖钢管</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">客户入驻须知</a></li>
+                        <li><a href="">供应商管理后台</a></li>
+                        <li><a href="">为什么加入“速卖网”</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>售后服务</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">售后政策</a></li>
+                        <li><a href="">异议处理流程</a></li>
+                        <li><a href="">售后服务地点</a></li>
+                    </ul>
+                </li>
+                <li class="last-no-wire">
+                    <h4>常见问题</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">无法登录/忘记密码</a></li>
+                        <li><a href="">修改帐户信息</a></li>
+                        <li><a href="">速卖网交易流程</a></li>
+                    </ul>
+                </li>
+                <div class="clearfix"></div>
+
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="home-copyright">
+    <div class="container">
+        <div class="home-copyright-top">
+            <ul class="home-copyright-ul">
+                <li><span>上上工业速卖网</span></li>
+                <li><span>关于我们</span></li>
+                <li><span>实地认证</span></li>
+                <li><span>手机找现货</span></li>
+                <li><span>隐私声明</span></li>
+                <li class="last-no-wire"><span>联系我们</span></li>
+            </ul>
+        </div>
+        <div class="home-copyright-bottom">© 2001-2017 www.gysmw.com 版权所有 备案号 【沪ICP备05025340-2】许可证号【沪ICP备05025340】</div>
+    </div>
+
+</div>
+</body>
+<script src="../../common/js/placehoder.js"></script>
+<script src="../../module/ssResume/ssResume.js"></script>
+<!-- 公共头部 -->
+<script type="text/javascript" src="../../common/js/public.js"></script>
+
+
+</html>

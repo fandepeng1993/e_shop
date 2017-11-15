@@ -1,0 +1,155 @@
+#myTabs .nav-tabs{
+    background: #FFFDEF;
+    border-left: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+#myTabs .nav-tabs>li.active>a,#myTabs .nav-tabs>li.active>a:focus,#myTabs .nav-tabs>li.active>a:hover{
+    border-radius: 0;
+    border-left:none;
+}
+#myTabs .nav-tabs>li.active>a:after{
+content:'';
+}
+
+#myTabs .nav-tabs>li>a{
+    margin-right: 0px;
+    border-radius: 0px;
+    width: 122px;
+    text-align: center;
+    padding: 13px 15px;
+    border-right: 1px solid #dcdcdc;
+}
+.tab-content{
+    margin-top: 20px;
+}
+.tab-content-ul>li{
+    overflow: hidden;
+    border: 1px solid #dcdcdc;
+}
+.img-left{
+    float: left;
+    width: 32%;
+    padding: 10px;
+    background: #fff;
+    border-right: 1px solid #DCDCDC;
+
+}
+.img-left img{
+    width:100%;
+}
+.textcontent-right{
+    float: left;
+    width: 68%;
+    background: #fff;
+}
+.textcontent-right i{
+    font-style: normal;
+}
+.textcontent-right-top{
+    overflow: hidden;
+    padding: 3%;
+}
+.textcontent-right-top b{
+    color: #2C84E7;
+    font-size: 16px;
+    float: left;
+}
+.textcontent-right-top b em{
+    margin-left: 5px;
+    font-style: normal;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.textcontent-right-top span{
+    float: right;
+    font-size: 10px;
+    width: 20%;
+    text-align: center;
+    color: #999;
+}
+.textcontent-right-middle{
+    padding: 0 3% 3% 3%;
+}
+.textcontent-right-middle ul{
+    list-style-type: disc;
+    list-style-position: inside;
+    overflow: hidden;
+    color: #B5B5B5;
+}
+.textcontent-right-middle ul>li{
+    float: left;
+    width: 50%;
+}
+.textcontent-right-middle ul>li i{
+    color: #666;
+}
+.textcontent-right-middle ul>li span{
+    color: #333333;
+}
+.textcontent-right-bottm{
+    padding: 2% 3% 2.2% 3%;
+    border-top: 1px solid #dcdcdc;
+}
+.product-price{
+    overflow: hidden;
+
+}
+.product-price span{
+    line-height: 30px;
+
+}
+.product-price b{
+    color: #FF6C00;
+    font-size: 16px;
+}
+.product-price a{
+    float: right;
+    text-decoration: none;
+    border: 1px solid #FF6600;
+    background: #FF6600;
+    border-radius: 15px;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    padding: 6px 20px;
+}
+
+.page_div {
+    width: 75%;
+    margin: 28px auto 0px;
+    font-size: 14px;
+    color: #333;
+    padding-bottom: 32px;
+}
+.totalPages {
+    margin: 0 10px;
+}
+.totalPages span, .totalSize span {
+    color: #0073A9;
+    margin: 0 5px;
+}
+#prePage, #nextPage {
+    width: 66px;
+}
+.page_div a {
+    min-width: 31px;
+    height: 28px;
+    border: 1px solid #dce0e0!important;
+    text-align: center;
+    margin-left: 4px;
+    cursor: pointer;
+    line-height: 28px;
+    color: #666666;
+    font-size: 13px;
+    display: inline-block;
+}
+.page_div .current {
+    background-color: #0073A9;
+    border-color: #0073A9;
+    color: #FFFFFF;
+    margin-left: 9px;
+}

@@ -1,0 +1,520 @@
+.home-title {
+	border-bottom: 4px solid #3D91F0;
+}
+.title-shoppingCart {
+	float: left;
+	width: 123px;
+	height: 47px;
+	line-height: 47px;
+	text-align: center;
+	margin-top: 26px;
+	margin-left: 2.7%;
+	border: 1px solid #3D91F0;
+	background-color: #fff;
+	outline: none;
+}
+.title-shoppingCart img {
+	margin-top: -7px;
+}
+.title-shoppingCart .shoppingCart {
+	display: inline-block;
+	margin-left: 8px;
+	font-size: 14px;
+	color: #666666;
+}
+.title-shoppingCart .shoppingNum {
+	display: inline-block;
+	margin-left: 6px;
+	width: 21px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #3D91F0;
+	border-radius: 50%;
+	position: relative;
+	z-index: 1;
+	behavior: url(../../common/css/ie-css3.htc);
+}
+.CommodityReview {
+	min-width: 1346px;
+}
+.CommodityReview .content{
+	width: 62.5%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.content-location {
+	margin-top: 19px;
+}
+.content-location .need-margin {
+	display: line-block;
+	margin-left: 11px;
+}
+.content-location .needColor {
+	color: #666;
+	text-decoration: underline;
+}
+.content-location .color-2E {
+	color: #2E2E2E;
+	margin-left: 8px;
+}
+.content-location .buy-order {
+	color: #333;
+}
+.content-location .buy-order:hover {
+	text-decoration: none;
+}
+.product-details {
+	margin-top: 19px;
+	overflow: hidden;
+}
+.product-details .pdl,.product-details .pdr {
+	float: left;
+	height: 472px;
+	background-color: #fff;
+	border: 1px solid #DCDCDC;
+}
+.product-details .pdl {
+	width: 81.75%;
+	overflow: hidden;
+}
+.pdl-left {
+	width: 37.9%;
+}
+.pdl-left,.pdl-right {
+	float: left;
+}
+.pdl-left .largeTmg {
+	width: 100%;
+	height: 371px;
+}
+.pdl-left .smartImg {
+	width: 98%;
+	min-width: 277px;
+	margin: 17px auto 0;
+}
+.pdl-left .smartImg span {
+	width: 12px;
+	height: 18px;
+	display: inline-block;
+}
+.pdl-left .smartImg .left-jian {
+	margin-left: 2.5%;
+}
+.pdl-left .smartImg img {
+	width: 15.37%;
+}
+.pdl-left .smartImg .smartImg-m {
+	margin-left: 1%;
+}
+.pdl-left .smartImg .smartImg-t {
+	border: 3px solid #3D91F0;
+}
+.pdl-right {
+	width: 58.23%;
+	margin-left: 1.95%;
+}
+.pdl-right .no-seamless {
+	/*min-width: 570px;*/
+	margin: 0;
+	font-size: 29px;
+	font-weight: 500;
+	padding: 20px 0 20px 34.39%;
+	border-bottom: 4px dotted #979797;
+}
+.pdl-right .pdList {
+	/*min-width: 570px;*/
+	padding: 8px 0 9px 0;
+	border-bottom: 4px dotted #979797;
+}
+.pdl-right .pdList>span {
+	width: 33%;
+	display: inline-block;
+	color: #999;
+	font-size: 16px;
+	border-right: 1px solid #DCDCDC;
+}
+.pdl-right .pdList .pdList-f {
+	width: 31%;
+	min-width: 121px;
+	padding-left: 3%;
+	padding-right: 5%;
+}
+.pdl-right .pdList .pdList-s {
+	width: 35%;
+	min-width: 141px;
+	padding-left: 4.8%;
+	padding-right: 4.8%;
+}
+.pdl-right .pdList .needColor {
+	color: #333;
+}
+.pdl-right .pdList .needBorder {
+	margin-left: 4%;
+	width: 21%;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	border: 1px solid #E5E5E5;
+	background-color: #fff;
+	outline: none;
+}
+.goodsPrice {
+	margin: 19px 0 18px 0;
+	height: 27px;
+	line-height: 27px;
+}
+.priceText {
+	color: #999;
+	font-size: 16px;
+	height: 16px;
+	line-height: 16px;
+}
+.priceSymbol {
+	color: #FF0000;
+	margin-left: 25px;
+	font-size: 19px;
+}
+.priceNum {
+	display: inline-block;
+	font-size: 35px;
+	height: 27px;
+	line-height: 27px;
+	margin: 0 6px 0 8px;
+}
+.goodsDetails {
+	height: 130px;
+	background-color: #F3F3F3;
+}
+.needListStyle {
+
+	list-style: disc;
+	padding: 10px 0 25px 7.7%;
+}
+.needListStyle li {
+
+	width: 30%;
+	height: 14px;
+	line-height: 14px;
+	float: left;
+	font-size: 14px;
+	color: #666;
+	margin: 10px 10px 10px 0;
+}
+.toBuy {
+	margin-top: 22px;
+	overflow: hidden;
+	height: 26px;
+	line-height: 26px;
+}
+.toBuy p {
+	float: left;
+	font-size: 16px;
+}
+.count {
+	margin: 0 26px 0 17px;
+	float: left;
+	color: #333;
+	overflow: hidden;
+}
+.count .reduce,.count input,.count .add {
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	float: left;
+	border: 1px solid #D2D2D2;
+}
+.count .reduce,.count .add {
+	width: 25px;
+	position: relative;
+	z-index: 0;
+	background-color: #EEEEEE;
+	cursor: pointer;
+}
+.count input {
+    width: 68px;
+    background-color: #fff;
+    z-index: 2;
+    position: relative;
+}
+.buyButton {
+	margin-top: 25px;
+}
+.buyButton button {
+	width: 35.8%;
+	height: 41px;
+	border: 1px solid #FF7200;
+	font-size: 18px;
+	margin-right: 9px;
+}
+.buyButton .buyNow {
+	background-color: #FFEDD1;
+	color: #FF7200;
+}
+.buyButton .addCart {
+	background-color: #FF7200;
+	color: #FFFFFF;
+}
+.product-details .pdr {
+	width: 17.33%;
+	min-height: 150px;
+	margin-left: 0.92%;
+}
+.pdr .supplier-text {
+	font-size: 18px;
+	font-weight: bolder;
+	text-align: center;
+	padding: 20px 0 17px;
+	border-bottom: 1px solid #DCDCDC;
+	border-top: 2px solid #3D91F0;
+}
+.supplier-logo {
+	text-align: center;
+}
+.supplier-logo p {
+	margin: 10px 0 0 0;
+}
+.supplier-message {
+	padding-left: 11%;
+}
+.supplier-message ul {
+	margin: 0;
+	min-width: 139px;
+}
+.supplier-message-list li {
+	margin-top: 14px;
+	line-height: 14px;
+}
+.supplier-message-list .allSame {
+	height: 14px;
+	line-height: 10px;
+}
+.shopBtn {
+	margin-top: 15px;
+	min-width: 130px;
+}
+.shopBtn a {
+	display: inline-block;
+	width: 45%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background-color: #F3F3F3;
+	border: 1px solid #BFBFBF;
+	color: #333;
+}
+.shopBtn a:hover {
+	text-decoration: none;
+}
+.shopBtn .collectionShop {
+	margin-left: 3%;
+}
+.productComment {
+	padding-top: 14px;
+	overflow: hidden;
+}
+.lookProduct,.lookProduct-right {
+	float: left;
+}
+.lookProduct {
+	width: 81.75%;
+}
+.lookProduct .lookProduct-top {
+	margin: 0;
+	background-color: #fff;
+	border: 1px solid #DCDCDC;
+}
+.lookProduct .lookProduct-top li a {
+	color: #666;
+}
+.lookProduct .lookProduct-top li a:hover {
+	text-decoration: none;
+}
+.lookProduct ul .product-color{
+	background-color: #3D91F0;
+}
+.lookProduct ul .product-color a {
+	color: #fff;
+}
+.lookProduct ul li {
+	width: 19.3%;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	height: 47px;
+	line-height: 47px;
+	color: #666;
+}
+.lookProduct ul .lastLi {
+	border-right: 1px solid #BFBFBF;
+}
+.lookProduct-right {
+	width: 17.33%;
+	margin-left: 0.92%;
+	height: 630px;
+	background-color: #fff;
+}
+.select-all-img {
+	overflow: hidden;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 14px;
+	background-color: #E7E7E7;
+}
+.select-input {
+	width: 20%;
+	font-size: 16px;
+	color: #666;
+	float: left;
+	margin-left: 2.5%;
+}
+.select-input input {
+	vertical-align: middle;
+	margin-top: -2px;
+	display: inline-block;
+}
+.select-input .inputSecond {
+	margin-left: 12.3%;
+}
+
+.select-sort {
+	float: right;
+	margin: 6px 2.5% 0 0;
+	height: 28px;
+	line-height: 28px;
+}
+
+.select-sort button {
+	width: 91px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	border: 1px solid #BABABA;
+	color: #333;
+}
+.select-sort button img {
+	margin-top: -4px;
+}
+.right-two {
+	margin-left: 7px;
+}
+.commentList {
+	overflow: hidden;
+	background-color: #fff;
+	padding: 28px 0 10px 3.17%;
+	border-bottom: 2px solid #D8D8D8;
+	vertical-align: middle;
+}
+.commentList-left,.commentList-right {
+	float: left;
+}
+.commentList-left {
+	width: 78%;
+}
+.commentList-text {
+	width: 90%;
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 15px;
+}
+.commentList-img .img-s {
+	margin-left: 1.8%;
+}
+.commentList-time {
+	font-size: 12px;
+	color: #CACACA;
+	margin: 15px 0 0 0;
+}
+
+.commentList-right {
+	width: 22%;
+	border-left: 3px solid #DCDCDC;
+	padding-left: 1.36%;
+}
+.commentList-right p {
+	font-size: 16px;
+	color: #333;
+}
+.commentList-right p span{
+	color: #C5C5C5;
+}
+.commentList-right span {
+	font-size: 16px;
+	color: #D69200;
+}
+.haveImg {
+	margin-top: 25px;
+}
+.recommend {
+	font-size: 18px;
+	font-weight: bolder;
+	margin: 0;
+	padding: 20px 0 19px 0;
+	text-align: center;
+	border-bottom: 1px solid #DCDCDC;
+}
+.recommendbox {
+	width: 84%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 18px 0 0 0;
+}
+.recommendbox img {
+	width: 100%;
+}
+.recommendbox p {
+	margin: 14px 0 0 0;
+}
+.paging {
+	width: 81.75%;
+}
+.page_div {
+	width: 67%;
+	text-align: center;
+	margin: 35px auto 30px;
+	font-size: 14px;
+	color: #333;
+}
+
+.page_div a {
+	min-width: 31px;
+	height: 28px;
+	border: 1px solid #dce0e0 !important;
+	text-align: center;
+	margin-left: 4px;
+	cursor: pointer;
+	line-height: 28px;
+	color: #666666;
+	font-size: 13px;
+	display: inline-block;
+}
+
+.page_div a:hover {
+	text-decoration: none;
+}
+
+.page_div .current {
+	background-color: #2B8EE3;
+	color: #FFFFFF;
+	margin-left: 9px;
+}
+
+#prePage, #nextPage {
+	width: 66px;
+}
+
+#nextPage {
+	margin-left: 9px;
+}
+
+.totalPages {
+	margin: 0 10px;
+}
+.rightPosition {
+	position: absolute;
+	left: 85%;
+	bottom: -183%;
+	width: 66px;
+}
+.rightPosition img {
+	margin-top: 4px;
+}

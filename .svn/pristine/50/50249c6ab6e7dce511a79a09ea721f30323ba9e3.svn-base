@@ -1,0 +1,217 @@
+.home-title {
+    border-bottom: 4px solid #3D91F0;
+}
+.title-shoppingCart {
+    float: left;
+    width: 123px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 35px;
+
+    border: 1px solid #3D91F0;
+    background-color: #fff;
+    outline: none;
+}
+.title-shoppingCart img {
+    margin-top: -7px;
+}
+.title-shoppingCart .shoppingCart {
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 14px;
+    color: #666666;
+}
+.title-shoppingCart .shoppingNum {
+    display: inline-block;
+    margin-left: 6px;
+    width: 21px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #3D91F0;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    /*behavior: url(../../common/css/ie-css3.htc);*/
+}
+
+.title-ul li{
+    width: 300px;
+    overflow: hidden;
+    padding-top: 35px;
+}
+.title-ul li input{
+    width: 80%;
+    float: left;
+    border-radius: 0;
+}
+.title-ul li button{
+    float: left;
+    border-radius: 0;
+}
+.smallScreen .home-title .title-right{
+    margin-left: 26%!important;
+}
+.companydetail{
+    padding: 28px;
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+    min-width: 1140px;
+}
+.companyicon{
+    float: left;
+}
+.companyicon img{
+    width: 81px;
+    height: 81px;
+}
+.companyinfo{
+    float: left;
+    margin-left: 28px;
+    border-left:1px solid #BFBFBF;
+    padding-left: 28px;
+}
+.companyinfo p{
+    overflow: hidden;
+}
+.companyinfo p span{
+    float: left;
+    padding: 3px 16px;
+    background: #2C84E7;
+    color: white;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.companyinfo h3{
+    margin-top: 8px;
+}
+.companydetailnav{
+    background: #2C84E7;
+    min-width: 1170px;
+}
+.companydetailnav ul{
+    margin: 0 auto;
+    overflow: hidden;
+}
+.companydetailnav ul li{
+    float: left;
+    border: 1px solid #2C84E7;
+    position: relative;
+    margin-right: 5px;
+}
+.companydetailnav ul li:after{
+    content: '';
+    width: 1px;
+    height: 20px;
+    background: #46A5E7;
+    position: absolute;
+    right: -4px;
+    top:15px;
+}
+.companydetailnav ul li a{
+    padding:0 20px;
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+}
+.companydetailnav ul li.active a{
+    color:#2C84E7;
+}
+.companydetailnav ul li.active{
+    background: #fff;
+}
+.companydetailnav ul li.aboutour:after{
+    content: '';
+    display: none;
+}
+#companydetailframe .shophome-left{
+    color: red;
+}
+
+.companydetail-content-img{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.companydetail-content-left{
+    float: left;
+    width: 23%;
+    margin-top: 20px;
+    border-top: 2px solid #3D91F0;
+}
+.companydetail-content-right{
+    float: left;
+    width: 75%;
+    margin-left: 2%;
+    margin-top: 20px;
+    border-top: 2px solid #3D91F0;
+}
+
+.companydetail-content-left-top img{
+    width: 50px;
+    height: 50px;
+
+}
+.companydetail-content-left-top h4,.companydetail-content-left-bottom h4{
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #DCDCDC;
+    font-size: 16px;
+    margin-top: 0px;
+}
+.companydetail-content-left-top,.companydetail-content-left-bottom{
+    background: #fff;
+    margin-bottom: 20px;
+}
+.companydetail-information{
+    margin-top: 20px;
+}
+.companydetail-information p{
+    margin: 0px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.companydetail-information ul{
+    margin: 0;
+    padding: 0px 15px;
+    font-size: 14px;
+}
+.companydetail-information ul li{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.companydetail-information ul li img{
+    width: 14px;
+    height: 13px;
+    vertical-align: baseline;
+}
+.companydetail-information ul li i{
+    font-style: normal;
+    float: left;
+    width: 69%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.companydetail-information ul li span{
+    float: left;
+    width: 31%;
+    text-align-last: justify;
+    text-align: justify;
+}
+.leavemessage{
+    margin-top:20px;
+    padding-bottom: 20px;
+}
+.leavemessage .btn{
+    display: block;
+    margin: 0 auto;
+    font-weight: bolder;
+}
+#allmap{
+    width: 100%;
+    height: 200px;
+}

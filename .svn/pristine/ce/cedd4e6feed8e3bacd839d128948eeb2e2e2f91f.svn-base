@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>特卖资源</title>
+    <link rel="stylesheet" type="text/css" href="../../../common/css/bootstrap.min.css">
+    <!-- 项目自定义图标 -->
+    <link rel="stylesheet" type="text/css" href="../../../common/icon/iconfont.css">
+    <!--公共样式-->
+    <link rel="stylesheet" type="text/css" href="../../../common/css/public.css">
+    <!--公司详情店铺首页-->
+    <link rel="stylesheet" type="text/css" href="../../../module/CompanyDetails/saleresources/saleresources.css">
+    <!-- jquery1.12.4版本 -->
+    <script type="text/javascript" src="../../../common/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../../common/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="companydetail-content-right-top">
+    <div id="myTabs">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#first" aria-controls="first" role="tab" data-toggle="tab">无缝管</a></li>
+            <li role="presentation"><a href="#second" aria-controls="second" role="tab" data-toggle="tab">焊管</a></li>
+            <li role="presentation"><a href="#third" aria-controls="third" role="tab" data-toggle="tab">管件</a></li>
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in active" id="first">
+                <ul class="tab-content-ul">
+                    <li>
+                        <div class="img-left">
+                            <img src="../../../material/home/guan1.png" alt="">
+                        </div>
+                        <div class="textcontent-right">
+                            <div class="textcontent-right-top">
+                                <b>不锈钢无缝管<em>304L</em></b>
+                                <span><i class="iconfont icon-shijian"></i>距离结束：<time>2天</time></span>
+                            </div>
+                            <div class="textcontent-right-middle">
+                                <ul>
+                                    <li><i>规格：</i><span>30*2.5</span></li>
+                                    <li><i>材质：</i><span>316L</span></li>
+                                    <li><i>支数：</i><span>8支</span></li>
+                                    <li><i>重量：</i><span>5吨</span></li>
+                                    <li><i>米数：</i><span>20米</span></li>
+                                    <li><i>发货：</i><span>丽水松阳</span></li>
+                                </ul>
+                            </div>
+                            <div class="textcontent-right-bottm">
+                                <div class="product-price">
+                                    <span>促销价：</span>
+                                    <b>¥<i>16.20</i> 元/kg</b>
+                                    <a>立即抢购</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-left">
+                            <img src="../../../material/home/guan1.png" alt="">
+                        </div>
+                        <div class="textcontent-right">
+                            <div class="textcontent-right-top">
+                                <b>不锈钢无缝管<em>304L</em></b>
+                                <span><i class="iconfont icon-shijian"></i>距离结束：<time>2天</time></span>
+                            </div>
+                            <div class="textcontent-right-middle">
+                                <ul>
+                                    <li><i>规格：</i><span>30*2.5</span></li>
+                                    <li><i>材质：</i><span>316L</span></li>
+                                    <li><i>支数：</i><span>8支</span></li>
+                                    <li><i>重量：</i><span>5吨</span></li>
+                                    <li><i>米数：</i><span>20米</span></li>
+                                    <li><i>发货：</i><span>丽水松阳</span></li>
+                                </ul>
+                            </div>
+                            <div class="textcontent-right-bottm">
+                                <div class="product-price">
+                                    <span>促销价：</span>
+                                    <b>¥<i>16.20</i> 元/kg</b>
+                                    <a>立即抢购</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-left">
+                            <img src="../../../material/home/guan1.png" alt="">
+                        </div>
+                        <div class="textcontent-right">
+                            <div class="textcontent-right-top">
+                                <b>不锈钢无缝管<em>304L</em></b>
+                                <span><i class="iconfont icon-shijian"></i>距离结束：<time>2天</time></span>
+                            </div>
+                            <div class="textcontent-right-middle">
+                                <ul>
+                                    <li><i>规格：</i><span>30*2.5</span></li>
+                                    <li><i>材质：</i><span>316L</span></li>
+                                    <li><i>支数：</i><span>8支</span></li>
+                                    <li><i>重量：</i><span>5吨</span></li>
+                                    <li><i>米数：</i><span>20米</span></li>
+                                    <li><i>发货：</i><span>丽水松阳</span></li>
+                                </ul>
+                            </div>
+                            <div class="textcontent-right-bottm">
+                                <div class="product-price">
+                                    <span>促销价：</span>
+                                    <b>¥<i>16.20</i> 元/kg</b>
+                                    <a>立即抢购</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-left">
+                            <img src="../../../material/home/guan1.png" alt="">
+                        </div>
+                        <div class="textcontent-right">
+                            <div class="textcontent-right-top">
+                                <b>不锈钢无缝管<em>304L</em></b>
+                                <span><i class="iconfont icon-shijian"></i>距离结束：<time>2天</time></span>
+                            </div>
+                            <div class="textcontent-right-middle">
+                                <ul>
+                                    <li><i>规格：</i><span>30*2.5</span></li>
+                                    <li><i>材质：</i><span>316L</span></li>
+                                    <li><i>支数：</i><span>8支</span></li>
+                                    <li><i>重量：</i><span>5吨</span></li>
+                                    <li><i>米数：</i><span>20米</span></li>
+                                    <li><i>发货：</i><span>丽水松阳</span></li>
+                                </ul>
+                            </div>
+                            <div class="textcontent-right-bottm">
+                                <div class="product-price">
+                                    <span>促销价：</span>
+                                    <b>¥<i>16.20</i> 元/kg</b>
+                                    <a>立即抢购</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+            <div role="tabpanel" class="tab-pane fade " id="second">
+                <ul class="tab-content-ul">
+                    <li>
+                        <div class="img-left">
+                            <img src="../../../material/home/guan1.png" alt="">
+                        </div>
+                        <div class="textcontent-right">
+                            <div class="textcontent-right-top">
+                                <b>不锈钢无缝管<em>304L</em></b>
+                                <span><i class="iconfont icon-shijian"></i>距离结束：<time>2天</time></span>
+                            </div>
+                            <div class="textcontent-right-middle">
+                                <ul>
+                                    <li><i>规格：</i><span>30*2.5</span></li>
+                                    <li><i>材质：</i><span>316L</span></li>
+                                    <li><i>支数：</i><span>8支</span></li>
+                                    <li><i>重量：</i><span>5吨</span></li>
+                                    <li><i>米数：</i><span>20米</span></li>
+                                    <li><i>发货：</i><span>丽水松阳</span></li>
+                                </ul>
+                            </div>
+                            <div class="textcontent-right-bottm">
+                                <div class="product-price">
+                                    <span>促销价：</span>
+                                    <b>¥<i>16.20</i> 元/kg</b>
+                                    <a>立即抢购</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-left">
+                            <img src="../../../material/home/guan1.png" alt="">
+                        </div>
+                        <div class="textcontent-right">
+                            <div class="textcontent-right-top">
+                                <b>不锈钢无缝管<em>304L</em></b>
+                                <span><i class="iconfont icon-shijian"></i>距离结束：<time>2天</time></span>
+                            </div>
+                            <div class="textcontent-right-middle">
+                                <ul>
+                                    <li><i>规格：</i><span>30*2.5</span></li>
+                                    <li><i>材质：</i><span>316L</span></li>
+                                    <li><i>支数：</i><span>8支</span></li>
+                                    <li><i>重量：</i><span>5吨</span></li>
+                                    <li><i>米数：</i><span>20米</span></li>
+                                    <li><i>发货：</i><span>丽水松阳</span></li>
+                                </ul>
+                            </div>
+                            <div class="textcontent-right-bottm">
+                                <div class="product-price">
+                                    <span>促销价：</span>
+                                    <b>¥<i>16.20</i> 元/kg</b>
+                                    <a>立即抢购</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-left">
+                            <img src="../../../material/home/guan1.png" alt="">
+                        </div>
+                        <div class="textcontent-right">
+                            <div class="textcontent-right-top">
+                                <b>不锈钢无缝管<em>304L</em></b>
+                                <span><i class="iconfont icon-shijian"></i>距离结束：<time>2天</time></span>
+                            </div>
+                            <div class="textcontent-right-middle">
+                                <ul>
+                                    <li><i>规格：</i><span>30*2.5</span></li>
+                                    <li><i>材质：</i><span>316L</span></li>
+                                    <li><i>支数：</i><span>8支</span></li>
+                                    <li><i>重量：</i><span>5吨</span></li>
+                                    <li><i>米数：</i><span>20米</span></li>
+                                    <li><i>发货：</i><span>丽水松阳</span></li>
+                                </ul>
+                            </div>
+                            <div class="textcontent-right-bottm">
+                                <div class="product-price">
+                                    <span>促销价：</span>
+                                    <b>¥<i>16.20</i> 元/kg</b>
+                                    <a>立即抢购</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-left">
+                            <img src="../../../material/home/guan1.png" alt="">
+                        </div>
+                        <div class="textcontent-right">
+                            <div class="textcontent-right-top">
+                                <b>不锈钢无缝管<em>304L</em></b>
+                                <span><i class="iconfont icon-shijian"></i>距离结束：<time>2天</time></span>
+                            </div>
+                            <div class="textcontent-right-middle">
+                                <ul>
+                                    <li><i>规格：</i><span>30*2.5</span></li>
+                                    <li><i>材质：</i><span>316L</span></li>
+                                    <li><i>支数：</i><span>8支</span></li>
+                                    <li><i>重量：</i><span>5吨</span></li>
+                                    <li><i>米数：</i><span>20米</span></li>
+                                    <li><i>发货：</i><span>丽水松阳</span></li>
+                                </ul>
+                            </div>
+                            <div class="textcontent-right-bottm">
+                                <div class="product-price">
+                                    <span>促销价：</span>
+                                    <b>¥<i>16.20</i> 元/kg</b>
+                                    <a>立即抢购</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div role="tabpanel" class="tab-pane fade " id="third">
+                <ul class="tab-content-ul">
+                    <li>
+                        <div class="img-left">
+                            <img src="../../../material/home/guan1.png" alt="">
+                        </div>
+                        <div class="textcontent-right">
+                            <div class="textcontent-right-top">
+                                <b>不锈钢无缝管<em>304L</em></b>
+                                <span><i class="iconfont icon-shijian"></i>距离结束：<time>2天</time></span>
+                            </div>
+                            <div class="textcontent-right-middle">
+                                <ul>
+                                    <li><i>规格：</i><span>30*2.5</span></li>
+                                    <li><i>材质：</i><span>316L</span></li>
+                                    <li><i>支数：</i><span>8支</span></li>
+                                    <li><i>重量：</i><span>5吨</span></li>
+                                    <li><i>米数：</i><span>20米</span></li>
+                                    <li><i>发货：</i><span>丽水松阳</span></li>
+                                </ul>
+                            </div>
+                            <div class="textcontent-right-bottm">
+                                <div class="product-price">
+                                    <span>促销价：</span>
+                                    <b>¥<i>16.20</i> 元/kg</b>
+                                    <a>立即抢购</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-left">
+                            <img src="../../../material/home/guan1.png" alt="">
+                        </div>
+                        <div class="textcontent-right">
+                            <div class="textcontent-right-top">
+                                <b>不锈钢无缝管<em>304L</em></b>
+                                <span><i class="iconfont icon-shijian"></i>距离结束：<time>2天</time></span>
+                            </div>
+                            <div class="textcontent-right-middle">
+                                <ul>
+                                    <li><i>规格：</i><span>30*2.5</span></li>
+                                    <li><i>材质：</i><span>316L</span></li>
+                                    <li><i>支数：</i><span>8支</span></li>
+                                    <li><i>重量：</i><span>5吨</span></li>
+                                    <li><i>米数：</i><span>20米</span></li>
+                                    <li><i>发货：</i><span>丽水松阳</span></li>
+                                </ul>
+                            </div>
+                            <div class="textcontent-right-bottm">
+                                <div class="product-price">
+                                    <span>促销价：</span>
+                                    <b>¥<i>16.20</i> 元/kg</b>
+                                    <a>立即抢购</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-left">
+                            <img src="../../../material/home/guan1.png" alt="">
+                        </div>
+                        <div class="textcontent-right">
+                            <div class="textcontent-right-top">
+                                <b>不锈钢无缝管<em>304L</em></b>
+                                <span><i class="iconfont icon-shijian"></i>距离结束：<time>2天</time></span>
+                            </div>
+                            <div class="textcontent-right-middle">
+                                <ul>
+                                    <li><i>规格：</i><span>30*2.5</span></li>
+                                    <li><i>材质：</i><span>316L</span></li>
+                                    <li><i>支数：</i><span>8支</span></li>
+                                    <li><i>重量：</i><span>5吨</span></li>
+                                    <li><i>米数：</i><span>20米</span></li>
+                                    <li><i>发货：</i><span>丽水松阳</span></li>
+                                </ul>
+                            </div>
+                            <div class="textcontent-right-bottm">
+                                <div class="product-price">
+                                    <span>促销价：</span>
+                                    <b>¥<i>16.20</i> 元/kg</b>
+                                    <a>立即抢购</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-left">
+                            <img src="../../../material/home/guan1.png" alt="">
+                        </div>
+                        <div class="textcontent-right">
+                            <div class="textcontent-right-top">
+                                <b>不锈钢无缝管<em>304L</em></b>
+                                <span><i class="iconfont icon-shijian"></i>距离结束：<time>2天</time></span>
+                            </div>
+                            <div class="textcontent-right-middle">
+                                <ul>
+                                    <li><i>规格：</i><span>30*2.5</span></li>
+                                    <li><i>材质：</i><span>316L</span></li>
+                                    <li><i>支数：</i><span>8支</span></li>
+                                    <li><i>重量：</i><span>5吨</span></li>
+                                    <li><i>米数：</i><span>20米</span></li>
+                                    <li><i>发货：</i><span>丽水松阳</span></li>
+                                </ul>
+                            </div>
+                            <div class="textcontent-right-bottm">
+                                <div class="product-price">
+                                    <span>促销价：</span>
+                                    <b>¥<i>16.20</i> 元/kg</b>
+                                    <a>立即抢购</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="paging">
+            <div id="page" class="page_div">
+                <span class="totalSize">共<span>1000</span>条记录</span>
+                <span class="totalPages">
+                    <span>1</span>/<span>52</span>页
+                </span>
+                <a id="prePage">上一页</a>
+                <a class="current">1</a>
+                <a>2</a>
+                <a>3</a>
+                <a>4</a>
+                . . .
+                <a>52</a>
+                <a id="nextPage">下一页</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+<script src="../../../common/js/placehoder.js"></script>
+<script src="../../../common/js/public.js"></script>
+<script src="../../../module/CompanyDetails/saleresources/saleresources.js"></script>
+<script>
+    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+       // e.target // newly activated tab
+       // e.relatedTarget // previous active tab
+
+        console.log(e.target.getAttribute("aria-controls"))
+    })
+
+</script>
+</html>
