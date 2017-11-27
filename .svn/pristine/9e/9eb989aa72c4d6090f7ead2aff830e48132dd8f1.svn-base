@@ -1,0 +1,273 @@
+.container-fluid {
+	line-height: 60px;
+}
+.navbar-text1 {
+	float: left;
+	margin: 0 5px 0 0;
+}
+.sign-out {
+	width: 44px;
+	height: 21px;
+	line-height: 20px;
+	color: #fff;
+	background-color: #F39800;
+	border: 1px solid #F39800;
+	border-radius: 10px;
+	outline: none;
+	position: relative;
+    z-index: 1;
+    behavior: url(../../common/css/ie-css3.htc);
+}
+.home-title {
+	border-bottom: 1px solid #3D91F0;
+}
+.title-shoppingCart {
+	float: left;
+	width: 123px;
+	height: 47px;
+	line-height: 47px;
+	text-align: center;
+	margin-top: 26px;
+	margin-left: 2.7%;
+	border: 1px solid #3D91F0;
+	background-color: #fff;
+	outline: none;
+}
+.title-shoppingCart i {
+	font-size: 22px;
+	color: #3D91F0;
+}
+.title-shoppingCart .shoppingCart {
+	margin-left: 8px;
+	font-size: 14px;
+	color: #666666;
+}
+.title-shoppingCart .shoppingNum {
+	display: inline-block;
+	margin-left: 6px;
+	width: 21px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #3D91F0;
+	border-radius: 50%;
+	position: relative;
+	z-index: 1;
+	behavior: url(../../common/css/ie-css3.htc);
+}
+.shoppingCart {
+	min-width: 1346px;
+}
+.shoppingCart .content{
+	width: 62.5%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.shoppingCart-title {
+	overflow: hidden;
+	height: 94px;
+	line-height: 94px;
+	margin: 18px 0 22px 0;
+	background-color: #fff;
+}
+.shoppingCart-left {
+	float: left;
+	width: 16%;
+	margin: 23px 0 0 3.2%;
+}
+.shoppingCart-left .chinese {
+	margin: 0 0 11px 0;
+	font-size: 22px;
+	height: 21px;
+	line-height: 21px;
+	color: #2E2E2E;
+}
+.shoppingCart-left .english {
+	margin: 0;
+	font-size: 16px;
+	height: 16px;
+	line-height: 16px;
+	color: #333;
+}
+.shoppingCart-right {
+	float: right;
+	overflow: hidden;
+	width: 78%;
+}
+.right1,.right2,.right3 {
+	float: left;
+	position: relative;
+	width: 32%;
+}
+.right1 img,.right2 img,.right3 img {
+	width: 100%;
+	height: 42px;
+}
+.right1 span,.right2 span,.right3 span {
+	position: absolute;
+	top: 0;
+	left: 28%;
+	font-size: 18px;
+}
+.right1 span {
+	color: #fff;
+}
+.right2 span,.right3 span {
+	color: #666;
+}
+.shoppingCart-list ul {
+	margin: 0;
+}
+.shoppingCart-list ul li {
+	min-width: 856px;
+	height: 78px;
+	line-height: 78px;
+	border: 1px solid #E5E5E5;
+	background-color: #fff;
+}
+.ul-title {
+	height: 58px !important;
+	line-height: 58px !important;
+	background-color: #FFFDE4 !important;
+	font-size: 16px;
+	font-weight: 600;
+}
+.shixiao-li {
+	color: #999;
+}
+.need-margin-top {
+	margin-top: 10px;
+}
+.shoppingCart-list ul>li>span {
+	text-align: center;
+	display: inline-block;
+}
+.select-box {
+	width: 6%;
+}
+.select-box>input {
+	width: 27.9%;
+	height: 20px;
+	position: relative;
+	top: 5px;
+}
+.first-input {
+	left: 2px;
+}
+.goods-information {
+	width: 18.5%;
+}
+.the-shop {
+	width: 19.7%;
+}
+.the-shop a:hover {
+	text-decoration: none;
+}
+.goods-address {
+	width: 9.4%;
+}
+.warehouse {
+	width: 6.6%;
+}
+.price {
+	width: 9.5%;
+}
+.goods-number {
+	width: 6.9%;
+}
+.buy-number {
+	width: 9.9%;
+}
+.total-price {
+	width: 4.6%;
+}
+.total-price1 {
+	color: #FF7200;
+}
+.total-price3 {
+	position: relative;
+	left: 0.5%;
+}
+.operation {
+	width: 3.8%;
+}
+.operation .icon-shanchu {
+	font-size: 22px;
+	color: #C8C8C8;
+}
+.operation .shanchu1 {
+	color: #5C97D8;
+}
+.count {
+	width: 99.3%;
+	margin: 0 auto;
+	display: inline-block;
+	color: #333;
+	position: relative;
+	top: 5px;
+}
+.count .reduce,.count input,.count .add {
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	float: left;
+	border: 1px solid #D2D2D2;
+}
+.count .reduce,.count .add {
+	width: 21%;
+	background-color: #EEEEEE;
+	cursor: pointer;
+}
+.count input {
+    width: 56.2%;
+}
+.li-bottom {
+	overflow: hidden;
+}
+.li-left {
+	width: 66%;
+	float: left;
+	font-size: 16px;
+	margin-left: 2.4%;
+}
+.li-left button {
+	border: none;
+	outline: none;
+	background-color: #fff;
+}
+.select-all {
+	color: #1779CE;
+	margin-right: 3.9%;
+}
+.already-select {
+	margin-left: 3.4%;
+	margin-right: 4.5%;
+}
+.select-number,.total-price2 {
+	color: #F50000;
+}
+.li-right {
+	float: right;
+	width: 31%;
+	text-align: center;
+}
+.li-right button {
+	width: 35.8%;
+	height: 45px;
+	line-height: 45px;
+	font-size: 18px;
+	border-radius: 4px;
+	color: #fff;
+	position: relative;
+    z-index: 1;
+    behavior: url(../../common/css/ie-css3.htc);
+
+}
+.continue-buy {
+	background-color: #1779CE;
+	border: 1px solid #1779CE;
+}
+.immediate-settlement {
+	background-color: #FF7200;
+	border: 1px solid #FF7200;
+	margin-left: 5.4%;
+}

@@ -1,0 +1,138 @@
+.LoginPage{
+    width:100%;
+    position: absolute;
+    bottom:0px;
+    min-width: 1366px;
+    height: 450px;
+}
+.LoginPage-wrap{
+    width:73%;
+    height: 529px;
+    background: #fff;
+    margin: 93px auto;
+    padding: 26px 40px 30px 40px;
+    border-radius: 5px;
+}
+.LoginPagefooter.home-footer{
+    margin-top: 263px;
+}
+.LoginPage-wrap_top{
+    overflow: hidden;
+    border-bottom: 1px solid #BFBFBF;
+}
+.LoginPage-wrap_top h4{
+    float: left;
+    font-size: 26px;
+    line-height: 51px;
+}
+.LoginPage-wrap_top h4 span{
+    font-size: 16px;
+    color: #1779CE;
+    margin-left: 5px;
+}
+.LoginPage-wrap_top a{
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 51px;
+}
+.LoginPage-wrap_top a i{
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.LoginPage-wrap_bottom{
+    padding: 30px 0 10px 46px;
+    margin-bottom: 53px;
+}
+.LoginPage-wrap_bottom>ul>li span{
+    color: #0f0f0f;
+}
+.LoginPage-wrap_bottom ul{
+    list-style: disc;
+    color: #E60012;
+}
+.LoginPage-wrap_bottom ul li{
+    float: left;
+    width: 48%;
+}
+.LoginPage-wrap_bottom ul li.right {
+    margin-left: 20px;
+
+}
+
+.LoginPage-wrap_bottom label{
+    font-size: 16px;
+    font-weight: normal;
+    color: #0F0F0F;
+}
+.LoginPage-wrap_bottom .protocol{
+    font-size: 16px;
+}
+.LoginPage-wrap_bottom ul li span{
+    float: left;
+    width: 22%;
+    text-align-last: justify;
+    text-align: justify;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.LoginPage-wrap_bottom ul li  input{
+    float: left;
+    width: 66%;
+    margin-top: -8px;
+    height: 44px;
+    margin-bottom: 30px;
+    line-height: 44px;
+}
+.LoginPage-wrap_bottom ul li.rightcode input{
+    width: 30%;
+
+}
+.LoginPage-wrap_bottom ul li.right a{
+    float: left;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 31px;
+
+}
+.code{
+    float: left;
+    width: 24%;
+    height: 44px;
+    background: url(../../material/login/yanzheng.png);
+    margin-top: -8px;
+    margin-right: 2%;
+    margin-left: 2%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.LoginPage-wrap_bottom ul li.rightcode button{
+    float: left;
+    height: 44px;
+    border: none;
+    margin-top: -8px;
+    width: 34%;
+    margin-left: 2%;
+    font-size: 16px;
+
+}
+.labels input{
+    vertical-align: bottom;
+    width: 20px;
+    height: 20px;
+}
+.protocol{
+    cursor: pointer;
+}
+.needbtn{
+    width: 100%;
+}
+.needbtn button{
+    width: 354px;
+    height: 52px;
+    display: inherit;
+    margin: 0 auto;
+    font-size: 20px;
+}

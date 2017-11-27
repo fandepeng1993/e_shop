@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>卖家中心</title>
+	<!-- 用最新的IE引擎渲染 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+	<!-- 页面窗口自适应 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="../../common/favorite/ssslogo.ico">
+	<!-- 框架样式 -->
+	<link rel="stylesheet" type="text/css" href="../../common/css/bootstrap.min.css">
+	<!-- 项目自定义图标 -->
+	<link rel="stylesheet" type="text/css" href="../../common/icon/iconfont.css">
+	<!--公共样式-->
+	<link rel="stylesheet" type="text/css" href="../../common/css/public.css">
+
+	<link rel="stylesheet" type="text/css" href="../../common/css/public_banner.css">
+	<!-- 首页样式 -->
+	<link rel="stylesheet" type="text/css" href="../../module/home/home.css">
+	<!-- 卖家中心样式 -->
+	<link rel="stylesheet" type="text/css" href="../../module/SellerCenter/SellerCenter.css">
+	<!-- jquery1.12.4版本 -->
+	<script type="text/javascript" src="../../common/js/jquery.min.js"></script>
+	<!--日期选择-->
+    <script type="text/javascript" src="../../common/js/distpicker.data.js"></script>
+    <script type="text/javascript" src="../../common/js/distpicker.js"></script>
+	<!-- 卖家中心js -->
+	<script type="text/javascript" src="../../module/SellerCenter/SellerCenter.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="home-top">
+			<div class="container-fluid">
+				<span class="navbar-brand"><i class="iconfont icon-shouye"></i></span>
+				<p class="navbar-text">您好，欢迎来到上上工业速买网！<button class="btn">退出</button></p>
+				<!-- 右侧菜单 -->
+				<ul class="home-ul">
+					<li class="myOrder">我的订单 <span class="caret"></span>
+						<ul>
+							<li>123</li>
+							<li>123</li>
+							<li>123</li>
+						</ul>
+					</li>
+					<li>消息中心(0)</li>
+					<li>会员中心</li>
+					<li><i class="iconfont icon-gouwuche shop-card"></i> 购物车</li>
+					<li>在线客服</li>
+					<li class="li-last"><i class="iconfont icon-dianhua"></i>400-7676-208</li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</nav>
+	<div class="home-title">
+		<div class="title-top">
+			<div class="title-left">
+				<img src="../../material/home/logo.png" />
+			</div>
+			<!-- 右侧菜单 -->
+			<div class="title-right">
+				<ul class="title-ul">
+					<li><a href="../home/index.html">首页</a></li>
+					<li><a href="../FindSpotgoods/index.html">找现货</a></li>
+					<li><a href="../FindCustomMade/index.html">找定制</a></li>
+					<li><a href="../FindAskbuy/index.html">找求购</a></li>
+					<li><a href="../FindLogistics/index.html">找物流</a></li>
+					<li><a href="../ssInformation/index.html">资讯</a></li>
+					<li><a href="../ssResume/index.html">企业招聘</a></li>
+				</ul>
+			</div>
+			<button class="title-shoppingCart">
+	            <i class="iconfont icon-gouwuche"></i><span class="shoppingCart">购物车</span><span class="shoppingNum">0</span>
+	        </button>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- 卖家中心 -->
+	<div class="SellerCenter">
+		<div class="mem-title">
+			<div class="mem-title-in">
+				<ul>
+					<a href="../memberCenter/index.html">
+						<li>
+							<i class="iconfont icon-huiyuanzhongxin"></i>
+							<p>会员中心</p>
+						</li>
+					</a>
+					<a href="#">
+						<li class="active">
+							<i class="iconfont icon-dianpu"></i>
+							<p>卖家中心</p>
+						</li>
+					</a>
+					<a href="">
+						<li>
+							<i class="iconfont icon-shouye1"></i>
+							<p>网站首页</p>
+						</li>
+					</a>
+					<a href="">
+						<li>
+							<i class="iconfont icon-zhuxiaodenglu"></i>
+							<p>注销登陆</p>
+						</li>
+					</a>
+				</ul>
+				<div class="mem-title-right">
+					<img src="../../material/memberCenter/touxiang.png" alt="">
+					<span>
+						您好，王鹏翔
+						<br/>
+						<span class="small">普通VIP会员<i class="iconfont icon-VIP"></i></span>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="mem-content">
+			<div class="mem-left">
+				<ul>
+					<a href="#">
+						<li class="active">
+							<i class="iconfont icon-dianpushezhi first"></i>
+							店铺设置
+							<i class="iconfont icon-jiantou1"></i>
+						</li>
+					</a>
+					<a href="inventoryManagement/index.html">
+						<li>
+							<i class="iconfont icon-kucunguanli first"></i>
+							库存管理
+							<i class="iconfont icon-jiantou1"></i>
+						</li>
+					</a>
+					<a href="soldOrders/index.html">
+						<li>
+							<i class="iconfont icon-dingdandaifukuan first"></i>
+							售出订单
+							<i class="iconfont icon-jiantou1"></i>
+						</li>
+					</a>
+					<a href="saleOrder/index.html">
+						<li>
+							<i class="iconfont icon-temai first"></i>
+							特卖订单
+							<i class="iconfont icon-jiantou1"></i>
+						</li>
+					</a>
+					<a href="salesStatistics/index.html">
+						<li>
+							<i class="iconfont icon-tongji first"></i>
+							销售统计
+							<i class="iconfont icon-jiantou1"></i>
+						</li>
+					</a>
+					<a href="evaluationManagement/index.html">
+						<li>
+							<i class="iconfont icon-pingjiaguanli first"></i>
+							评价管理
+							<i class="iconfont icon-jiantou1"></i>
+						</li>
+					</a>
+					<a href="afterSalesManagement/index.html">
+						<li>
+							<i class="iconfont icon-shouhouguanli first"></i>
+							特卖管理
+							<i class="iconfont icon-jiantou1"></i>
+						</li>
+					</a>
+				</ul>
+			</div>
+			<div class="mem-right">
+				<ul>
+					<li class="active">
+						<div class="mem-right-title">
+							<ul class="mem-right-ul">
+								<li class="active"><div class="sanjiao"></div>网站设置</li>
+								<li><div class="sanjiao"></div>企业资质</li>
+								<li><div class="sanjiao"></div>公司实景</li>
+								<li><div class="sanjiao"></div>仓库资料</li>
+							</ul>
+						</div>
+						<ul class="mem-right-ul-l">
+							<li class="ACtive">
+								<form action="">
+									<div class="form-top">
+										<div class="form-top-left">
+											<span class="circular"></span>
+											<label for="">企业介绍缩略图：</label>
+										</div>
+										<div class="form-top-right">
+											<i class="iconfont icon-tianjiatupian"></i>
+											<img class="datu" src="../../material/SellerCenter/tu.png" alt="">
+											<!-- <img class="ico-close" src="../../material/SellerCenter/close.png" alt=""> -->
+											<i class="iconfont icon-cuowu"></i>
+											<span class="notice">上传图片格式为jpg、png、gif，图片大小不超过1M</span>
+										</div>
+									</div>
+									<div class="form-top">
+										<div class="form-top-left">
+											<span class="circular"></span>
+											<label for="">店铺Banner上传：</label>
+										</div>
+										<div class="form-top-right form-top-right1">
+											<img class="img1" src="../../material/SellerCenter/banner1.png" alt="">
+											<img class="img2" src="../../material/SellerCenter/banner2.png" alt=""><br>
+											<img class="img3" src="../../material/SellerCenter/banner3.png" alt="">
+											<img class="img4" src="../../material/SellerCenter/add.png" alt="">
+										</div>
+									</div>
+									<div class="form-top form-top3">
+										<div class="form-top-left">
+											<span class="circular"></span>
+											<label for="">添加公司简介：</label>
+										</div>
+										<div class="form-top-right form-top-right1">
+											<textarea>上海上上不锈钢管有限公司位于上海市嘉定区，以生产高品质、特殊要求的承压的不锈钢无缝管、焊管及不锈钢管件的专业生产企业，产品属于高新技术新材料专项、产品为特种设备压力管道元件许可管理范畴。公司产品广泛使用于化工、石油、医药、食品、能源、电力、航空航天、环保、锅炉热交换器等领域中，公司年生产能力无缝管25000吨、焊管6000吨。</textarea>
+										</div>
+									</div>
+									<div class="save-btn">
+										<button>保存修改</button>
+									</div>
+								</form>
+							</li>
+							<li>
+								<form action="">
+									<div class="form-top">
+										<div class="form-top-left">
+											<span class="circular"></span>
+											<label for="">上传企业资质：</label>
+										</div>
+										<div class="form-top-right form-top-right-i">
+											<i class="iconfont icon-tianjiatupian"></i>
+											<div class="right-right">
+												<input type="text" placeholder="请输入添加的证书标题">
+												<button>添加</button>
+												<p class="notice2">可上传多张图片，最佳尺寸344*440像素，大小不能超过3M,支持jpg、png、gif格式</p>
+												
+											</div>
+										</div>
+									</div>
+									<div class="upload-img">
+										<div class="upload-img-select">
+											<div class="select">
+												<input type="checkbox" id="select-all"><label for="select-all">全选</label>
+												<button class="delete1">删除</button>
+											</div>
+										</div>
+										<div class="upload-img-box">
+											<div class="images-box">
+												<img src="../../material/SellerCenter/03(1).png" alt="">
+												<i class="iconfont icon-cuowu"></i>
+												<p>【营业执照】</p>
+											</div>
+											<div class="images-box">
+												<img src="../../material/SellerCenter/02(1).png" alt="">
+												<p>【上海名牌】</p>
+											</div>
+											<div class="images-box">
+												<img src="../../material/SellerCenter/01(1).png" alt="">
+												<p>【科技型中小企业】</p>
+											</div>
+											<div class="images-box">
+												<img src="../../material/SellerCenter/08(1).png" alt="">
+												<p>【专利证书】</p>
+											</div>
+											<div class="images-box">
+												<img src="../../material/SellerCenter/04(1).png" alt="">
+												<p>【质量认证证书】</p>
+											</div>
+										</div>
+									</div>
+								</form>
+							</li>
+							<li>
+								<form action="">
+									<div class="form-top">
+										<div class="form-top-left">
+											<span class="circular"></span>
+											<label for="">上传企业实景：</label>
+										</div>
+										<div class="form-top-right form-top-right-i">
+											<i class="iconfont icon-tianjiatupian"></i>
+											<div class="right-right">
+												<input type="text" placeholder="请输入添加的图片标题">
+												<button>添加</button>
+												<p class="notice2">可上传多张图片，最佳尺寸344*440像素，大小不能超过3M,支持jpg、png、gif格式</p>
+												
+											</div>
+										</div>
+									</div>
+									<div class="upload-img company-real">
+										<div class="upload-img-select">
+											<div class="select">
+												<input type="checkbox" id="select-all"><label for="select-all">全选</label>
+												<button class="delete1">删除</button>
+											</div>
+										</div>
+										<div class="upload-img-box">
+											<div class="images-box corporate-reality">
+												<img src="../../material/SellerCenter/03(1).png" alt="">
+												<i class="iconfont icon-cuowu"></i>
+												<p>【生产车间】</p>
+											</div>
+											<div class="images-box corporate-reality">
+												<img src="../../material/SellerCenter/02(1).png" alt="">
+												<p>【生产车间】</p>
+											</div>
+											<div class="images-box corporate-reality">
+												<img src="../../material/SellerCenter/01(1).png" alt="">
+												<p>【生产车间】</p>
+											</div>
+											<div class="images-box corporate-reality">
+												<img src="../../material/SellerCenter/08(1).png" alt="">
+												<p>【生产车间】</p>
+											</div>
+											<div class="images-box corporate-reality">
+												<img src="../../material/SellerCenter/04(1).png" alt="">
+												<p>【工厂远景】</p>
+											</div>
+										</div>
+									</div>
+									<div class="investigation">
+										<form action="">
+											<div class="investigation-top">
+												<div class="top-left">
+													<label for="registered-capital">注册资金：</label>
+													<input type="text" id="registered-capital"><span>万元</span>
+													<label for="area">厂房面积：</label>
+													<input type="text" id="area"><span>平方米</span>
+												</div>
+												<div class="top-right">
+													<label for="monthly-production">月产量：</label>
+													<input type="text" id="monthly-production"><span>kg</span>
+													<label for="staff-num">员工数：</label>
+													<input type="text" id="staff-num"><span>人</span>
+												</div>
+											</div>
+											<div class="investigation-bottom">
+												<div class="bottom-left">
+													<span class="circular"></span>
+													<span class="whether">是否提供加工定制：</span>
+													<input type="radio" checked>
+													<label for="">是</label>
+													<input type="radio">
+													<label for="">否</label>
+												</div>
+												<div class="bottom-right">
+													<button>提交</button>
+												</div>
+											</div>
+										</form>
+									</div>
+								</form>
+							</li>
+							<li>
+								<form action="">
+									<div class="warehouse-top">
+										<div class="warehouse-top-row">
+											<div class="row-left">
+												<span class="circular"></span>
+												<label for="">联系QQ：</label>
+												<input type="text" placeholder="462807529">
+											</div>
+											<div class="row-right">
+												<span class="circular"></span>
+												<label for="">仓库电话：</label>
+												<input type="text" placeholder="15721597897">
+											</div>
+										</div>
+										<div class="warehouse-top-row warehouse-top-row2">
+											<div class="">
+												<span class="circular"></span>
+												<label for="">仓库地址：</label>
+												<div id="distpicker1">
+									                <select  class="form-control">
+									                </select>
+									                <select  class="form-control secround-select">
+									                </select>
+									                <select class="form-control secround-select">
+									                </select>
+										            <input type="text">
+									                <div class="clearfix"></div>
+									            </div>
+											</div>
+										</div>
+										<div class="warehouse-top-row warehouse-top-row2">
+											<div class="main-products">
+												<span class="circular"></span>
+												<label for="">主营产品：</label>
+												<i class="iconfont icon-queren"></i>
+												<span class="pipe-type" for="">钢管</span>
+												<input type="checkbox">
+												<span class="pipe-type" for="">管件</span>
+												<input type="checkbox">
+												<span class="pipe-type" for="">法兰</span>
+												<input type="checkbox">
+												<span class="pipe-type" for="">棒材</span>
+												<input type="checkbox">
+												<span class="pipe-type" for="">卷材</span>
+												<input type="checkbox">
+												<span class="pipe-type" for="">阀门</span>
+												<input type="checkbox">
+												<span class="pipe-type" for="">板材</span>
+												<input type="checkbox">
+												<span class="pipe-type" for="">三通</span>
+											</div>
+										</div>
+									</div>
+									<div class="warehouse-top warehouse-bottom">
+										<div class="warehouse-top-row">
+											<div class="row-left">
+												<span class="circular"></span>
+												<label for="">仓库联系人1：</label>
+												<input type="text" placeholder="王鹏翔">
+											</div>
+											<div class="row-right">
+												<span class="circular"></span>
+												<label for="">联系方式1：</label>
+												<input type="text" placeholder="15721597897">
+											</div>
+										</div>
+										<div class="warehouse-top-row warehouse-top-row3">
+											<div class="row-left">
+												<span class="circular"></span>
+												<label for="">仓库联系人2：</label>
+												<input type="text" placeholder="洪浩远">
+											</div>
+											<div class="row-right">
+												<span class="circular"></span>
+												<label for="">联系方式2：</label>
+												<input type="text" placeholder="15688400229">
+											</div>
+										</div>
+										<div class="bottom-btn">
+											<button>提交保存</button>
+										</div>
+									</div>
+								</form>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="home-footer">
+		<div class="containert">
+			<div class="home-footer-login margin-left">
+				<img src="../../material/home/logo1.png" alt="">
+				<p>客服热线：400-7676-208</p>
+				<p>服务时间：8:00-19:00</p>
+			</div>
+			<div class=" home-footer-list">
+				<ul class="home-footer-list-ul">
+					<li>
+						<h4>我要买钢管</h4>
+						<ul class="home-footer-listIn-ul">
+							<li><a href="">我要买货</a></li>
+							<li><a href="">采购商管理后台</a></li>
+							<li><a href="">采购商入驻好处</a></li>
+						</ul>
+					</li>
+					<li>
+						<h4>我要卖钢管</h4>
+						<ul class="home-footer-listIn-ul">
+							<li><a href="">客户入驻须知</a></li>
+							<li><a href="">供应商管理后台</a></li>
+							<li><a href="">为什么加入“速卖网”</a></li>
+						</ul>
+					</li>
+					<li>
+						<h4>售后服务</h4>
+						<ul class="home-footer-listIn-ul">
+							<li><a href="">售后政策</a></li>
+							<li><a href="">异议处理流程</a></li>
+							<li><a href="">售后服务地点</a></li>
+						</ul>
+					</li>
+					<li class="last-no-wire">
+						<h4>常见问题</h4>
+						<ul class="home-footer-listIn-ul">
+							<li><a href="">无法登录/忘记密码</a></li>
+							<li><a href="">修改帐户信息</a></li>
+							<li><a href="">速卖网交易流程</a></li>
+						</ul>
+					</li>
+					<div class="clearfix"></div>
+
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="home-copyright">
+		<div class="containert">
+			<div class="home-copyright-top">
+				<ul class="home-copyright-ul">
+					<li><span>上上工业速卖网</span></li>
+					<li><span>关于我们</span></li>
+					<li><span>实地认证</span></li>
+					<li><span>手机找现货</span></li>
+					<li><span>隐私声明</span></li>
+					<li class="last-no-wire"><span>联系我们</span></li>
+				</ul>
+			</div>
+			<div class="home-copyright-bottom">© 2001-2017 www.gysmw.com 版权所有 备案号 【沪ICP备05025340-2】许可证号【沪ICP备05025340】</div>
+		</div>
+	</div>
+</body>
+<script src="../../common/js/placehoder.js"></script>
+<!-- 公共头部 -->
+<script type="text/javascript" src="../../common/js/public.js"></script>
+</html>

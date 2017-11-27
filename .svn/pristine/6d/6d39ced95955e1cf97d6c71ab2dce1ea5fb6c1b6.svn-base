@@ -1,0 +1,309 @@
+.title-shoppingCart {
+	float: left;
+	width: 123px;
+	height: 47px;
+	line-height: 47px;
+	text-align: center;
+	margin-top: 26px;
+	margin-left: 2.7%;
+	border: 1px solid #3D91F0;
+	background-color: #fff;
+	outline: none;
+}
+.title-shoppingCart i {
+	font-size: 22px;
+	color: #3D91F0;
+}
+.title-shoppingCart .shoppingCart {
+	display: inline-block;
+	margin-left: 8px;
+	font-size: 14px;
+	color: #666666;
+}
+.title-shoppingCart .shoppingNum {
+	display: inline-block;
+	margin-left: 6px;
+	width: 21px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #3D91F0;
+	border-radius: 50%;
+	position: relative;
+	z-index: 1;
+	behavior: url(../../common/css/ie-css3.htc);
+}
+
+.inventoryManagement {
+	width: 100%;
+	min-width: 1100px;
+	margin-bottom: 114px;
+}
+
+.inventoryManagement .mem-title {
+	width: 100%;
+	height: 78px;
+	color: #fff;
+	min-width: 1100px;
+	background: #2C84E7;
+}
+
+.inventoryManagement .mem-title-in {
+	min-width: 1100px;
+	width: 62.5%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.inventoryManagement .mem-title ul {
+	float: left;
+}
+
+.inventoryManagement .mem-title ul li {
+	display: inline-block;
+	font-size: 16px;
+	width: 119px;
+	height: 73px;
+	margin-top: 2px;
+	text-align: center;
+}
+
+.inventoryManagement .mem-title ul a{
+	color: #fff;
+}
+
+.inventoryManagement .mem-title ul li p {
+	margin-top: -12px;
+}
+
+.inventoryManagement .mem-title ul li.active {
+	background: #fff;
+	color: #2C84E7;
+}
+
+.inventoryManagement .mem-title ul li.active a{
+	background: #fff;
+	color: #2C84E7;
+}
+
+.inventoryManagement .mem-title ul li .icon-huiyuanzhongxin {
+	font-size: 40px;
+}
+
+.inventoryManagement .mem-title ul li .icon-dianpu {
+	font-size: 25px;
+	line-height: 57px;
+}
+
+.inventoryManagement .mem-title ul li .icon-shouye1 {
+	font-size: 28px;
+	line-height: 45px;
+}
+
+.inventoryManagement .mem-title ul li .icon-zhuxiaodenglu {
+	font-size: 28px;
+	line-height: 50px;
+}
+
+.inventoryManagement .mem-title .mem-title-right {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.inventoryManagement .mem-title .mem-title-right {
+	float: right;
+	margin-top: 13px;
+	margin-right: 30px;
+}
+
+.inventoryManagement .mem-title .mem-title-right img {
+	float: left;
+	margin-right: 10px;
+}
+
+.inventoryManagement .mem-title .mem-title-right span.small {
+	font-size: 12px;
+}
+
+.inventoryManagement .mem-title .mem-title-right span.small i {
+	margin-left: 5px;
+	color: #FFE6AA;
+}
+
+.inventoryManagement .mem-content {
+	width: 62.5%;
+	min-width: 1100px;
+	margin: 17px auto 0;
+	overflow: hidden;
+}
+
+.inventoryManagement .mem-content .mem-left {
+	width: 21.84%;
+	height: 477px;
+	float: left;
+}
+
+.inventoryManagement .mem-left ul {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #B5B5B5;
+	background: #fff;
+}
+
+.inventoryManagement .mem-left ul li {
+	width: 100%;
+	height: 68px;
+	font-size: 18px;
+	color: #333;
+	padding-top: 22px;
+	border-bottom: 1px solid #B5B5B5;
+}
+
+.inventoryManagement .mem-left ul li a {
+	color: #333;
+}
+
+.inventoryManagement .mem-left ul li .first {
+	padding-left: 25px;
+	font-size: 20px;
+	margin-right: 10px;
+	float: left;
+}
+
+.inventoryManagement .mem-left ul li .icon-jiantou1 {
+	float: right;
+	margin-right: 20px;
+}
+
+.inventoryManagement .mem-left ul li .icon-shouhuodizhi {
+	padding-left: 0px;
+	margin-right: -10px;
+}
+
+.inventoryManagement .mem-left ul li .icon-wodexiaoxi {
+	font-size: 18px;
+	padding-left: 23px;
+}
+
+.inventoryManagement .mem-left ul li .icon-xiugaimima {
+	padding-left: 22px;
+}
+
+.inventoryManagement .mem-left ul li .icon-shoucang {
+	padding-left: 22px;
+}
+
+.inventoryManagement .mem-left ul li .icon-wuliu1 {
+	padding-left: 22px;
+}
+
+.inventoryManagement .mem-left ul li.active ,.inventoryManagement .mem-left ul li.active a{
+	background: #3D91F0;
+	color: #fff;
+}
+
+.inventoryManagement .mem-right {
+	width: 77.33%;
+	margin-left: 0.83%;
+	float: left;
+	background: #fff;
+	border-top: 4px solid #47A8F9;
+	border-left: 1px solid #E5E5E5;
+	border-right: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+}
+.mem-right-title span.line {
+	display: block;
+	width: 7px;
+	height: 20px;
+	background: #2C84E7;
+	float: left;
+	margin-right: 10px;
+	margin-top: 16px;
+}
+.mem-right-title {
+	overflow: hidden;
+	height: 52px;
+	line-height: 52px;
+	border-bottom: 1px solid #BFBFBF;
+	padding: 0 41px 0 33px;
+}
+.mem-right-title .first {
+	font-size: 18px;
+	float: left;
+	margin: 0;
+}
+.mem-right-title .second {
+	float: right;
+	margin: 0;
+}
+.mem-right-title .second .data{
+	color: #F39800;
+}
+.mem-right-content {
+	padding: 27px 5.1% 57px 5%;
+}
+.notice p {
+	margin: 0;
+}
+.notice-member {
+	font-size: 16px;
+	color: #2C84E7;
+	margin-bottom: 7px !important;
+}
+.notice-text {
+	min-height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border: 1px dotted #E5E5E5;
+	background-color: #F6F6F6;
+}
+.operation-btn {
+	overflow: hidden;
+	padding: 32px 0 24px 0;
+	border-bottom: 1px solid #DCDCDC;
+}
+.operation-btn-left {
+	float: left;
+}
+.operation-btn-left button {
+	border-radius: 20px;
+	position: relative;
+    z-index: 1;
+    height: 40px;
+    font-size: 16px;
+    outline: none;
+    behavior: url(../../common/css/ie-css3.htc);
+}
+.operation-btn-left .fab-new {
+	width: 135px;
+	background-color: #F39800;
+	border: 1px solid #F39800;
+	color: #fff;
+}
+.operation-btn-left .export-btn,.operation-btn-left .download-btn {
+	width: 110px;
+	margin-left: 25px;
+	border: 1px solid #2C84E7;
+	color: #2C84E7;
+	background-color: #fff;
+}
+.operation-btn-right {
+	float: right;
+}
+.select input {
+	width: 19px;
+	height: 19px;
+	position: relative;
+	top: 4px;
+	margin-right: 11px;
+}
+.select label,.select .delete1 {
+	font-size: 16px;
+}
+.delete1 {
+	border: none;
+	outline: none;
+	background-color: #fff;
+	margin: 0 16px 0 33px;
+	color: #F37E00;
+}

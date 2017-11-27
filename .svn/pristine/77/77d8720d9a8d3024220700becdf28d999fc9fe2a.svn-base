@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>不锈钢现货超市</title>
+	<!-- 用最新的IE引擎渲染 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+	<!-- 页面窗口自适应 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="../../common/favorite/ssslogo.ico">
+	<!-- 框架样式 -->
+	<link rel="stylesheet" type="text/css" href="../../common/css/bootstrap.min.css">
+	<!-- 项目自定义图标 -->
+	<link rel="stylesheet" type="text/css" href="../../common/icon/iconfont.css">
+	<!--公共样式-->
+	<link rel="stylesheet" type="text/css" href="../../common/css/public.css">
+	<link rel="stylesheet" type="text/css" href="../../common/css/public_banner.css">
+	<!-- 首页样式 -->
+	<link rel="stylesheet" type="text/css" href="../../module/home/home.css">
+	<!-- jquery1.12.4版本 -->
+	<script type="text/javascript" src="../../common/js/jquery.min.js"></script>
+	<!--轮播图-->
+	<!--<script type="text/javascript" src="../../common/js/slider.js"></script>-->
+	<!--滚动-->
+	<script type="text/javascript" src="../../common/js/scroll.js"></script>
+	<!--广播滚动-->
+	<script type="text/javascript" src="../../common/js/Broadcast.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="home-top">
+			<div class="container-fluid">
+				<span class="navbar-brand"><i class="iconfont icon-shouye"></i></span>
+				<p class="navbar-text">您好，欢迎来到上上工业速买网！</p>
+				<!-- 右侧菜单 -->
+				<ul class="home-ul">
+					<li class="myOrder">我的订单 <span class="caret"></span>
+						<ul>
+							<li>123</li>
+							<li>123</li>
+							<li>123</li>
+						</ul>
+					</li>
+					<li>消息中心(0)</li>
+					<li><a href="../memberCenter/index.html">会员中心</a></li>
+					<li><i class="iconfont icon-gouwuche shop-card"></i> 购物车</li>
+					<li>在线客服</li>
+					<li class="li-last"><i class="iconfont icon-dianhua"></i>400-7676-208</li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</nav>
+	<div class="home-title">
+		<div class="title-top">
+			<div class="title-left">
+				<img src="../../material/home/logo.png" />
+			</div>
+			<!-- 右侧菜单 -->
+			<div class="title-right">
+				<ul class="title-ul">
+					<li class="active"><a href="../home/index.html">首页</a></li>
+					<li><a href="../FindSpotgoods/index.html">找现货</a></li>
+					<li><a href="../FindCustomMade/index.html">找定制</a></li>
+					<li><a href="../FindAskbuy/index.html">找求购</a></li>
+					<li><a href="../FindLogistics/index.html">找物流</a></li>
+					<li><a href="../ssInformation/index.html">资讯</a></li>
+					<li><a href="../ssResume/index.html">企业招聘</a></li>
+				</ul>
+			</div>
+			<div class="title-login">
+				<ul class="title-ul">
+					<li><a href="../Login/index.html">登录</a></li>
+					<li><a href="../Register/index.html">会员注册</a></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="home-carousel">
+		<div id="demo02" class="flexslider">
+			<ul class="slides">
+				<li>
+					<div class="img" style="position: relative">
+						<img src="../../material/home/lunbo4.png" height="450" width="100%" alt="" />
+						<div class="home-uploadc unselectable">
+							<img src="../../material/home/button.png" alt="">
+							<!--一键上传库存-->
+						</div>
+					</div>
+
+				</li>
+			</ul>
+		</div>
+		<div class="home-former">
+			<div class="home-f-left ">
+				<ul class="home-f-ul">
+					<li class="one active"><i class="iconfont icon-yly_guancai"></i><span>找现货</span></li>
+					<li class="two"><i class="iconfont icon-dingdandingzhi"></i><span>找定制</span></li>
+					<li class="three"><a href="FindSpecialOffer/index.html"><i class="iconfont icon-tejia"></i><span>找特价</span></a></li>
+					<li class="four"><i class="iconfont icon-wuliu"></i><span>找物流</span></li>
+				</ul>
+			</div>
+			<div class="home-f-right">
+				<ul class="home-fshow-ul">
+					<li class="active">
+						<ul class="home-fsu-ul">
+							<li class="acTive">无缝管<i></i></li>
+							<li>焊接管<i></i></li>
+							<li>管件系列<i></i></li>
+							<div class="clearfix"></div>
+						</ul>
+						<ul class="home-fsus-ul">
+							<li class="ACtive">
+								<div class="home-fsus-ul-find">
+									<div>
+										<select name="" id="" class="form-control c_left btDs">
+											<option value="" selected disabled style="display: none">品名</option>
+											<option value="">品名1</option>
+											<option value="">品名2</option>
+											<option value="">品名3</option>
+										</select>
+										<select name="" id="" class="form-control c_right btDs">
+											<option value="" selected disabled style="display: none">材质</option>
+											<option value="">材质1</option>
+											<option value="">材质2</option>
+											<option value="">材质3</option>
+										</select>
+										<input type="text" class="form-control c_left"  placeholder="请输入规格">
+										<select name="" id="" class="form-control c_right">
+											<option value="" selected disabled style="display: none">执行标准</option>
+											<option value="">执行标准1</option>
+											<option value="">执行标准2</option>
+											<option value="">执行标准3</option>
+										</select>
+										<div class="clearfix"></div>
+									</div>
+									<div>
+										<button type="button" class="btn btn-info">立即搜索</button>
+										<div class="clearfix"></div>
+									</div>
+								</div>
+								<div class=" home-fsuls-list">
+									<ul class="home-fsuls-list-ul">
+										<li>
+											<a>上海上上不锈钢管有限公司1</a>
+											<p>在<strong>20分钟前</strong>更新了<b>100</b>条数据</p>
+											<div class="clearfix"></div>
+										</li>
+										<li>
+											<a>上海上上不锈钢管有限公司2</a>
+											<p>在<strong>20分钟前</strong>更新了<b>100</b>条数据</p>
+											<div class="clearfix"></div>
+										</li>
+										<li>
+											<a>上海上上不锈钢管有限公司3</a>
+											<p>在<strong>20分钟前</strong>更新了<b>100</b>条数据</p>
+											<div class="clearfix"></div>
+										</li>
+										<li>
+											<a>上海上上不锈钢管有限公司4</a>
+											<p>在<strong>20分钟前</strong>更新了<b>100</b>条数据</p>
+											<div class="clearfix"></div>
+										</li>
+										<li>
+											<a>上海上上不锈钢管有限公司5</a>
+											<p>在<strong>20分钟前</strong>更新了<b>100</b>条数据</p>
+											<div class="clearfix"></div>
+										</li>
+										<li>
+											<a>上海上上不锈钢管有限公司6</a>
+											<p>在<strong>20分钟前</strong>更新了<b>100</b>条数据</p>
+											<div class="clearfix"></div>
+										</li>
+										<li>
+											<a>上海上上不锈钢管有限公司7</a>
+											<p>在<strong>20分钟前</strong>更新了<b>100</b>条数据</p>
+											<div class="clearfix"></div>
+										</li>
+										<li>
+											<a>上海上上不锈钢管有限公司8</a>
+											<p>在<strong>20分钟前</strong>更新了<b>100</b>条数据</p>
+											<div class="clearfix"></div>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>焊接管</li>
+							<li>管件系列</li>
+						</ul>
+					</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+				</ul>
+
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="home-cooperation">
+		<div class="home-cooperation-title ">
+			<i class="iconfont icon-hezuo1"></i>
+			<div class="home-cooperation-title-text">
+				<h5>优质合作厂家</h5>
+				<p>Quality cooperation factory</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<ul class="home-cooperation-ul ">
+			<li class="first">
+				<img src="../../material/home/tu1.png" alt="">
+				<p>温州谦和不锈钢</p>
+				<div class="login-brand">厂家</div>
+			</li>
+			<li>
+				<img src="../../material/home/tu2.png" alt="">
+				<p>无锡雍容不锈钢</p>
+				<div class="login-brand">厂家</div>
+			</li>
+			<li>
+				<img src="../../material/home/tu3.png" alt="">
+				<p>温州博众不锈钢</p>
+				<div class="login-brand">厂家</div>
+			</li>
+			<li>
+				<img src="../../material/home/tu4.png" alt="">
+				<p>钢一焊管</p>
+				<div class="login-brand">厂家</div>
+			</li>
+			<li>
+				<img src="../../material/home/tu5.png" alt="">
+				<p>青山资源</p>
+				<div class="login-brand">厂家</div>
+			</li>
+			<div class="clearfix"></div>
+		</ul>
+		<ul class="home-hot-recommend-ul">
+			<li>
+				<div class="home-cooperation-title ">
+					<div>
+						<i class="iconfont icon-hezuo1"></i>
+						<div class="home-cooperation-title-text">
+							<h5>热门企业推荐</h5>
+							<p>Hot business recommendation</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="home-auto-scroll unselectable">
+						<ul class="hot-list-recommend clearfix">
+							<li>
+								<p>上海上上不锈钢管有限公司1</p>
+								<p class="p-color">在 <span>20分钟</span>前更新了<span>100条</span>库存信息</p>
+							</li>
+							<li>
+								<p>上海上上不锈钢管有限公司2</p>
+								<p class="p-color">在 <span class="p-color-time">20分钟</span>前更新了<span>100条</span>库存信息</p>
+							</li>
+							<li>
+								<p>上海上上不锈钢管有限公司3</p>
+								<p class="p-color">在 <span>20分钟</span>前更新了<span>100条</span>库存信息</p>
+							</li>
+							<li>
+								<p>上海上上不锈钢管有限公司4</p>
+								<p class="p-color">在 <span>20分钟</span>前更新了<span>100条</span>库存信息</p>
+							</li>
+							<li>
+								<p>上海上上不锈钢管有限公司5</p>
+								<p class="p-color">在 <span>20分钟</span>前更新了<span>100条</span>库存信息</p>
+							</li>
+							<li>
+								<p>上海上上不锈钢管有限公司6</p>
+								<p class="p-color">在 <span>20分钟</span>前更新了<span>100条</span>库存信息</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="home-Info-title">
+					<a  class="active">求购信息</a>
+					<a >发布求购</a>
+				</div>
+				<div class="home-Info-content">
+					<ul class="AcTive">
+						<li>
+							<i>•</i>
+							<a title="求购304不锈钢无缝管">求购304不锈钢无缝管</a>
+							<span class="home-Info-time" title="2017-10-17">2017-10-17</span>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<i>•</i>
+							<a title="求购304不锈钢无缝管">求购304不锈钢无缝管</a>
+							<span class="home-Info-time" title="2017-10-17">2017-10-17</span>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<i>•</i>
+							<a title="求购304不锈钢无缝管">求购304不锈钢无缝管</a>
+							<span class="home-Info-time" title="2017-10-17">2017-10-17</span>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<i>•</i>
+							<a title="求购304不锈钢无缝管">求购304不锈钢无缝管</a>
+							<span class="home-Info-time" title="2017-10-17">2017-10-17</span>
+							<div class="clearfix"></div>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<i>•</i>
+							<a title="求购305不锈钢无缝管">求购305不锈钢无缝管</a>
+							<span class="home-Info-time" title="2017-10-17">2017-10-17</span>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<i>•</i>
+							<a title="求购305不锈钢无缝管">求购305不锈钢无缝管</a>
+							<span class="home-Info-time" title="2017-10-17">2017-10-17</span>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<i>•</i>
+							<a title="求购305不锈钢无缝管">求购305不锈钢无缝管</a>
+							<span class="home-Info-time" title="2017-10-17">2017-10-17</span>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<i>•</i>
+							<a title="求购305不锈钢无缝管">求购305不锈钢无缝管</a>
+							<span class="home-Info-time" title="2017-10-17">2017-10-17</span>
+							<div class="clearfix"></div>
+						</li>
+					</ul>
+
+				</div>
+
+			</li>
+			<li>
+				<div class="home-cooperation-title ">
+					<div class="clearfixs" >
+						<i class="iconfont icon-xingqingcelve"></i>
+						<div class="home-cooperation-title-text">
+							<h5>行情资讯</h5>
+							<p>Market information</p>
+						</div>
+						<a>更多&nbsp;></a>
+						<div class="clearfix"></div>
+					</div>
+					<div class="home-Market-content">
+						<ul>
+							<li>
+								<i>•</i>
+								<a title="求购304不锈钢无缝管">求购304不锈钢无缝管</a>
+								<span class="home-Info-time" title="2017-10-17">2017-10-17</span>
+								<div class="clearfix"></div>
+							</li>
+							<li>
+								<i>•</i>
+								<a title="求购304不锈钢无缝管">求购304不锈钢无缝管</a>
+								<span class="home-Info-time" title="2017-10-17">2017-10-17</span>
+								<div class="clearfix"></div>
+							</li>
+							<li>
+								<i>•</i>
+								<a title="求购304不锈钢无缝管">求购304不锈钢无缝管</a>
+								<span class="home-Info-time" title="2017-10-17">2017-10-17</span>
+								<div class="clearfix"></div>
+							</li>
+							<li>
+								<i>•</i>
+								<a title="求购304不锈钢无缝管">求购304不锈钢无缝管</a>
+								<span class="home-Info-time" title="2017-10-17">2017-10-17</span>
+								<div class="clearfix"></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</li>
+			<div class="clearfix"></div>
+		</ul>
+	</div>
+	<div class="home-hot-shop">
+		<div class="home-hot-shop-title">
+			<i class="iconfont icon-svgicontuijian"></i>
+			<div class="home-hot-shop-title-text">
+				<h5>热门商品推荐</h5>
+				<p>Hot goods recommendation</p>
+			</div>
+			<div class="home-hot-good-more">
+				<a>换一批</a>
+				<a>进入商城&nbsp;></a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<ul class="home-hot-shop-ul">
+			<li>
+				<img src="../../material/home/guan1.png" alt="">
+				<p>无缝钢管</p>
+				<p>Q235</p>
+				<span>上海上上不锈钢管</span>
+			</li>
+			<li>
+				<img src="../../material/home/guan2.png" alt="">
+				<p>无缝钢管</p>
+				<p>Q235</p>
+				<span>上海上上不锈钢管</span>
+			</li>
+			<li>
+				<img src="../../material/home/guan3.png" alt="">
+				<p>无缝钢管</p>
+				<p>Q235</p>
+				<span>上海上上不锈钢管</span>
+			</li>
+			<li>
+				<img src="../../material/home/guan4.png" alt="">
+				<p>无缝钢管</p>
+				<p>Q235</p>
+				<span>上海上上不锈钢管</span>
+			</li>
+			<li>
+				<img src="../../material/home/guan5.png" alt="">
+				<p>无缝钢管</p>
+				<p>Q235</p>
+				<span>上海上上不锈钢管</span>
+			</li>
+			<li>
+				<img src="../../material/home/guan6.png" alt="">
+				<p>无缝钢管</p>
+				<p>Q235</p>
+				<span>上海上上不锈钢管</span>
+			</li>
+
+			<div class="clearfix"></div>
+		</ul>
+	</div>
+	<div class="home-hot-shop container">
+		<div class="home-hot-shop-title">
+			<i class="iconfont icon-dingzhibaochedingdan"></i>
+			<div class="home-hot-shop-title-text">
+				<h5>加工订制</h5>
+				<p>Processing order</p>
+			</div>
+			<div class="home-hot-good-more">
+				<a>更多&nbsp;></a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<ul class="home-hot-process-ul">
+			<li>
+				<img src="../../material/home/yuan1.png" alt="">
+				<p>【砂轮抛光加工】 发图订制</p>
+				<button type="button" class="btn btn-info">立即定制</button>
+				<div class="home-small-company">
+					<span class="home-small-company-left">松阳上上</span>
+					<span class="home-small-company-right">浙江省<i>&nbsp;</i>丽水市</span>
+					<div class="clearfix"></div>
+				</div>
+			</li>
+			<li>
+				<img src="../../material/home/yuan2.png" alt="">
+				<p>【砂轮抛光加工】 发图订制</p>
+				<button type="button" class="btn btn-info">立即定制</button>
+				<div class="home-small-company">
+					<span class="home-small-company-left">松阳上上</span>
+					<span class="home-small-company-right">浙江省<i>&nbsp;</i>丽水市</span>
+					<div class="clearfix"></div>
+				</div></li>
+			<li>
+				<img src="../../material/home/yuan3.png" alt="">
+				<p>【砂轮抛光加工】 发图订制</p>
+				<button type="button" class="btn btn-info">立即定制</button>
+				<div class="home-small-company">
+					<span class="home-small-company-left">松阳上上</span>
+					<span class="home-small-company-right">浙江省<i>&nbsp;</i>丽水市</span>
+					<div class="clearfix"></div>
+				</div>
+			</li>
+			<li>
+				<img src="../../material/home/yuan4.png" alt="">
+				<p>【砂轮抛光加工】 发图订制</p>
+				<button type="button" class="btn btn-info">立即定制</button>
+				<div class="home-small-company">
+					<span class="home-small-company-left">松阳上上</span>
+					<span class="home-small-company-right">浙江省<i>&nbsp;</i>丽水市</span>
+					<div class="clearfix"></div>
+				</div>
+			</li>
+			<div class="clearfix"></div>
+		</ul>
+	</div>
+	<div class="home-footer">
+		<div class="containert">
+			<div class="home-footer-login margin-left">
+				<img src="../../material/home/logo1.png" alt="">
+				<p>客服热线：400-7676-208</p>
+				<p>服务时间：8:00-19:00</p>
+
+			</div>
+			<div class=" home-footer-list">
+				<ul class="home-footer-list-ul">
+					<li>
+						<h4>我要买钢管</h4>
+						<ul class="home-footer-listIn-ul">
+							<li><a href="">我要买货</a></li>
+							<li><a href="">采购商管理后台</a></li>
+							<li><a href="">采购商入驻好处</a></li>
+						</ul>
+					</li>
+					<li>
+						<h4>我要卖钢管</h4>
+						<ul class="home-footer-listIn-ul">
+							<li><a href="">客户入驻须知</a></li>
+							<li><a href="">供应商管理后台</a></li>
+							<li><a href="">为什么加入“速卖网”</a></li>
+						</ul>
+					</li>
+					<li>
+						<h4>售后服务</h4>
+						<ul class="home-footer-listIn-ul">
+							<li><a href="">售后政策</a></li>
+							<li><a href="">异议处理流程</a></li>
+							<li><a href="">售后服务地点</a></li>
+						</ul>
+					</li>
+					<li class="last-no-wire">
+						<h4>常见问题</h4>
+						<ul class="home-footer-listIn-ul">
+							<li><a href="">无法登录/忘记密码</a></li>
+							<li><a href="">修改帐户信息</a></li>
+							<li><a href="">速卖网交易流程</a></li>
+						</ul>
+					</li>
+					<div class="clearfix"></div>
+
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="home-copyright">
+		<div class="containert">
+			<div class="home-copyright-top">
+				<ul class="home-copyright-ul">
+					<li><span>上上工业速卖网</span></li>
+					<li><span>关于我们</span></li>
+					<li><span>实地认证</span></li>
+					<li><span>手机找现货</span></li>
+					<li><span>隐私声明</span></li>
+					<li class="last-no-wire"><span>联系我们</span></li>
+				</ul>
+			</div>
+			<div class="home-copyright-bottom">© 2001-2017 www.gysmw.com 版权所有 备案号 【沪ICP备05025340-2】许可证号【沪ICP备05025340】</div>
+		</div>
+	</div>
+</body>
+<script src="../../common/js/placehoder.js"></script>
+<script src="../../module/home/home.js"></script>
+<!-- 公共头部 -->
+<script type="text/javascript" src="../../common/js/public.js"></script>
+</html>

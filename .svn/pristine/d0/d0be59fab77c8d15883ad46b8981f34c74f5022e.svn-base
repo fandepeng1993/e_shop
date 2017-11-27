@@ -1,0 +1,398 @@
+.memberCenter {
+	width: 100%;
+	height: 830px;
+	min-width: 1100px;
+}
+
+.memberCenter .mem-title {
+	width: 100%;
+	height: 78px;
+	color: #fff;
+	min-width: 1100px;
+	background: #2C84E7;
+}
+
+.memberCenter .mem-title-in {
+	width: 63%;
+	margin-left: 18.5%;
+	min-width: 1100px;
+}
+
+.memberCenter .mem-title ul {
+	width: 520px;
+	float: left;
+}
+
+.memberCenter .mem-title ul li {
+	display: inline-block;
+	font-size: 16px;
+	width: 119px;
+	height: 73px;
+	margin-top: 2px;
+	text-align: center;
+}
+
+.memberCenter .mem-title ul a{
+	color: #fff;
+}
+
+.memberCenter .mem-title ul li p {
+	margin-top: -12px;
+}
+
+.memberCenter .mem-title ul li.active {
+	background: #fff;
+	color: #2C84E7;
+}
+
+.memberCenter .mem-title ul li.active a{
+	background: #fff;
+	color: #2C84E7;
+}
+
+.memberCenter .mem-title ul li .icon-huiyuanzhongxin {
+	font-size: 40px;
+}
+
+.memberCenter .mem-title ul li .icon-dianpu {
+	font-size: 25px;
+	line-height: 50px;
+}
+
+.memberCenter .mem-title ul li .icon-shouye1 {
+	font-size: 28px;
+	line-height: 45px;
+}
+
+.memberCenter .mem-title ul li .icon-zhuxiaodenglu {
+	font-size: 28px;
+	line-height: 50px;
+}
+
+.memberCenter .mem-title .mem-title-right {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.memberCenter .mem-title .mem-title-right {
+	float: right;
+	margin-top: 13px;
+	margin-right: 30px;
+}
+
+.memberCenter .mem-title .mem-title-right img {
+	float: left;
+	margin-right: 10px;
+}
+
+.memberCenter .mem-title .mem-title-right span.small {
+	font-size: 12px;
+}
+
+.memberCenter .mem-title .mem-title-right span.small i {
+	margin-left: 5px;
+	color: #FFE6AA;
+}
+
+.memberCenter .mem-content {
+	width: 63%;
+	margin-left: 18.5%;
+	float: left;
+	min-width: 1100px;
+	margin-top: 0px;
+}
+
+.memberCenter .mem-content .mem-left {
+	width: 262px;
+	height: 545px;
+	float: left;
+}
+
+.memberCenter .mem-left ul {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #B5B5B5;
+	background: #fff;
+}
+
+.memberCenter .mem-left ul li {
+	width: 100%;
+	height: 68px;
+	font-size: 18px;
+	color: #333;
+	padding-top: 22px;
+	border-bottom: 1px solid #B5B5B5;
+}
+
+.memberCenter .mem-left ul li a {
+	color: #333;
+}
+
+.memberCenter .mem-left ul li .first {
+	padding-left: 25px;
+	font-size: 20px;
+	margin-right: 10px;
+	float: left;
+}
+
+.memberCenter .mem-left ul li .icon-jiantou1 {
+	float: right;
+	margin-right: 20px;
+}
+
+.memberCenter .mem-left ul li .icon-shouhuodizhi {
+	padding-left: 0px;
+	margin-right: -10px;
+}
+
+.memberCenter .mem-left ul li .icon-wodexiaoxi {
+	font-size: 18px;
+	padding-left: 23px;
+}
+
+.memberCenter .mem-left ul li .icon-xiugaimima {
+	padding-left: 22px;
+}
+
+.memberCenter .mem-left ul li .icon-shoucang {
+	padding-left: 22px;
+}
+
+.memberCenter .mem-left ul li .icon-wuliu1 {
+	padding-left: 22px;
+}
+
+.memberCenter .mem-left ul li.active ,.memberCenter .mem-left ul li.active a{
+	background: #3D91F0;
+	color: #fff;
+}
+
+.memberCenter .mem-right {
+	width: 900px;
+	height: 690px;
+	margin-left: 10px;
+	float: left;
+	background: #fff;
+	padding: 30px 40px 35px 40px;
+	border-top: 4px solid #47A8F9;
+}
+
+.memberCenter .mem-right .mem-right-title span.line {
+	display: block;
+	width: 7px;
+	height: 20px;
+	background: #2C84E7;
+	float: left;
+	margin-right: 10px;
+	margin-top: 2px;
+}
+
+.memberCenter .mem-right .mem-right-title p {
+	font-size: 18px;
+}
+
+.memberCenter .mem-right .mem-right-bt {
+	height: 165px;
+}
+
+.memberCenter .mem-right .mem-right-bt  input {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.memberCenter .mem-right .mem-right-bt .mem-right-bt-left {
+	width: 100%;
+	float: left;
+	font-size: 16px;
+	color: #333;
+	padding-top: 24px;
+	padding-left: 20px;
+}
+
+/*进度条*/
+.memberCenter .mem-right .mem-right-bt .mem-right-bt-left .part {
+	position: relative;
+	float: left;
+	width: 143px;
+}
+
+.memberCenter .mem-right .mem-right-bt .mem-right-bt-left .part .big-ball {
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-O-border-radius: 50%;
+	border: 1px solid #B5B5B5;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+.memberCenter .mem-right .mem-right-bt .mem-right-bt-left .part.active .partLine {
+	background: #7EC40F;
+}
+
+.memberCenter .mem-right .mem-right-bt .mem-right-bt-left .part .partLine {
+	position: absolute;
+	width: 121px;
+	height: 4px;
+	background: #DCDCDC;
+	left: -91px;
+	top: 10px;
+}
+
+.memberCenter .mem-right .mem-right-bt .mem-right-bt-left .part .ballContent p {
+	margin-bottom: 0px;
+}
+
+.memberCenter .mem-right .mem-right-bt .mem-right-bt-left .part .ballContent p.first {
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 5px;
+}
+
+.memberCenter .mem-right .mem-right-bt .mem-right-bt-left .part .ballContent p.year {
+	font-size: 14px;
+	color: #999;
+	padding-left: 0px;
+}
+
+.memberCenter .mem-right .mem-right-bt .mem-right-bt-left .part .ballContent p.time {
+	font-size: 14px;
+	color: #999;
+	padding-left: 10px;
+}
+
+.memberCenter .mem-right .mem-right-bt .mem-right-bt-left .part .big-ball .ball {
+	width: 12px;
+	height: 12px;
+	background: #B5B5B5;
+	border-radius: 50%;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.memberCenter .mem-right .mem-right-bt .mem-right-bt-left .part.active .big-ball {
+	border: 1px solid #7EC40F;
+}
+
+.memberCenter .mem-right .mem-right-bt .mem-right-bt-left .part.active .big-ball .ball {
+	background: #7EC40F;
+}
+
+.memberCenter .mem-right .mem-right-bt .mem-right-bt-right {
+	width: 62%;
+	float: left;
+	font-size: 16px;
+	color: #333;
+	padding-top: 24px;
+}
+
+.memberCenter .mem-right .mem-table {
+	font-size: 14px;
+}
+
+.memberCenter .mem-right .mem-table tr.first {
+	background: #FFFDE1;
+	height: 62px;
+	line-height: 62px;
+}
+
+.memberCenter .mem-right .mem-table td {
+	vertical-align: middle;
+}
+
+.memberCenter .mem-right .mem-table td.orange {
+	color: #FF6600;
+}
+
+.memberCenter .mem-right .mem-table td .btn {
+	background: #FF6600;
+	color: #fff;
+	outline: none;
+	border-radius: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.memberCenter .mem-right .mem-table td p.text-close {
+	color: #999;
+}
+
+.memberCenter .mem-right .mem-table td span.order {
+	padding-right: 10px;
+}
+
+.memberCenter .mem-right .mem-table td span.mem-r {
+	float: right;
+	padding-right: 10px;
+	color: #2C84E7;
+}
+.last-btn{
+	float: right;
+	background: none;
+	color: #999;
+	font-size: 16px;
+	outline: none!important;
+}
+/*大屏适配*/
+.largeScreen .memberCenter .mem-title-in {
+	width: 62.5%;
+	margin-left: 18.5%;
+}
+
+.largeScreen .memberCenter .mem-content {
+	width: 62.5%;
+	margin-left: 18.5%;
+	float: left;
+}
+
+.largeScreen .memberCenter .mem-right {
+	width: 815px;
+}
+
+.largeScreen .memberCenter .mem-right .mem-right-bt  input[type="text"] {
+	width: 165px;
+}
+
+/*中屏适配*/
+.middleScreen .memberCenter .mem-title-in {
+	width: 69%;
+	margin-left: 15.5%;
+}
+
+.middleScreen .memberCenter .mem-content {
+	width: 69%;
+	margin-left: 15.5%;
+	float: left;
+}
+
+.middleScreen .memberCenter .mem-right {
+	width: 850px;
+}
+
+.middleScreen .memberCenter .mem-right .mem-right-bt  input[type="text"] {
+	width: 165px;
+}
+
+/*小屏适配*/
+.smallScreen .memberCenter .mem-title-in {
+	width: 80%;
+	margin-left: 10%;
+}
+
+.smallScreen .memberCenter .mem-content {
+	width: 80%;
+	margin-left: 10%;
+	float: left;
+}
+
+.smallScreen .memberCenter .mem-right {
+	width: 815px;
+}
+
+.smallScreen .memberCenter .mem-right .mem-right-bt  input[type="text"] {
+	width: 165px;
+}

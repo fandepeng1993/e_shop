@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <!-- 用最新的IE引擎渲染 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <!-- 页面窗口自适应 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../common/favorite/ssslogo.ico">
+    <!-- 框架样式 -->
+    <link rel="stylesheet" type="text/css" href="../../common/css/bootstrap.min.css">
+    <!-- 项目自定义图标 -->
+    <link rel="stylesheet" type="text/css" href="../../common/icon/iconfont.css">
+    <!--公共样式-->
+    <link rel="stylesheet" type="text/css" href="../../common/css/public.css">
+    <!-- 购物车样式 -->
+    <link rel="stylesheet" href="../../module/shoppingCart/shoppingCart.css">
+    <!-- jquery1.12.4版本 -->
+    <script type="text/javascript" src="../../common/js/jquery.min.js"></script>
+    <!-- 购物车js -->
+    <script type="text/javascript" src="../../module/shoppingCart/shoppingCart.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="home-top">
+        <div class="container-fluid">
+            <p class="navbar-text1">上海上上不锈钢管有限公司，您好！<button class="btn">退出</button></p>
+            <button class="sign-out">退出</button>
+
+            <!-- 右侧菜单 -->
+            <ul class="home-ul">
+                <li>我的订单 <span class="caret"></span></li>
+                <li>消息中心(0)</li>
+                <li>会员中心</li>
+                <li class="gouwuche"><i class="iconfont icon-gouwuche shop-card"></i> 购物车</li>
+                <li>在线客服</li>
+                <li class="li-last"><i class="iconfont icon-dianhua"></i>400-7676-208</li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</nav>
+<div class="home-title">
+    <div class="title-top">
+        <div class="title-left">
+            <img src="../../material/home/logo.png" />
+        </div>
+        <!-- 右侧菜单 -->
+        <div class="title-right">
+            <ul class="title-ul">
+                <li><a href="../home/index.html">首页</a></li>
+                <li class="active"><a href="../FindSpotgoods/index.html">找现货</a></li>
+                <li><a href="../FindCustomMade/index.html">找定制</a></li>
+                <li ><a href="../FindAskbuy/index.html">找求购</a></li>
+                <li><a href="../FindLogistics/index.html">找物流</a></li>
+                <li><a href="../ssInformation/index.html">资讯</a></li>
+                <li><a href="../ssResume/index.html">企业招聘</a></li>
+            </ul>
+        </div>
+        <button class="title-shoppingCart">
+            <i class="iconfont icon-gouwuche"></i><span class="shoppingCart">购物车</span><span class="shoppingNum">0</span>
+        </button>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+<div class="shoppingCart">
+    <div class="content">
+        <div class="bgImg">
+        	<img src="../../material/shoppingCart/banner2.png" alt="">
+        </div>
+        <div class="shoppingCart-title">
+        	<div class="shoppingCart-left">
+        		<p class="chinese">我的购物车</p>
+        		<p class="english">My shopping cart</p>
+        	</div>
+        	<div class="shoppingCart-right">
+        		<div class="right1">
+        			<img src="../../material/ShoppingCart/jiantou1.png" alt="">
+        			<span>1.放入购物车</span>
+        		</div>
+        		<div class="right2">
+        			<img src="../../material/ShoppingCart/jiantou2.png" alt="">
+        			<span>2.填写订单信息</span>
+        		</div>
+        		<div class="right3">
+        			<img src="../../material/ShoppingCart/jiantou3.png" alt="">
+        			<span>3.支付/确认订单</span>
+        		</div>
+        	</div>
+        </div>
+        <div class="shoppingCart-list">
+        	<ul>
+        		<li class="ul-title">
+        			<span class="select-box">
+        				<input class="first-input" type="checkbox">
+        				<label for="">全选</label>
+        			</span>
+        			<span class="goods-information">商品信息</span>
+        			<span class="the-shop">所属店铺</span>
+        			<span class="goods-address">货物所在地</span>
+        			<span class="warehouse">仓库</span>
+        			<span class="price">单价</span>
+        			<span class="goods-number">可供量</span>
+        			<span class="buy-number">数量(吨)</span>
+        			<span class="total-price">金额</span>
+        			<span class="operation">操作</span>
+        		</li>
+        		<li class="shixiao-li">
+        			<span class="select-box">
+        				<img src="../../material/shoppingCart/shixiao.png" alt="">
+        			</span>
+        			<span class="goods-information">工业无缝管 273*8 321</span>
+        			<span class="the-shop">
+        				<a href="">温州金琛不锈钢有限公司</a>
+        			</span>
+        			<span class="goods-address">浙江温州</span>
+        			<span class="warehouse">温州蓝田</span>
+        			<span class="price">100.00元/kg</span>
+        			<span class="goods-number">10.000吨</span>
+        			<span class="buy-number">
+        				<span class="count">
+    						<span class="reduce">-</span>
+                            <input class="count-input" type="text" value="1.000">
+                            <span class="add">+</span>
+    					</span>
+        			</span>
+        			<span class="total-price total-price3">¥15万</span>
+        			<span class="operation">
+        				<i class="iconfont icon-shanchu shanchu1"></i>
+        			</span>
+        		</li>
+        		<li>
+        			<span class="select-box">
+        				<input type="checkbox">
+        			</span>
+        			<span class="goods-information">工业无缝管 273*8 321</span>
+        			<span class="the-shop">
+        				<a href="">温州金琛不锈钢有限公司</a>
+        			</span>
+        			<span class="goods-address">浙江温州</span>
+        			<span class="warehouse">温州蓝田</span>
+        			<span class="price">100.00元/kg</span>
+        			<span class="goods-number">10.000吨</span>
+        			<span class="buy-number">
+        				<span class="count">
+    						<span class="reduce">-</span>
+                            <input class="count-input" type="text" value="1.000">
+                            <span class="add">+</span>
+    					</span>
+        			</span>
+        			<span class="total-price total-price1 total-price3">¥15万</span>
+        			<span class="operation">
+        				<i class="iconfont icon-shanchu"></i>
+        			</span>
+        		</li>
+        		<li>
+        			<span class="select-box">
+        				<input type="checkbox">
+        			</span>
+        			<span class="goods-information">工业无缝管 273*8 321</span>
+        			<span class="the-shop">
+        				<a href="">温州金琛不锈钢有限公司</a>
+        			</span>
+        			<span class="goods-address">浙江温州</span>
+        			<span class="warehouse">温州蓝田</span>
+        			<span class="price">100.00元/kg</span>
+        			<span class="goods-number">10.000吨</span>
+        			<span class="buy-number">
+        				<span class="count">
+    						<span class="reduce">-</span>
+                            <input class="count-input" type="text" value="1.000">
+                            <span class="add">+</span>
+    					</span>
+        			</span>
+        			<span class="total-price total-price1 total-price3">¥15万</span>
+        			<span class="operation">
+        				<i class="iconfont icon-shanchu"></i>
+        			</span>
+        		</li>
+        		<li class="need-margin-top">
+        			<span class="select-box">
+        				<input type="checkbox">
+        			</span>
+        			<span class="goods-information">工业无缝管 60*4 TP316L</span>
+        			<span class="the-shop">
+        				<a href="">松阳上上不锈钢管有限公司</a>
+        			</span>
+        			<span class="goods-address">浙江温州</span>
+        			<span class="warehouse">温州蓝田</span>
+        			<span class="price">100.00元/kg</span>
+        			<span class="goods-number">10.000吨</span>
+        			<span class="buy-number">
+        				<span class="count">
+    						<span class="reduce">-</span>
+                            <input class="count-input" type="text" value="1.000">
+                            <span class="add">+</span>
+    					</span>
+        			</span>
+        			<span class="total-price total-price1 total-price3">¥15万</span>
+        			<span class="operation">
+        				<i class="iconfont icon-shanchu"></i>
+        			</span>
+        		</li>
+        		<li>
+        			<span class="select-box">
+        				<input type="checkbox">
+        			</span>
+        			<span class="goods-information">工业无缝管 60*4 TP316L</span>
+        			<span class="the-shop">
+        				<a href="">松阳上上不锈钢管有限公司</a>
+        			</span>
+        			<span class="goods-address">浙江温州</span>
+        			<span class="warehouse">温州蓝田</span>
+        			<span class="price">100.00元/kg</span>
+        			<span class="goods-number">10.000吨</span>
+        			<span class="buy-number">
+        				<span class="count">
+    						<span class="reduce">-</span>
+                            <input class="count-input" type="text" value="1.000">
+                            <span class="add">+</span>
+    					</span>
+        			</span>
+        			<span class="total-price total-price1 total-price3">¥15万</span>
+        			<span class="operation">
+        				<i class="iconfont icon-shanchu"></i>
+        			</span>
+        		</li>
+        		<li class="need-margin-top">
+        			<span class="select-box">
+        				<input type="checkbox">
+        			</span>
+        			<span class="goods-information">工业无缝管 60*4 TP316L</span>
+        			<span class="the-shop">
+        				<a href="">南京沃尔德特钢温州分公司</a>
+        			</span>
+        			<span class="goods-address">江苏南京</span>
+        			<span class="warehouse">温州蓝田</span>
+        			<span class="price">100.00元/kg</span>
+        			<span class="goods-number">10.000吨</span>
+        			<span class="buy-number">
+        				<span class="count">
+    						<span class="reduce">-</span>
+                            <input class="count-input" type="text" value="1.000">
+                            <span class="add">+</span>
+    					</span>
+        			</span>
+        			<span class="total-price total-price1 total-price3">¥15万</span>
+        			<span class="operation">
+        				<i class="iconfont icon-shanchu"></i>
+        			</span>
+        		</li>
+        		<li class="need-margin-top">
+        			<span class="select-box">
+        				<input type="checkbox">
+        			</span>
+        			<span class="goods-information">工业无缝管 60*4 TP316L</span>
+        			<span class="the-shop">
+        				<a href="">上海上上不锈钢管有限公司</a>
+        			</span>
+        			<span class="goods-address">上海嘉定</span>
+        			<span class="warehouse">温州蓝田</span>
+        			<span class="price">100.00元/kg</span>
+        			<span class="goods-number">10.000吨</span>
+        			<span class="buy-number">
+        				<span class="count">
+    						<span class="reduce">-</span>
+                            <input class="count-input" type="text" value="1.000">
+                            <span class="add">+</span>
+    					</span>
+        			</span>
+        			<span class="total-price total-price1 total-price3">¥15万</span>
+        			<span class="operation">
+        				<i class="iconfont icon-shanchu"></i>
+        			</span>
+        		</li>
+        		<li class="need-margin-top">
+        			<span class="select-box">
+        				<input type="checkbox">
+        			</span>
+        			<span class="goods-information">工业无缝管 60*4 TP316L</span>
+        			<span class="the-shop">
+        				<a href="">江苏上上不锈钢管有限公司</a>
+        			</span>
+        			<span class="goods-address">江苏无锡</span>
+        			<span class="warehouse">温州蓝田</span>
+        			<span class="price">100.00元/kg</span>
+        			<span class="goods-number">10.000吨</span>
+        			<span class="buy-number">
+        				<span class="count">
+    						<span class="reduce">-</span>
+                            <input class="count-input" type="text" value="1.000">
+                            <span class="add">+</span>
+    					</span>
+        			</span>
+        			<span class="total-price total-price1 total-price3">¥15万</span>
+        			<span class="operation">
+        				<i class="iconfont icon-shanchu"></i>
+        			</span>
+        		</li>
+        		<li class="need-margin-top li-bottom">
+        			<div class="li-left">
+        				<button class="select-all">全选</button>
+						<button class="clear-all">清空购物车</button>
+						<span class="already-select">已选择
+							<span class="select-number">0</span>
+							件商品
+						</span>
+						<span>商品总金额(不含其它费用)：</span>
+						<span class="total-price2">¥0元</span>
+        			</div>
+        			<div class="li-right">
+        				<button class="continue-buy">继续采购</button>
+        				<button class="immediate-settlement">立即结算</button>
+        			</div>
+        		</li>
+        	</ul>
+        </div>
+    </div>
+</div>
+
+<div class="home-footer">
+    <div class="containert">
+        <div class="home-footer-login">
+            <img src="../../material/home/logo1.png" alt="">
+            <p>客服热线：400-7676-208</p>
+            <p>服务时间：8:00-19:00</p>
+
+        </div>
+        <div class="home-footer-list">
+            <ul class="home-footer-list-ul">
+                <li>
+                    <h4>我要买钢管</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">我要买货</a></li>
+                        <li><a href="">采购商管理后台</a></li>
+                        <li><a href="">采购商入驻好处</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>我要卖钢管</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">客户入驻须知</a></li>
+                        <li><a href="">供应商管理后台</a></li>
+                        <li><a href="">为什么加入“速卖网”</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>售后服务</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">售后政策</a></li>
+                        <li><a href="">异议处理流程</a></li>
+                        <li><a href="">售后服务地点</a></li>
+                    </ul>
+                </li>
+                <li class="last-no-wire">
+                    <h4>常见问题</h4>
+                    <ul class="home-footer-listIn-ul">
+                        <li><a href="">无法登录/忘记密码</a></li>
+                        <li><a href="">修改帐户信息</a></li>
+                        <li><a href="">速卖网交易流程</a></li>
+                    </ul>
+                </li>
+                <div class="clearfix"></div>
+
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="home-copyright">
+    <div class="containert">
+        <div class="home-copyright-top">
+            <ul class="home-copyright-ul">
+                <li><span>上上工业速卖网</span></li>
+                <li><span>关于我们</span></li>
+                <li><span>实地认证</span></li>
+                <li><span>手机找现货</span></li>
+                <li><span>隐私声明</span></li>
+                <li class="last-no-wire"><span>联系我们</span></li>
+            </ul>
+        </div>
+        <div class="home-copyright-bottom">© 2001-2017 www.gysmw.com 版权所有 备案号 【沪ICP备05025340-2】许可证号【沪ICP备05025340】</div>
+    </div>
+
+</div>
+</body>
+<script src="../../common/js/placehoder.js"></script>
+<script src="../../common/js/public.js"></script>
+</html>

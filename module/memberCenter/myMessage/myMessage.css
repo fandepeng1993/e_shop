@@ -1,0 +1,340 @@
+.title-shoppingCart {
+	float: left;
+	width: 123px;
+	height: 47px;
+	line-height: 47px;
+	text-align: center;
+	margin-top: 26px;
+	margin-left: 2.7%;
+	border: 1px solid #3D91F0;
+	background-color: #fff;
+	outline: none;
+}
+.title-shoppingCart i {
+	font-size: 22px;
+	color: #3D91F0;
+}
+.title-shoppingCart .shoppingCart {
+	display: inline-block;
+	margin-left: 8px;
+	font-size: 14px;
+	color: #666666;
+}
+.title-shoppingCart .shoppingNum {
+	display: inline-block;
+	margin-left: 6px;
+	width: 21px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #3D91F0;
+	border-radius: 50%;
+	position: relative;
+	z-index: 1;
+	behavior: url(../../common/css/ie-css3.htc);
+}
+
+.myMessage {
+	width: 100%;
+	height: 830px;
+	min-width: 1100px;
+}
+
+.myMessage .mem-title {
+	width: 100%;
+	height: 78px;
+	color: #fff;
+	min-width: 1100px;
+	background: #2C84E7;
+}
+
+.myMessage .mem-title-in {
+	/*width: 63%;*/
+	/*margin-left: 18.5%;*/
+	min-width: 1100px;
+	width: 62.5%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.myMessage .mem-title ul {
+	/*width: 520px;*/
+	float: left;
+}
+
+.myMessage .mem-title ul li {
+	display: inline-block;
+	font-size: 16px;
+	width: 119px;
+	height: 73px;
+	margin-top: 2px;
+	text-align: center;
+}
+
+.myMessage .mem-title ul a{
+	color: #fff;
+}
+
+.myMessage .mem-title ul li p {
+	margin-top: -12px;
+}
+
+.myMessage .mem-title ul li.active {
+	background: #fff;
+	color: #2C84E7;
+}
+
+.myMessage .mem-title ul li.active a{
+	background: #fff;
+	color: #2C84E7;
+}
+
+.myMessage .mem-title ul li .icon-huiyuanzhongxin {
+	font-size: 40px;
+}
+
+.myMessage .mem-title ul li .icon-dianpu {
+	font-size: 25px;
+	line-height: 50px;
+}
+
+.myMessage .mem-title ul li .icon-shouye1 {
+	font-size: 28px;
+	line-height: 45px;
+}
+
+.myMessage .mem-title ul li .icon-zhuxiaodenglu {
+	font-size: 28px;
+	line-height: 50px;
+}
+
+.myMessage .mem-title .mem-title-right {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.myMessage .mem-title .mem-title-right {
+	float: right;
+	margin-top: 13px;
+	margin-right: 30px;
+}
+
+.myMessage .mem-title .mem-title-right img {
+	float: left;
+	margin-right: 10px;
+}
+
+.myMessage .mem-title .mem-title-right span.small {
+	font-size: 12px;
+}
+
+.myMessage .mem-title .mem-title-right span.small i {
+	margin-left: 5px;
+	color: #FFE6AA;
+}
+
+.myMessage .mem-content {
+	width: 62.5%;
+	/*margin-left: 18.5%;*/
+	/*float: left;*/
+	/*margin-top: 0px;*/
+	min-width: 1100px;
+	margin: 17px auto 0;
+	overflow: hidden;
+}
+
+.myMessage .mem-content .mem-left {
+	/*width: 262px;*/
+	width: 21.84%;
+	height: 545px;
+	float: left;
+}
+
+.myMessage .mem-left ul {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #B5B5B5;
+	background: #fff;
+}
+
+.myMessage .mem-left ul li {
+	width: 100%;
+	height: 68px;
+	font-size: 18px;
+	color: #333;
+	padding-top: 22px;
+	border-bottom: 1px solid #B5B5B5;
+}
+
+.myMessage .mem-left ul li a {
+	color: #333;
+}
+
+.myMessage .mem-left ul li .first {
+	padding-left: 25px;
+	font-size: 20px;
+	margin-right: 10px;
+	float: left;
+}
+
+.myMessage .mem-left ul li .icon-jiantou1 {
+	float: right;
+	margin-right: 20px;
+}
+
+.myMessage .mem-left ul li .icon-shouhuodizhi {
+	padding-left: 0px;
+	margin-right: -10px;
+}
+
+.myMessage .mem-left ul li .icon-wodexiaoxi {
+	font-size: 18px;
+	padding-left: 23px;
+}
+
+.myMessage .mem-left ul li .icon-xiugaimima {
+	padding-left: 22px;
+}
+
+.myMessage .mem-left ul li .icon-shoucang {
+	padding-left: 22px;
+}
+
+.myMessage .mem-left ul li .icon-wuliu1 {
+	padding-left: 22px;
+}
+
+.myMessage .mem-left ul li.active ,.myMessage .mem-left ul li.active a{
+	background: #3D91F0;
+	color: #fff;
+}
+
+.myMessage .mem-right {
+	width: 77.33%;
+	margin-left: 0.83%;
+	float: left;
+	background: #fff;
+	padding: 30px 40px 35px 40px;
+	border-top: 4px solid #47A8F9;
+	border-left: 1px solid #E5E5E5;
+	border-right: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.myMessage .mem-right .mem-right-title span.line {
+	display: block;
+	width: 7px;
+	height: 20px;
+	background: #2C84E7;
+	float: left;
+	margin-right: 10px;
+	margin-top: 2px;
+}
+.myMessage .mem-right .mem-right-title {
+	overflow: hidden;
+	border-bottom: 1px solid #BFBFBF;
+	padding-bottom: 13px;
+}
+.myMessage .mem-right .mem-right-title p {
+	font-size: 18px;
+	float: left;
+	margin: 0;
+}
+.select {
+	float: right;
+}
+.select input,.message-top input,.message-top i {
+	width: 19px;
+	height: 19px;
+	position: relative;
+	top: 4px;
+}
+.select input {
+	margin-right: 11px;
+}
+.select label,.select .delete1,.delete2 {
+	font-size: 16px;
+}
+.delete1,.delete2 {
+	border: none;
+	outline: none;
+	background-color: #fff;
+	margin: 0 16px 0 33px;
+}
+.delete1 {
+	color: #F37E00;
+}
+.men-right-ul ul>li {
+	overflow: hidden;
+	height: 85px;
+	border-bottom: 1px solid #D9D9D9;
+}
+.msg-left {
+	float: left;
+	margin-top: 10px;
+}
+.message-top i {
+	font-size: 25px;
+	color: #F39800;
+}
+.message-top a {
+	margin: 0 31px 0 20px;
+}
+.message-top .time {
+	margin-left: 26px;
+	color: #999;
+}
+.message-top .from,.message-top .type{
+	color: #666;
+}
+.massage-content {
+	margin: 0;
+	font-size: 16px;
+	margin: 3px 0 0 28px;
+}
+.men-right-ul ul>li>button {
+	float: right;
+	line-height: 85px;
+	color: #999;
+}
+.page_div {
+	width: 67%;
+	text-align: center;
+	margin: 25px auto 0;
+	font-size: 14px;
+	color: #333;
+}
+
+.page_div a {
+	min-width: 31px;
+	height: 28px;
+	border: 1px solid #dce0e0 !important;
+	text-align: center;
+	margin-left: 4px;
+	cursor: pointer;
+	line-height: 28px;
+	color: #666666;
+	font-size: 13px;
+	display: inline-block;
+}
+
+.page_div a:hover {
+	text-decoration: none;
+}
+
+.page_div .current {
+	background-color: #2B8EE3;
+	color: #FFFFFF;
+	margin-left: 9px;
+}
+
+#prePage, #nextPage {
+	width: 66px;
+}
+
+#nextPage {
+	margin-left: 9px;
+}
+
+.totalPages {
+	margin: 0 10px;
+}

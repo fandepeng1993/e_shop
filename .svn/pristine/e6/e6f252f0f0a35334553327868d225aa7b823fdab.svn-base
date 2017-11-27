@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>账号信息</title>
+	<!-- 用最新的IE引擎渲染 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+	<!-- 页面窗口自适应 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="../../../common/favorite/ssslogo.ico">
+	<!-- 框架样式 -->
+	<link rel="stylesheet" type="text/css" href="../../../common/css/bootstrap.min.css">
+	<!-- 项目自定义图标 -->
+	<link rel="stylesheet" type="text/css" href="../../../common/icon/iconfont.css">
+	<!--公共样式-->
+	<link rel="stylesheet" type="text/css" href="../../../common/css/public.css">
+
+	<link rel="stylesheet" type="text/css" href="../../../common/css/public_banner.css">
+	<!-- 首页样式 -->
+	<link rel="stylesheet" type="text/css" href="../../../module/home/home.css">
+	<!-- 账号信息样式 -->
+	<link rel="stylesheet" type="text/css" href="../../../module/memberCenter/accountInfo/accountInfo.css">
+	<!-- jquery1.12.4版本 -->
+	<script type="text/javascript" src="../../../common/js/jquery.min.js"></script>
+	<!-- 账号信息js -->
+	<script type="text/javascript" src="../../../module/memberCenter/accountInfo/accountInfo.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="home-top">
+			<div class="container-fluid">
+				<span class="navbar-brand"><i class="iconfont icon-shouye"></i></span>
+				<p class="navbar-text">您好，欢迎来到上上工业速买网！</p>
+				<!-- 右侧菜单 -->
+				<ul class="home-ul">
+					<li class="myOrder">我的订单 <span class="caret"></span>
+						<ul>
+							<li>123</li>
+							<li>123</li>
+							<li>123</li>
+						</ul>
+					</li>
+					<li>消息中心(0)</li>
+					<li>会员中心</li>
+					<li><i class="iconfont icon-gouwuche shop-card"></i> 购物车</li>
+					<li>在线客服</li>
+					<li class="li-last"><i class="iconfont icon-dianhua"></i>400-7676-208</li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</nav>
+	<div class="home-title">
+		<div class="title-top">
+			<div class="title-left">
+				<img src="../../../material/home/logo.png" />
+			</div>
+			<!-- 右侧菜单 -->
+			<div class="title-right">
+				<ul class="title-ul">
+					<li><a href="../../home/index.html">首页</a></li>
+					<li><a href="../../FindSpotgoods/index.html">找现货</a></li>
+					<li><a href="../../FindCustomMade/index.html">找定制</a></li>
+					<li><a href="../../FindAskbuy/index.html">找求购</a></li>
+					<li><a href="../../FindLogistics/index.html">找物流</a></li>
+					<li><a href="../../ssInformation/index.html">资讯</a></li>
+					<li><a href="../../ssResume/index.html">企业招聘</a></li>
+				</ul>
+			</div>
+			<div class="title-login">
+				<ul class="title-ul">
+					<li><a href="../../Login/index.html">登录</a></li>
+					<li><a href="../../Register/index.html">会员注册</a></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- 会员中心 -->
+	<div class="memberCenter">
+		<div class="mem-title">
+			<div class="mem-title-in">
+				<ul>
+					<li class="active">
+						<a href="../index.html">
+							<i class="iconfont icon-huiyuanzhongxin"></i>
+							<p>会员中心</p>
+						</a>
+					</li>
+					<li>
+						<i class="iconfont icon-dianpu"></i>
+						<p>卖家中心</p>
+					</li>
+					<li>
+						<i class="iconfont icon-shouye1"></i>
+						<p>网站首页</p>
+					</li>
+					<li>
+						<i class="iconfont icon-zhuxiaodenglu"></i>
+						<p>注销登陆</p>
+					</li>
+				</ul>
+				<div class="mem-title-right">
+					<img src="../../../material/memberCenter/touxiang.png" alt="">
+					<span>
+						您好，王鹏翔
+						<br/>
+						<span class="small">普通VIP会员<i class="iconfont icon-VIP"></i></span>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="mem-content">
+			<div class="mem-left">
+				<ul>
+					<a href="../index.html">
+						<li>
+							<i class="iconfont icon-dingdan first"></i>
+							我的订单
+							<i class="iconfont icon-jiantou1"></i>
+						</li>
+					</a>
+					<a href="#">
+						<li class="active">
+							<i class="iconfont icon-zhanghao first"></i>
+							账号信息
+							<i class="iconfont icon-jiantou1"></i>
+						</li>
+					</a>
+					<a href="../modifyPw/index.html">
+						<li>
+							<i class="iconfont icon-xiugaimima first"></i>
+							修改密码
+							<i class="iconfont icon-jiantou1"></i>
+						</li>
+					</a>
+					<a href="../receivingAd/index.html">
+						<li>
+							<i class="iconfont icon-shouhuodizhi first"></i>
+							收货地址
+							<i class="iconfont icon-jiantou1"></i>
+						</li>
+					</a>
+					<a href="../myMessage/index.html">
+						<li>
+							<i class="iconfont icon-wodexiaoxi first"></i>
+							我的消息
+							<i class="iconfont icon-jiantou1"></i>
+						</li>
+					</a>
+					<a href="../myCollection/index.html">
+						<li>
+							<i class="iconfont icon-shoucang first"></i>
+							我的收藏
+							<i class="iconfont icon-jiantou1"></i>
+						</li>
+					</a>
+					<a href="../myLogistics/index.html">
+						<li>
+							<i class="iconfont icon-wuliu1 first"></i>
+							我的物流
+							<i class="iconfont icon-jiantou1"></i>
+						</li>
+					</a>
+				</ul>
+			</div>
+			<div class="mem-right">
+				<div class="mem-right-title">
+					<ul class="mem-right-ul">
+						<li class="active"><div class="sanjiao"></div>基本信息</li>
+						<li><div class="sanjiao"></div>公司信息</li>
+						<li><div class="sanjiao"></div>发票信息</li>
+					</ul>
+				</div>
+				<div class="mem-right-l">
+					<p>真实姓名：<input type="text" placeholder="输入真实姓名"></p>
+					<p>常用邮箱：<input type="text" placeholder="输入邮箱"></p>
+					<p>QQ号码  ：<input type="text" placeholder="输入QQ号码"></p>
+					<p>
+						手机号码：<input type="text" placeholder="18516563651">
+						<i class="iconfont icon-anquanshezhi-yanzhengtongguo"></i><span>[已验证]</span>
+						<button class="btn update-btn">修改</button>
+					</p>
+					<p><button class="btn confirm">确认提交</button></p>
+				</div>
+				<div class="mem-right-r">
+					<img src="../../../material/memberCenter/accountInfo/touxiang.png" alt="">
+					<p class="img-p">支持jpg/gif/png格式图片，文件需小于1M,建议尺寸370*230</p>
+				</div>
+
+				<div class="line-po"></div>
+			</div>
+		</div>
+	</div>
+	<div class="home-footer">
+		<div class="containert">
+			<div class="home-footer-login margin-left">
+				<img src="../../../material/home/logo1.png" alt="">
+				<p>客服热线：400-7676-208</p>
+				<p>服务时间：8:00-19:00</p>
+			</div>
+			<div class=" home-footer-list">
+				<ul class="home-footer-list-ul">
+					<li>
+						<h4>我要买钢管</h4>
+						<ul class="home-footer-listIn-ul">
+							<li><a href="">我要买货</a></li>
+							<li><a href="">采购商管理后台</a></li>
+							<li><a href="">采购商入驻好处</a></li>
+						</ul>
+					</li>
+					<li>
+						<h4>我要卖钢管</h4>
+						<ul class="home-footer-listIn-ul">
+							<li><a href="">客户入驻须知</a></li>
+							<li><a href="">供应商管理后台</a></li>
+							<li><a href="">为什么加入“速卖网”</a></li>
+						</ul>
+					</li>
+					<li>
+						<h4>售后服务</h4>
+						<ul class="home-footer-listIn-ul">
+							<li><a href="">售后政策</a></li>
+							<li><a href="">异议处理流程</a></li>
+							<li><a href="">售后服务地点</a></li>
+						</ul>
+					</li>
+					<li class="last-no-wire">
+						<h4>常见问题</h4>
+						<ul class="home-footer-listIn-ul">
+							<li><a href="">无法登录/忘记密码</a></li>
+							<li><a href="">修改帐户信息</a></li>
+							<li><a href="">速卖网交易流程</a></li>
+						</ul>
+					</li>
+					<div class="clearfix"></div>
+
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="home-copyright">
+		<div class="containert">
+			<div class="home-copyright-top">
+				<ul class="home-copyright-ul">
+					<li><span>上上工业速卖网</span></li>
+					<li><span>关于我们</span></li>
+					<li><span>实地认证</span></li>
+					<li><span>手机找现货</span></li>
+					<li><span>隐私声明</span></li>
+					<li class="last-no-wire"><span>联系我们</span></li>
+				</ul>
+			</div>
+			<div class="home-copyright-bottom">© 2001-2017 www.gysmw.com 版权所有 备案号 【沪ICP备05025340-2】许可证号【沪ICP备05025340】</div>
+		</div>
+	</div>
+</body>
+<script src="../../../common/js/placehoder.js"></script>
+<!-- 公共头部 -->
+<script type="text/javascript" src="../../../common/js/public.js"></script>
+</html>

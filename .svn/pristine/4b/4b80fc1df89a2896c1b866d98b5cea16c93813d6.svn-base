@@ -1,0 +1,103 @@
+.LoginPage{
+    width:100%;
+    position: absolute;
+    bottom:0px;
+    min-width: 1366px;
+    height: 450px;
+}
+.LoginPage-wrap{
+    width: 55%;
+    height: 529px;
+    background: #fff;
+    margin: 93px auto;
+    padding: 26px 40px 30px 40px;
+    border-radius: 5px;
+}
+.LoginPagefooter.home-footer{
+    margin-top: 263px;
+}
+.LoginPage-wrap_top{
+    overflow: hidden;
+    border-bottom: 1px solid #BFBFBF;
+}
+.LoginPage-wrap_top h4{
+    float: left;
+}
+.LoginPage-wrap_top h4 span{
+    font-size: 12px;
+    color: #1779CE;
+    margin-left: 5px;
+}
+.LoginPage-wrap_top a{
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.LoginPage-wrap_top a i{
+    vertical-align: text-top;
+    margin-right: 5px;
+}
+
+.LoginPage-wrap_bottom{
+    padding: 30px 0 10px 46px;
+}
+
+.LoginPage-wrap_bottom ul{
+    list-style: disc;
+    color: #E60012;
+}
+.LoginPage-wrap_bottom ul li{
+    float: left;
+    width: 48%;
+}
+.LoginPage-wrap_bottom ul li.right {
+    margin-left: 20px;
+
+}
+
+.LoginPage-wrap_bottom ul li span{
+    float: left;
+    width: 22%;
+    text-align-last: justify;
+    text-align: justify;
+    margin-right: 10px;
+}
+.LoginPage-wrap_bottom ul li  input{
+    float: left;
+    width: 66%;
+    margin-top: -8px;
+    margin-bottom:30px;
+}
+.LoginPage-wrap_bottom ul li.rightcode input{
+    width: 30%;
+
+}
+.LoginPage-wrap_bottom ul li.right a{
+    float: left;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.code{
+    float: left;
+    width:24%;
+    height: 34px;
+    background: red;
+    margin-top: -8px;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.labels input{
+    vertical-align: text-top;
+}
+.protocol{
+    cursor: pointer;
+}
+.needbtn{
+    width: 100%;
+}
+.needbtn button{
+    width: 20%;
+    display: inherit;
+    margin: 0 auto;
+}

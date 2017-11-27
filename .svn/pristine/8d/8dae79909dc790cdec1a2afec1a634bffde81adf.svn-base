@@ -1,0 +1,252 @@
+.fl-uploadc-uploadc {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+  	/*font-size: 2.5rem;
+	    padding: 0.8rem 3rem ;
+	    border-radius: 2.3rem;*/
+
+    /*background:-moz-linear-gradient(left,#ace,#f96);!*Mozilla*!
+        background:-webkit-gradient(linear,0 50%,100% 50%,from(#ace),to(#f96));!*Old gradient for webkit*!
+        background:-webkit-linear-gradient(left,#ace,#f96);!*new gradient for Webkit*!
+        background:-o-linear-gradient(left,#ace,#f96); !*Opera11*!
+        filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ace, endColorstr=#f96)";!*IE<9>*!
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#ace, endColorstr=#f96)";!*IE8+*!
+        color: white;*/
+}
+.fl-former-wrap{
+    position: absolute;
+    width: 100%;
+    bottom: -80px;
+}
+.fl-former-box{
+    border: 1px solid #38A6E9;
+    width: 753px;
+    min-width: 753px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.fl-former-box-left{
+    float: left;
+    width: 77.4%;
+    padding: 3.5% 0;
+    height: 150px;
+}
+.fl-box-box {
+    overflow: hidden;
+    width: 81%;
+    margin: 0 auto;
+}
+.fl-box-left,.fl-box-center,.fl-box-right {
+    float: left;
+}
+.fl-box-left,.fl-box-right {
+    width: 42.7%;
+}
+.position {
+    position: relative;
+}
+.form-control {
+    height: 41px;
+}
+.position i{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #38A6E9;
+}
+.input-weight {
+    margin-top: 21px;
+}
+.fl-box-center {
+    width: 13%;
+    text-align: center;
+    line-height: 103px;
+}
+.fl-box-center i {
+    font-size: 22px;
+    color: #b3b3b3;
+}
+
+.fl-former-box-right{
+    background: url("../../material/FindLogistics/wlchaxun.png");
+}
+.FindLogistics{
+    margin-top: 80px;
+}
+.fl-former-box-right{
+    float: right;
+    padding-top: 20%;
+    width: 22.6%;
+    position: relative;
+    cursor: pointer;
+}
+.icon-wuliuchaxun{
+    color: #fff;
+    font-size: 700%;
+    position: absolute;
+    top: 0px;
+    left: 20%
+}
+
+.clearfixs{
+    padding-left: 20px;
+    margin: 30px 0 10px 0;
+    background: #fff;
+}
+.FindLogistics-recommend .clearfixs i.iconfont{
+    font-size: 46px;
+    float: left;
+    color: #3d9ae9;
+}
+
+.FindLogistics-recommend-title-text{
+    float: left;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.FindLogistics-recommend-title-text h5{
+    margin: 5px 0;
+}
+.FindLogistics-recommend-title-text p{
+    margin: 0;
+}
+
+.clearfixs a{
+    color: #7D7D7D;
+    float: right;
+    margin-right: 20px;
+    line-height: 65px;
+    cursor: pointer;
+
+}
+.FindLogistics-panel{
+    margin-top: 20px;
+}
+.FindLogistics-panel-ul>li{
+    float: left;
+    background: #fff;
+    height: 330px;
+    width: 32%;
+    margin-bottom: 20px;
+}
+.n-first{
+    border-top: 2px solid #FF8383;
+}
+.n-secround{
+    border-top: 2px solid #B6D138;
+}
+.n-third{
+    border-top: 2px solid #83C3FF;
+}
+.FindLogistics-panel-ul>li.f_distance{
+    margin-left:2%;
+    margin-right:2%;
+}
+.FindLogistics-panel-ul h3 i{
+    font-size: 30px;
+}
+.FindLogistics-panel-ul h3{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.FindLogistics-panel-ul-info{
+    padding: 4%;
+    border-top: 1px solid #D9D9D9;
+}
+.FindLogistics-panel-ul-info li{
+    margin: 10px 0;
+}
+.FindLogistics-panel-ul-info li span{
+    display: inline-block;
+    width: 80%;
+}
+.FindLogistics-panel-ul-info li span.company{
+    font-size: 15px;
+    font-weight: bold;
+}
+.FindLogistics-panel-ul-info li i{
+    font-style: normal;
+    display: inline-block;
+    width: 18%;
+    text-align:justify;
+    text-align-last:justify;
+    vertical-align: top;
+    color: #999999;
+}
+.nowSend{
+    padding:5px 15px;
+    border:1px solid #FF6600;
+    color:#FF6600;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+.nowSend:hover{
+    text-decoration: none;
+    color: #fff;
+    background:#FF6600;
+    cursor: pointer;
+
+}
+.nowSendWrap{
+    margin: 0 auto;
+    width: 40%;
+
+}
+.FindLogistics-advantage .line{float: left;width: 40%;border-color:#BFBFBF;}
+.FindLogistics-advantage .icon-text{
+    float: left;
+    width: 20%;
+    /* padding: 0 10px; */
+    /* margin: 0 auto; */
+    padding-left: 4%;
+    margin-top: -10px;
+}
+.FindLogistics-advantage .icon-text i.iconfont{
+    font-size: 46px;
+    float: left;
+    color: #3d9ae9;
+}
+.FindLogistics-advantage-title-text{float: left}
+.FindLogistics-advantage-title-text h4{
+    margin-bottom: 5px;
+}
+.FindLogistics-advantage-title-text p{
+    margin: 0;
+}
+.our-advantage-ul li{
+    background: #fff;
+    width: 23%;
+    height: 100px;
+    float: left;
+}
+.oa_distance{
+    margin: 0 2.6%;
+}
+.our-advantage-ul{
+    margin-top: 20px;
+}
+.our-advantage-ul li.oa_important{
+    margin-left: 0%;
+}
+.our-advantage-ul i.iconfont{
+    font-size: 50px;
+    float: left;
+    width: 78px;
+    height: 78px;
+    margin: 3%;
+    padding: 2% 3% 3% 5%;
+    border-radius: 50%;
+    margin-top: 11px;
+    border: 1px solid #000000;
+}
+.our-advantage-title-text{
+    float: left;
+    width: 62%;
+}
+.our-advantage-title-text p{
+   color: #666666;
+}

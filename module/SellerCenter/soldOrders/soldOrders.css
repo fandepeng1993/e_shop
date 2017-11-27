@@ -1,0 +1,533 @@
+.title-shoppingCart {
+	float: left;
+	width: 123px;
+	height: 47px;
+	line-height: 47px;
+	text-align: center;
+	margin-top: 26px;
+	margin-left: 2.7%;
+	border: 1px solid #3D91F0;
+	background-color: #fff;
+	outline: none;
+}
+.title-shoppingCart i {
+	font-size: 22px;
+	color: #3D91F0;
+}
+.title-shoppingCart .shoppingCart {
+	display: inline-block;
+	margin-left: 8px;
+	font-size: 14px;
+	color: #666666;
+}
+.title-shoppingCart .shoppingNum {
+	display: inline-block;
+	margin-left: 6px;
+	width: 21px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #3D91F0;
+	border-radius: 50%;
+	position: relative;
+	z-index: 1;
+	behavior: url(../../common/css/ie-css3.htc);
+}
+
+.SellerCenter {
+	width: 100%;
+	min-width: 1100px;
+	height: 900px;
+	margin-bottom: 114px;
+}
+
+.SellerCenter .mem-title {
+	width: 100%;
+	height: 78px;
+	color: #fff;
+	min-width: 1100px;
+	background: #2C84E7;
+}
+
+.SellerCenter .mem-title-in {
+	min-width: 1100px;
+	width: 62.5%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.SellerCenter .mem-title ul {
+	float: left;
+}
+
+.SellerCenter .mem-title ul li {
+	display: inline-block;
+	font-size: 16px;
+	width: 119px;
+	height: 73px;
+	margin-top: 2px;
+	text-align: center;
+}
+
+.SellerCenter .mem-title ul a{
+	color: #fff;
+}
+
+.SellerCenter .mem-title ul li p {
+	margin-top: -12px;
+}
+
+.SellerCenter .mem-title ul li.active {
+	background: #fff;
+	color: #2C84E7;
+}
+
+.SellerCenter .mem-title ul li.active a{
+	background: #fff;
+	color: #2C84E7;
+}
+
+.SellerCenter .mem-title ul li .icon-huiyuanzhongxin {
+	font-size: 40px;
+}
+
+.SellerCenter .mem-title ul li .icon-dianpu {
+	font-size: 25px;
+	line-height: 57px;
+}
+
+.SellerCenter .mem-title ul li .icon-shouye1 {
+	font-size: 28px;
+	line-height: 45px;
+}
+
+.SellerCenter .mem-title ul li .icon-zhuxiaodenglu {
+	font-size: 28px;
+	line-height: 50px;
+}
+
+.SellerCenter .mem-title .mem-title-right {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.SellerCenter .mem-title .mem-title-right {
+	float: right;
+	margin-top: 13px;
+	margin-right: 30px;
+}
+
+.SellerCenter .mem-title .mem-title-right img {
+	float: left;
+	margin-right: 10px;
+}
+
+.SellerCenter .mem-title .mem-title-right span.small {
+	font-size: 12px;
+}
+
+.SellerCenter .mem-title .mem-title-right span.small i {
+	margin-left: 5px;
+	color: #FFE6AA;
+}
+
+.SellerCenter .mem-content {
+	width: 62.5%;
+	min-width: 1100px;
+	margin: 17px auto 0;
+	overflow: hidden;
+}
+
+.SellerCenter .mem-content .mem-left {
+	width: 21.84%;
+	height: 477px;
+	float: left;
+}
+
+.SellerCenter .mem-left ul {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #B5B5B5;
+	background: #fff;
+}
+
+.SellerCenter .mem-left ul li {
+	width: 100%;
+	height: 68px;
+	font-size: 18px;
+	color: #333;
+	padding-top: 22px;
+	border-bottom: 1px solid #B5B5B5;
+}
+
+.SellerCenter .mem-left ul li a {
+	color: #333;
+}
+
+.SellerCenter .mem-left ul li .first {
+	padding-left: 25px;
+	font-size: 20px;
+	margin-right: 10px;
+	float: left;
+}
+
+.SellerCenter .mem-left ul li .icon-jiantou1 {
+	float: right;
+	margin-right: 20px;
+}
+
+.SellerCenter .mem-left ul li .icon-shouhuodizhi {
+	padding-left: 0px;
+	margin-right: -10px;
+}
+
+.SellerCenter .mem-left ul li .icon-wodexiaoxi {
+	font-size: 18px;
+	padding-left: 23px;
+}
+
+.SellerCenter .mem-left ul li .icon-xiugaimima {
+	padding-left: 22px;
+}
+
+.SellerCenter .mem-left ul li .icon-shoucang {
+	padding-left: 22px;
+}
+
+.SellerCenter .mem-left ul li .icon-wuliu1 {
+	padding-left: 22px;
+}
+
+.SellerCenter .mem-left ul li.active ,.SellerCenter .mem-left ul li.active a{
+	background: #3D91F0;
+	color: #fff;
+}
+
+.SellerCenter .mem-right {
+	width: 77.33%;
+	margin-left: 0.83%;
+	float: left;
+	background: #fff;
+	border-top: 4px solid #47A8F9;
+	border-left: 1px solid #E5E5E5;
+	border-right: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+}
+.mem-right-title span.line {
+	display: block;
+	width: 7px;
+	height: 20px;
+	background: #2C84E7;
+	float: left;
+	margin-right: 10px;
+	margin-top: 16px;
+}
+
+.mem-right-content {
+	padding: 27px 5.1% 57px 5%;
+}
+.notice p {
+	margin: 0;
+}
+.notice-member {
+	font-size: 16px;
+	color: #2C84E7;
+	margin-bottom: 7px !important;
+}
+.notice-text {
+	min-height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border: 1px dotted #E5E5E5;
+	background-color: #F6F6F6;
+}
+.operation-btn {
+	overflow: hidden;
+	padding: 32px 0 24px 0;
+	border-bottom: 1px solid #DCDCDC;
+}
+.operation-btn-left {
+	float: left;
+}
+.operation-btn-left button {
+	border-radius: 20px;
+	position: relative;
+    z-index: 1;
+    height: 40px;
+    font-size: 16px;
+    outline: none;
+    behavior: url(../../common/css/ie-css3.htc);
+}
+.operation-btn-left .fab-new {
+	width: 135px;
+	background-color: #F39800;
+	border: 1px solid #F39800;
+	color: #fff;
+}
+.operation-btn-left .export-btn,.operation-btn-left .download-btn {
+	width: 110px;
+	margin-left: 25px;
+	border: 1px solid #2C84E7;
+	color: #2C84E7;
+	background-color: #fff;
+}
+.operation-btn-right {
+	float: right;
+}
+.select input {
+	width: 19px;
+	height: 19px;
+	position: relative;
+	top: 4px;
+	margin-right: 11px;
+}
+.select label,.select .delete1 {
+	font-size: 16px;
+}
+.delete1 {
+	border: none;
+	outline: none;
+	background-color: #fff;
+	margin: 0 16px 0 33px;
+	color: #F37E00;
+}
+
+.SellerCenter .mem-right {
+	width: 900px;
+	height: 800px;
+	margin-left: 10px;
+	float: left;
+	background: #fff;
+	padding: 30px 40px 35px 40px;
+	border-top: 4px solid #47A8F9;
+}
+
+.SellerCenter .mem-right .mem-right-title span.line {
+	display: block;
+	width: 7px;
+	height: 20px;
+	background: #2C84E7;
+	float: left;
+	margin-right: 10px;
+	margin-top: 2px;
+}
+
+.SellerCenter .mem-right .mem-right-title p {
+	font-size: 18px;
+}
+
+.SellerCenter .mem-right .mem-right-bt {
+	border: 1px dashed #B5B5B5;
+	height: 200px;
+}
+
+.SellerCenter .mem-right .mem-right-bt  input {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.SellerCenter .mem-right .mem-right-bt .mem-right-bt-left {
+	width: 38%;
+	float: left;
+	font-size: 16px;
+	color: #333;
+	padding-top: 24px;
+	padding-left: 20px;
+}
+
+.SellerCenter .mem-right .mem-right-bt .mem-right-bt-left .mleft {
+	width: 100%;
+	float: left;
+}
+
+.SellerCenter .mem-right .mem-right-bt .mem-right-bt-left .mleftT {
+	margin-top: 18px;
+	width: 100%;
+	float: left;
+}
+
+.SellerCenter .mem-right .mem-right-bt .mem-right-bt-left .check {
+	margin-top: 30px;
+}
+
+.SellerCenter .mem-right .mem-right-bt .mem-right-bt-right {
+	width: 62%;
+	float: left;
+	font-size: 16px;
+	color: #333;
+	padding-top: 24px;
+}
+
+.SellerCenter .mem-right .mem-right-bt .mem-right-bt-right ul {
+	width: 100%;
+	float: right;
+}
+
+.SellerCenter .mem-right .mem-right-bt .mem-right-bt-right ul li {
+	display: inline-block;
+	width: 31%;
+	margin-top: 20px;
+	text-align: right;
+}
+
+.SellerCenter .mem-right .mem-right-bt .mem-right-bt-right .btn {
+	float: right;
+	background: #2C84E7;
+	color: #fff;
+	margin-top: 40px;
+	margin-right: 28px;
+}
+
+.SellerCenter .mem-right .mem-right-ul {
+	width: 100%;
+}
+
+.SellerCenter .mem-right .mem-right-ul ul {
+	width: 100%;
+	height: 38px;
+	background: #B5B5B5;
+	margin-top: 21px;
+	border: 1px solid #ccc;
+}
+
+.SellerCenter .mem-right .mem-right-ul ul li {
+	display: inline-block;
+	width: 16%;
+	text-align: center;
+	line-height: 34px;
+	font-size: 16px;
+	border-right: 1px solid #959595;
+	position: relative;
+}
+
+.SellerCenter .mem-right .mem-right-ul ul li .sanjiao {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-bottom: 5px solid #FF6600;
+	left: 50%;
+	margin-left: -2px;
+	bottom: 0px;
+	display: none;
+}
+
+.SellerCenter .mem-right .mem-right-ul ul li.active {
+	background: #fff;
+	border-bottom: 2px solid #FF6600;
+}
+
+.SellerCenter .mem-right .mem-right-ul ul li.active .sanjiao {
+	display: block;
+}
+
+.SellerCenter .mem-right .mem-right-ul ul li.last {
+	border-right: 0px;
+}
+
+.SellerCenter .mem-right .mem-table {
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+.SellerCenter .mem-right .mem-table td {
+	vertical-align: middle;
+}
+
+.SellerCenter .mem-right .mem-table td.orange {
+	color: #FF6600;
+}
+
+.SellerCenter .mem-right .mem-table td .btn {
+	background: #FF6600;
+	color: #fff;
+	outline: none;
+	border-radius: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.SellerCenter .mem-right .mem-table td p.text-close {
+	color: #999;
+}
+
+.SellerCenter .mem-right .mem-table td span.line {
+	width: 4px;
+	height: 15px;
+	background: #2C84E7;
+	display: block;
+	float: left;
+	margin-left: -10px;
+	margin-top: 3px;
+}
+
+.SellerCenter .mem-right .mem-table td span.order {
+	padding-right: 10px;
+}
+
+.SellerCenter .mem-right .mem-table td span.mem-r {
+	float: right;
+	padding-right: 10px;
+	color: #2C84E7;
+}
+
+
+/*大屏适配*/
+.largeScreen .SellerCenter .mem-title-in {
+	width: 62.5%;
+	margin-left: 18.5%;
+}
+
+.largeScreen .SellerCenter .mem-content {
+	width: 62.5%;
+	margin-left: 18.5%;
+	float: left;
+}
+
+.largeScreen .SellerCenter .mem-right {
+	width: 815px;
+}
+
+.largeScreen .SellerCenter .mem-right .mem-right-bt  input[type="text"] {
+	width: 165px;
+}
+
+/*中屏适配*/
+.middleScreen .SellerCenter .mem-title-in {
+	width: 69%;
+	margin-left: 15.5%;
+}
+
+.middleScreen .SellerCenter .mem-content {
+	width: 69%;
+	margin-left: 15.5%;
+	float: left;
+}
+
+.middleScreen .SellerCenter .mem-right {
+	width: 815px;
+}
+
+.middleScreen .SellerCenter .mem-right .mem-right-bt  input[type="text"] {
+	width: 165px;
+}
+
+/*小屏适配*/
+.smallScreen .SellerCenter .mem-title-in {
+	width: 80%;
+	margin-left: 10%;
+}
+
+.smallScreen .SellerCenter .mem-content {
+	width: 80%;
+	margin-left: 10%;
+	float: left;
+}
+
+.smallScreen .SellerCenter .mem-right {
+	width: 815px;
+}
+
+.smallScreen .SellerCenter .mem-right .mem-right-bt  input[type="text"] {
+	width: 165px;
+}
